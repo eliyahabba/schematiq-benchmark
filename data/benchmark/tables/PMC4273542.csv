@@ -1,0 +1,8 @@
+document_id,Outcome of subgroup title,Study,Calculated unadjusted odds ratio,Reported adjusted odds ratio
+doi:10.1111/j.1471-0528.2008.01931.x,Large for gestational age (≥90th percentile),"Leung et al., 2008 [ 45 ]","3.19 (2.63, 3.87)","3.39 (2.78, 4.13)"
+doi:10.1007/s00404-010-1754-0,Large for gestational age (≥90th percentile),"Magann et al., 2011 [ 61 ]","2.72 (2.07, 3.58)","3.10 (2.32, 4.15)"
+PMC2869513,Large for gestational age (≥90th percentile),"Bodnar et al., 2010 [ 67 ]","4.33 (3.89, 4.82)",N/A
+PMC2949787,Large for gestational age (≥90th percentile),"Athukorala et al., 2010 [ 53 ]","2.26 (1.52, 3.36)","2.08 (1.47, 2.93)"
+PMC1940246,Macrosomia (birth weight ≥ 4000 g),"Bhattacharya et al., 2007 [ 24 ]","2.17 (1.89, 2.49)",N/A
+PMC2941250,Macrosomia (birth weight ≥ 4000 g),"El-Gilany and Hammad, 2010 [ 66 ]","7.01 (1.52, 32.33)",N/A
+PMC2949787,Macrosomia (birth weight ≥ 4500 g),"Athukorala et al., 2010 [ 53 ]","4.68 (2.03, 10.80)","4.54 (2.01, 10.24)"

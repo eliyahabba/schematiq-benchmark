@@ -1,0 +1,41 @@
+document_id,Task,Dataset,Modality,Scale,Labels / Targets,Anno.
+arxiv:2408.03326,,LLaVA-OneVision-SI,Image-Text,3.2M,VQA; caption; OCR; knowledge; instruction,Semi-auto
+arxiv:2311.12793,,ShareGPT4V,Image-Text,1.2M captions,Dense caption; image-text alignment,Semi-auto
+arxiv:2409.17146,,PixMo,Image-Text,1M img.; 3.3M ann.,Caption; QA; count; point; document,Manual
+arxiv:2206.01718,,A-OKVQA,Image-Text,24.9K QA,Knowledge VQA; rationale,Manual
+arxiv:2410.02713,,LLaVA-Video-178K,Video-Text,178K vid.; 1.34M ann.,Caption; open/MC QA,Semi-auto
+arxiv:2311.00899,,RoboVQA,Robot/Human Video-Text,238 h; 829.5K pairs,Plan; success; affordance; past/future QA,Semi-auto
+arxiv:2210.03929,,EgoTaskQA,Video-Text,40K QA,State; causal; predictive QA,Automatic
+arxiv:2601.15282,Robot Video (4),RoVid-X,Video / Depth / Flow,4M clips; 10K+ h,Verb; segment; captions; depth; flow,Automatic
+arxiv:1910.11215,,RoboNet,Robot Video,162K vid.; 15M frames,Raw robot trajectories,-
+arxiv:2403.19622,,RH20T-P,Robot Video,38K clips; 67 tasks,Primitive labels; temporal segments,Manual
+arxiv:2303.03378,,RobAVA,Robot Video,40K videos,Action class; normal/anomaly attributes,Manual
+arxiv:2105.05486,,TextOCR,Image-Text,28K img.; 900K words,Text boxes; transcription,Manual
+arxiv:2007.00398,,DocVQA,Document-Text,12.8K img.; 50K Qs,Document VQA,Manual
+arxiv:2203.10244,,ChartQA,Chart-Text,32.7K QA,Chart QA; numeric reasoning,Semi-auto
+arxiv:2410.13824,,MultiUI,UI-Text,7.3M,UI grounding; elements; actions,Automatic
+arxiv:1608.05442,,ADE20K,Image-Mask,25K img.; 150 cls.,Semantic masks; scene labels,Manual
+arxiv:2301.01795,,PACO-LVIS,Image-Mask,641K part masks,Object/part masks; attributes,Manual
+arxiv:1608.00272,,RefCOCO,Image-Text-Box,142K expr.,Referring-expression grounding,Manual
+arxiv:2409.17146,,PixMo-Points,Image-Text-Point,428k img.; 2.3M expr.,Pointing; counting,Manual
+arxiv:2406.10721,,RoboPoint,Image-Text-Point,1.43M QA,Object/affordance/free-space points,Automatic
+arxiv:2511.12436,,RoboAfford++,Image-Text-Point,870K img.; 2.0M QA,Part/affordance localization,Semi-auto
+arxiv:2110.07058,Temporal (6),Ego4D NLQ,Video-Text-Time,227 h; 19K queries,Query-to-moment localization,Manual
+arxiv:1708.01641,,DiDeMo,Video-Text-Time,10K vid.; 40K desc.,Text-to-moment localization,Manual
+arxiv:2303.16406,,HiREST,Video-Text-Time,3.4K pairs; 8.6K steps,Moment; step segments; captions,Manual
+arxiv:2402.11435,,Moment-10M,Video-Text-Time,10M moments,Segment-level grounding,Semi-auto
+arxiv:1702.04405,Spatial/3D (7),ScanNet,RGB-D / Mesh,1.5K scenes; 2.5M views,Depth; pose; mesh; 3D semantics,Semi-auto
+arxiv:2111.08897,,ARKitScenes,RGB-D / LiDAR,5K cap.; 1.7K scenes,Depth; reconstruction; 3D boxes,Semi-auto
+arxiv:2604.08626,,WildDet3D,Image-3D Box,1.00M img.; 3.91M boxes,Open-vocab monocular 3D boxes,Semi-auto
+arxiv:2406.09401,,MMScan,3D-Text,1.4M cap.; 3.04M QA,3D captions; grounding; QA,Semi-auto
+arxiv:2112.10482,,ScanQA,3D-Text,41K Qs; 800 scenes,Free-form 3D QA,Manual
+arxiv:2210.07474,,SQA3D,3D-Text,33.4K Qs; 6.8K sit.,Situated agent-centric 3D QA,Manual
+arxiv:1912.01734,Planning (4),ALFRED,Obs.-Lang.-Action,25K dir.; 8K demos,Goal/subgoal instructions; actions,Manual
+arxiv:2312.06722,,EgoPlan-IT,Video-Text-Plan,50K planning QA,Goal; subgoal; next action,Semi-auto
+arxiv:2310.17722,,LLaRP,3D-Lang.-Action,114 tasks,Language task; high-level actions,Automatic
+arxiv:1910.01442,Physics/Failure (4),CLEVRER,Video-QA,20K vid.; 300K+ Qs,Descriptive/causal/predictive/counterfactual QA,Automatic
+arxiv:1803.07616,,IntPhys,Video-Label,15K videos,Possible vs.\ impossible,Automatic
+arxiv:2306.15724,,RoboFail,Video-Text,100 sim.; 30 real,Failure type/cause; recovery,Manual
+arxiv:2603.14880,Grasping (4),RealVLG-11B,Image-Text-Mask-Grasp,165K img.; 1.3M ann.; 11B grasps,Grounding; box; mask; 4-DoF grasp; contact,Semi-auto
+arxiv:2103.12311,,SuctionNet-1Billion,RGB-D-Point-Grasp,97K img.; 1.1B labels,Contact; normal; suction quality,Automatic
+arxiv:2410.23004,,DexGraspNet 2.0,Mesh-Hand-Grasp,8.3K scenes; 427M grasps,Hand pose; contact; grasp quality,Automatic

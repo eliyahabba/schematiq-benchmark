@@ -1,0 +1,23 @@
+document_id,Task,Dataset,Metric,Method,Score
+arxiv:2210.03629,Forecasting,ETTh1,MAE,LSTP,0.150
+arxiv:2210.02186,Forecasting,ETTh1,MAE,TimesNet,0.402
+arxiv:2201.12740,Forecasting,ETTh1,MAE,FEDFormer,0.419
+arxiv:2310.07820,Forecasting,Weather,F1,LLMTime,0.587
+arxiv:2106.13008,Forecasting,Weather,F1,Autoformer,0.546
+arxiv:2310.06625,Forecasting,Weather,F1,iTransformer,0.541
+arxiv:2210.08964,Forecasting,Weather,F1,PromptCast,0.499
+arxiv:2210.02186,Forecasting,Weather,F1,TimesNet,0.494
+arxiv:2303.06053,Forecasting,Weather,F1,TSMixer,0.488
+arxiv:2605.05725,Reasoning,TimeSeriesExam,Accuracy,TS-Agent (GPT-4o-mini),0.55
+doi:10.18653/v1/2023.findings-emnlp.883,Reasoning,HAR average,Macro-F1,IMU2CLIP,0.179
+arxiv:2305.05665,Reasoning,HAR average,Macro-F1,ImageBind,0.142
+arxiv:2403.02727,Reasoning,HAR average,Macro-F1,HARGPT Text,0.104
+arxiv:2305.03187,Reasoning,HAR average,Macro-F1,IMUGPT,0.100
+arxiv:2403.02727,Reasoning,HAR average,Macro-F1,HARGPT Plot,0.099
+arxiv:2412.09758,Reasoning,HAR average,Macro-F1,NormWear,0.077
+arxiv:2402.02820,Anomaly detection,KPI,F1,FCVAE,0.818
+doi:10.1609/aaai.v38i12.29299,Anomaly detection,KPI,F1,TimesURL,0.803
+doi:10.1609/aaai.v36i8.20881,Anomaly detection,KPI,F1,TS2Vec,0.791
+arxiv:1906.03821,Anomaly detection,KPI,F1,SR,0.785
+arxiv:1802.03903,Anomaly detection,KPI,F1,DONUT,0.779
+arxiv:2110.02642,Anomaly detection,KPI,F1,AnomalyTransformer,0.282

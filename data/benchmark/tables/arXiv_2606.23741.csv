@@ -1,0 +1,10 @@
+document_id,Method,Venue,Paradigm,Fed.,Scope,Privacy,Hetero.,Missing,Time,Non-id. Vars
+arxiv:2112.03555,FedDAG,TMLR'23,CO,H,G,SS,Hetero.,,,
+doi:10.1609/aaai.v38i15.29566,FedCausal,AAAI'24,CO,H,G,SS,Hetero.,,,
+doi:10.1609/aaai.v38i11.29113,FedCSL,AAAI'24,CB,H,G,SS,Homo.,,,
+doi:10.24963/ijcai.2024/450,FedACD,IJCAI'24,CO,H,G,SS,Hetero.,,,
+arxiv:2308.13047,VertiBayes,CIS'24,SB,V,G,SMPC,--,yes,,
+doi:10.1016/j.jbi.2025.104877,Fed-HC-aIPW,JBI'25,SB,H,G,SS,Hetero.,yes,,
+arxiv:2512.23626,I-PERI,ICML'26,SB,H,G,DP,Hetero.,,,
+arxiv:2603.05149,fedCI-IOD,arXiv'26,CB,H+V,G,SS,Hetero.,yes,,yes
+arxiv:2211.03846,FedCDI,arXiv'22,HY,H,G,SS,Homo.,,,

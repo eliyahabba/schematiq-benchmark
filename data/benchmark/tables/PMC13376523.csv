@@ -1,0 +1,15 @@
+document_id,Author (Year),Country,Study design,Corpus source,Corpus size,Included/Excluded ratio,Domain,Data availability
+PMC9811792,"Natukunda and Muchene, 2023",Uganda,Methodological study,Two systematic review datasets,"Helminth: 1,318; Wilson: 3,453",Helminth: 116/1202; Wilson: 174/3279,Medical/Health sciences,"Open — R implementation (topicmodels, tidytext packages)"
+PMC8152711,"Pham et al., 2021",Canada,Model development,Authors’ team database,"Case 1: 14,314; case 2: 17,200",Case 1: 743/13571; case 2: 957/16243,Healthcare/Medical,Open — R code made publicly available
+PMC8017894,"Chai et al., 2021",Australia,Mixed methods,11 reviews,"306 to 25,327 articles",4-84 included per review,Health sciences,Available — research screener web-based tool ( researchscreener.com )
+PMC11080200,"Du et al., 2024",USA,Comparative evaluation,PubMed/MEDLINE,HPV: 1697; PAPD: 2865,HPV: 538/1159; PAPD: 711/2154,Health economics,Open — corpora publicly available on GitHub
+PMC10541641,"Orel et al., 2023",Switzerland,Performance evaluation,Multiple databases,631 papers,87/544,Medical/HIV research,Open — LiteRev tool described; code available
+PMC6857277,"Gartlehner et al., 2019",USA,Case study,PubMed/Embase,"2,472 citations",42 included,Medical/Depression,Proprietary — DistillerAI within DistillerSR (commercial)
+PMC7559198,"Hamel et al., 2020",Canada,Retrospective evaluation,10 completed reviews,"69,663 total",Median 16.2% included,Clinical/Medical,"Proprietary — DistillerSR (version 2.31.0, commercial)"
+doi:10.1002/jrsm.1636,"Perlman-Arrow et al., 2023",Canada,Quality improvement,SeroTracker database,"34,183 abstracts",91/309 (pilot),SARS-CoV-2 studies,Open — code available; chrome extension
+PMC11523763,"Manion et al., 2024",USA,Development/validation,Three SLR projects,"HPV: 1,697; pneumo: 628",HPV: 538/1159; pneumo: 164/464,Medical literature,Not specified — system uses amazon textract (commercial)
+doi:10.1002/jrsm.1589,"Kebede et al., 2023",Germany,Methods evaluation,PubMed/Web of science,"16,430 abstracts","861/15,569",Mechanistic pathways,Available on request — code available from authors
+PMC11529237,"Pilz et al., 2024",Germany,Methods development,Multiple databases,"INTRISSI: 4,460; PPU: 1,343",INTRISSI: 225/4235; PPU: 79/1264,Medical/surgical,Open — R and python code provided as Supplemental Material
+PMC11020656,"Masoumi et al., 2024",Iran,Methodological study,Multiple databases,"22,294 records","12,817 included",Medical research/NLP,Open — publicly available BioBERT model (HuggingFace); google colab
+doi:10.1007/s10648-024-09862-5,"Campos et al., 2024",Norway,Simulation study,27 systematic reviews,"Avg 2,738 per review",18.75% included,Education/psychology,Open — ASReview platform (open-source); benchmark datasets publicly available
+PMC10517490,"Ng et al., 2023",Singapore,Technical evaluation,Multiple databases,"21,645 abstracts","530/21,115",Medical/Health sciences,Not specified

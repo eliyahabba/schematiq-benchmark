@@ -1,0 +1,10 @@
+document_id,"Author, Year",Location of study,Sample size (n),Study type,Model presentation format,Definition of PAL (day),Occurrence ratios for outcomes (%),Number of predictors,Predictors ultimately included
+PMC9347096,Li 2022,china,2213,①,nomogram+web tools,>5,15.4,8,"age, BMI, smoking history, FEV1% , surgical procedure, surgical range, operation side, operation duration"
+PMC8435390,Jin 2021,China,1511,①,Nomogram,>5,9.07,5,"age, FEV1%, surgical type, surgical approach ,smoking history"
+PMC5260096,Oh 2017,South Korea,779,①,SUM Variable Score,>5,18.8,4,"male gender, BMI < 25.5 kg/m2, right side operation, pleural adhesion"
+PMC9992572,Divisi 2023,Italy,6236,②,LR,>7,11.3,8,"middle lobe resection ,ground glass opacity,decreased,DLCO/VA ratio, male sex, COPD, rightside surgery ,prolonged duration of surgery the need for adhesiolysis."
+PMC11565331,Qian 2024,China,2503,②,Nomogram,24h,11.35/10.46,5,"age >70, FEV1% <80%, nodule size, benignity/malignancy, pleural adhesions (none, focal, diffuse)"
+doi:10.1016/j.jtcvs.2016.11.064,Pompili 2017,European,7523,②,scoring system(ESTS),>5,9.9,3,"male gender ,FEV1%<80% ,BMI<18.5 kg/m2"
+PMC10165431,Yoon 2023,South Korea,325,①,cox regression equation,>5,18.2,3,"flow at 3 POH (≤80 mL/min), operation time (≤220 minutes), and right middle lobectomy"
+PMC11228728,Ma 2024b,China,738,①,Nomogram,≥7,8.3,4,"BMI, smoking status, time of surgery, pleural adhesions,ALI"
+PMC5973385,Wu 2017,China,359,②,regression equation,>7,14.2,6,"BMI, gender, smoking history, FEV1%, pleural adhesions, upper lobe resection"

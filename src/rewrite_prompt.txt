@@ -1,0 +1,14 @@
+You will write the research question behind a published review, for a benchmark in which a system
+receives the question and the reviewed documents and must build the review's table.
+
+Input: the paper's title, its abstract, and the authors' own statement of aim. You do not see the table.
+
+Write one research question (at most two linked questions) that:
+1. is phrased as a question, not as a description of the paper ("This survey ...");
+2. names the object of study and the domain (population, system or phenomenon);
+3. says what is to be learned across the studies (effect, comparison, prevalence, landscape of methods);
+4. can be understood without the paper;
+5. uses only scope stated in the title, abstract or aim; add nothing;
+6. does not list the attributes that each study would be described by.
+
+Return only the question.

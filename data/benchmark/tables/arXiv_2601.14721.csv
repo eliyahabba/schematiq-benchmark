@@ -1,0 +1,10 @@
+document_id,Dataset Name,Source,Research Scope,Label,Scale,Balance,Avail.
+doi:10.18653/v1/w17-3003,RPCT,"Twitter, PTT",Constructing a Rule-Based System for Profanity Detection and Rewriting,2,"9,557",>50%,
+doi:10.18653/v1/2022.findings-emnlp.262,CDIAL-Bias,Zhihu,Social Bias Detection in Dialogue Systems and Proposing a Multi-Dimensional Analysis Framework,4,"13,394 15,013",18.9% 25.9%,
+doi:10.18653/v1/2022.emnlp-main.796,COLD,"Zhihu, Weibo",Construction of Offensive Language Detection Benchmark and Improving the Accuracy of Detection Model,2,"37,480",48.1,
+doi:10.54097/fcis.v2i1.2484,Zhu et al.,Weibo etc.,Construction of an Open Sarcasm Corpus and Achieving High Data Density and Quality Control,2,"2,000",1:1,
+doi:10.18653/v1/2023.acl-long.898,TOXICN,"Zhihu, Tieba",Fine-Grained Toxic Language Detection and Proposing a Hierarchical Classification Framework,2,"12,011",54.8%,
+PMC10506735,Li et al.,COLD-Based,Proposing a Three-Level Feature Fusion Model of Character-Word-Sentence for offensive Text Detection,2,"25,820",48.1%,-
+arxiv:2506.10960,Zhang et al.,Bilibili,Fusing Target Comments and Multi-Dimensional Contextual Information for Sarcastic Comment Detection,2,"79,045 5,628",3.56% 1:1,
+doi:10.18653/v1/2025.findings-acl.532,STATE ToxiCN,ToxiCN-Based,Fine-Grained Hate Speech Detection; Realizing Span-Level Target and Attribute Extraction,4,"8,029",63.6%,
+doi:10.18653/v1/2025.emnlp-main.1154,HED-COLD,COLD-Based,Enhancing Offensive Detection Models' Recognition of Homophonic Perturbation,2,"10,000",70%,

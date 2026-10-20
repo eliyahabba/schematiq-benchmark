@@ -1,0 +1,14 @@
+document_id,First author & Year,Country,Total (E/C),Age (Mean ± SD) - Experimental group: E,Age (Mean ± SD) - Control group: C,Tumor staging,Intervention - E,Intervention - C,Frequency、time、exercise cycle、forms、intensity,Outcome
+PMC3601551,"Bower, 2011 ( 26 )",USA,31 (16/15),54.4 ± 5.7,53.3 ± 4.9,0-II,Yoga,Health education,2times/week、90min、12weeks、group、NR,PSQI
+PMC11256659,"Chang, 2024 ( 28 )",China,100(51/49),NR,NR,I-III,Aerobic exercise,Routine care,3times/week、45-55min、24weeks、group、NR,PSQI
+PMC5735004,"Chaoul, 2017 ( 29 )",USA,159(74/85),49.5 ± 9.8,49 ± 10.1,I-III,Yoga,Usual care,A total of 4 times、75-90min、12weeks、individual、NR,PSQI
+PMC3852682,"Chen, 2013 ( 30 )",China,96(47/49),45.3 ± 6.3,44.7 ± 9.7,0-III,Qigong,Waitlist,5times/week、40min、6 weeks、group、NR,PSQI
+PMC3930083,"Danhauer, 2009 ( 32 )",USA,44(22/22),54.3 ± 9.6,57.2 ± 10.2,0-III,Yoga,Waitlist,10times/week、75min、10weeks、group、NR,PSQI
+PMC10652802,"Han, 2023 ( 34 )",Korea,46(23/23),49.91 ± 7.62,47.91 ± 6.41,I-III,BLESS,Waitlist,1-2times/week、NRmin、12weeks、group、NR,PSQI
+PMC11446794,"Li, 2024 ( 37 )",China,40(21/19),47.38 ± 1.96,48.47 ± 2.13,I-III,Aerobic exercise,Health education,1-3times/week、40-70min、12weeks、group、50%-75% HRmax,PSQI
+PMC9388824,"Liao, 2022 ( 38 )",China,68(33/35),54.63 ± 8.44,53.12 ± 7.02,I-III,Baduanjin,Waitlist,2times/week、90min、12weeks、group、NR,PSQI
+PMC6432685,"Poier, 2018 ( 44 )",Germany,98(54/44),56.4 ± 7.7,58 ± 10.6,I-III,Aerobic exercise,Psychological education,3-5times/week、30-45min、10weeks、individual、NR,EORTC QLQ-C30
+PMC5545949,"Rao, 2017 ( 47 )",India,91(45/46),48.9 ± 9.1,50.2 ± 9.2,NR,Yoga,Education and supportive therapy,2times/week、60min、12weeks、individual、NR,EORTC QLQ-C30
+PMC4972683,"Ratcliff, 2016 ( 48 )",USA,107(53/54),52.38 ± 1.35,52.11 ± 1.34,0-III,Yoga,Waitlist,3times/week、60min、6weeks、individual、NR,PSQI
+PMC2933732,"Vadiraja, 2009 ( 53 )",India,88(44/44),NR,NR,II-III,Yoga,Waitlist,3times/week、60min、6weeks、individual、NR,EORTC QLQ-C30
+PMC11382167,"Wong, 2024 ( 54 )",China,34(16/18),48.63 ± 8.77,45.78 ± 9.25,I-III,Yoga,Waitlist,1times/week、60min、8weeks、group、NR,PSQI

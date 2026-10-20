@@ -1,0 +1,10 @@
+document_id,Study name,Year,Model,Strain and species,Interventions,Outcomes with usable data
+PMC8073823,Begni et al. 2021 55,2021,Pharmacological,Lister hooded (rat),Ulotaront; Vehicle,"Locomotor activity, Cognition"
+PMC5826953,Cinque et al. 2018 56,2018,Genetic,Wistar (rat),RO5203648; Vehicle,Cognition
+PMC8440182,Kokkinou et al. 2021 59,2021,Pharmacological,C67BL/6 (mouse),Ulotaront; Vehicle,F-DOPA PET
+PMC9687812,Krasavin et al. 2022a 60,2022,Pharmacological; Genetic,Wistar (rat),LK000764 ; Vehicle,Locomotor activity
+PMC9569940,Krasavin et al. 2022b 61,2022,Genetic,Wistar (rat),AP163; Vehicle,Locomotor activity
+PMC5824739,Leo et al. 2018 62,2018,Genetic,Wistar (rat),RO5203648; Vehicle,Locomotor activity
+PMC9024832,Liang et al. 2022 63,2022,Pharmacological,ICR (mouse),Ulotaront; Ulotaront + Olanzapine; Olanzapine; Vehicle,Locomotor activity; Cognition
+PMC9630386,Saarinen et al. 2022 68,2022,Pharmacological,Not stated (mouse),Ulotaront; Vehicle,Locomotor activity; Prepulse inhibition
+PMC10160475,Wang et al. 2023 67,2023,Pharmacological,C57BL/6J (mouse),Compound 50A; Compound 50B; Aripiprazole; Risperidone; Vehicle,Locomotor activity

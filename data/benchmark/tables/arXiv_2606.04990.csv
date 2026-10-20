@@ -1,0 +1,17 @@
+document_id,Primary trust,System,Trace source(s),Granularity,Timing,Representation
+arxiv:2310.08560,,MemGPT,Memory,Step,Continuous,Tiered memory
+doi:10.18653/v1/2023.emnlp-main.398,4=Attribution / Verification,ALCE,Retrieval,Claim,Post-hoc,Citation links
+doi:10.18653/v1/2023.emnlp-main.741,,FActScore,Retrieval,Atomic claim,Post-hoc,Claim--evidence
+arxiv:2402.02008,,SourceCheckup,Retrieval,Claim,Post-hoc,Source--support
+arxiv:2503.18813,6=Safety,CaMeL,Tool,Parameter,Runtime,Control/data flow
+arxiv:2505.23643,,FIDES,"Tool, memory",Parameter,Runtime,IFC labels
+arxiv:2604.23374,,NeuroTaint,"Tool, memory",Param./token,Runtime,Taint labels
+arxiv:2503.18666,,AgentSpec,"Tool, env",Tool-call,Pre/Runtime,Policy rules
+arxiv:2510.21236,,AgentBound,Tool,Tool-call,Pre/Runtime,Permissions
+arxiv:2603.22868,,Agent-Sentry,Tool,Parameter,Runtime,Provenance graph
+arxiv:2309.15817,4=Safety (eval),ToolEmu,Tool,Tool-call,Runtime,Action log
+doi:10.18653/v1/2024.findings-acl.624,,InjecAgent,"Tool, env",Tool-call,Runtime,---
+arxiv:2406.13352,,AgentDojo,"Tool, env",Tool-call,Runtime,---
+arxiv:2505.08638,4=Debugging / Audit,TRAIL,All sources,Step,Post-hoc,Annotated trace
+arxiv:2503.13657,,MAST,Multi-agent,Step,Post-hoc,Failure taxonomy
+arxiv:2411.05285,,AgentOps / AgentTrace,All sources,Step,Post-hoc/Cont.,Structured log

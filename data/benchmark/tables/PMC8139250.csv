@@ -1,0 +1,7 @@
+document_id,Study,Location,Number of patients,Median Age (range),Number of patients with CR (%),MRD-negative CR (method),Number of CR patients receiving consolidative HSCT,Number of MRD-neg CR patients receiving consolidative HSCT,Chemotherapy(N),CAR costimulatory domain,Median days post-CAR-T to transplantation (range),Toxicity (N)
+doi:10.1002/ajh.25274,Jacoby (2018) ( 7 ),Israel,20,11 (548),18 (90.0),11 (PCR),14,NR,Cy/Flu,CD28,68 (NR),CRS (16) NT (11)
+PMC4887159,Turtle (2016) ( 9 ),USA,30,40 (2073),29 (96.7),27 (FCM/qPCR/karyotyping/FISH),13,13,Cy/Flu (17) Cy (11) CE (2),4-1BB,NR,CRS (25) NT (15) BCA (29)
+doi:10.1002/ajh.25108,Cao (2018) ( 16 ),China,18,14 (357),14 (77.8),12 (FCM),5,5,Cy/Flu,4-1BB,65 (30138),CRS (17) NT (1) BCA (14)
+doi:10.1002/ajh.25582,Jiang (2019) ( 8 ),China,58,NR,51 (87.9),47 (FCM),21,21,Vp16/Bu/Cy,4-1BB,Within 90,CRS (22) NT (9)
+PMC7199358,Zhao (2020) ( 1 ),China,122,HSCT: 26 (365) Non-HSCT: 27 (965),122 (100.0),107 (FCM),55,40,Cy/Flu,4-1BB,67(34345),CRS (113) Neutropenia (91) Sepsis (3) Pneumonia (3)
+PMC7687133,Wang (2020) ( 10 ),China,23,42 (1067),19 (82.6),18 (FCM),4,NR,FA,4-1BB,(2884),CRS (23) Leucopenia and neutropenia (17) Anemia (7) Thrombocytopenia (9) NT (3)

@@ -1,0 +1,6 @@
+document_id,.0cmp2.8cmp3.4cmp3.7cmp6cm Method (Full Name),Acronym,Reference(s),R Packages,Tuning Selection
+PMC3019769,Graphical Lasso,Glasso,friedman2008sparse,ADMMsigma; CovTools; glasso; glassoFast; huge; CVglasso; GGMncv,"BIC; 10-fold CV (Neg LogLik, SPE)"
+arxiv:1403.0904,Glasso with Ridge,Ridge,vanwieringen2016ridge,ADMMsigma; GLassoElnetFast; porridge; rags2ridges,LOOCV (Neg LogLik)
+arxiv:2101.02148,Graphical Elastic Net,Elnet,kovacs2021graphical,ADMMsigma; GLassoElnetFast,"5- or 10-fold CV (Neg LogLik, MSPE)"
+arxiv:0908.2053,Adaptive Graphical Lasso,Glasso (Adapt),fan2009network,glasso; glassoFast; GLassoElnetFast,5- or 6-fold CV (RPE; specialized loss)
+arxiv:1002.4734,Minimax Concave Penalty,MCP,zhang2010nearly,glasso; glassoFast; GLassoElnetFast,10-fold CV (MPSE)

@@ -1,0 +1,6 @@
+document_id,Study,Arm,N,Dose and route,Treatment duration,Change in bone pain score from baseline,Gender (M/F),Jadad score,ITT
+PMC2409647,Body et al 12,Ibandronate | Placebo,287 | 277,Oral 50 mg daily,96 weeks,−0.1±1.89 | +0.2±1.10,0/564,5,Yes
+doi:10.1111/j.1365-2354.2007.00808.x,Heras et al 13,Ibandronate | Placebo,37 | 36,Intravenously 6 mg every 4 weeks,9 months,−,–,2,Yes
+doi:10.1111/j.1365-2354.2008.00980.x,Heras et al 22,Ibandronate | Placebo,75,Intravenously 6 mg every 4 weeks,24 months,–,2/148,3,Yes
+doi:10.1007/s10147-010-0179-x,Francini et al 24,Ibandronate | Zoledronate,27 | 26,Oral 50 mg daily | Intravenously 4 mg every 4 weeks,6 months,–,41/14,2,–
+PMC3276818,Choudhury et al 25,Ibandronate | Zoledronate | Pamidronate,65 | 60 | 62,Intravenously 6 mg every 3–4 weeks | Intravenously 4 mg every 3–4 weeks | Intravenously 90 mg every 3–4 weeks,–,–3.9±0.41 | –4.4±0.36 | –,154/33,2,Yes

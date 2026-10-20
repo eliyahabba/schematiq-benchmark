@@ -1,0 +1,10 @@
+document_id,Name,Dur (hour),Items,Diversity,Paired,Timestamp,Caption
+arxiv:2604.16056,LibriSpeech-Edit,3.6,2000,40,yes,yes,yes
+arxiv:2406.05763,WenetSpeech4TTS,12800,6283187,--,,yes,yes
+arxiv:2503.16578,SeniorTalk,55.53,101,202,,yes,yes
+arxiv:1909.08494,Slakh2100,145,2100,34,yes,yes,yes
+arxiv:1810.12247,MAESTRO,198.7,1276,1,yes,yes,yes
+arxiv:2301.11325,MusicCaps,15.34,5521,15,,,yes
+arxiv:1704.01279,NSynth,339.98,305979,1006,,yes,yes
+arxiv:1910.09387,Clotho,43.59,6974,7853,,,yes
+arxiv:1907.01160,WHAM!,81.68,28000,117,yes,,

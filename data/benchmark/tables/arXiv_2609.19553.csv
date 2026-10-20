@@ -1,0 +1,22 @@
+document_id,Method,Venue,Source relation,Behavior signal,Evaluated backbones/settings
+arxiv:1011.0686,DAgger,AISTATS'11,\ expert policy,\ \ learner-state actions,\ imitation learning
+arxiv:2306.13649,GKD / OPD,ICLR'24,\ teacher on student states,\ \ \ self-generated sequences,\ autoregressive LMs
+arxiv:2601.18734,Self-Distilled Reasoner,arXiv'26,\ self-distillation,\ \ \ reasoning traces,\ reasoning LLMs
+arxiv:2604.03873,SODA,arXiv'26,\ black-box teacher,\ \ \ semi-on-policy data,\ black-box distillation
+arxiv:2604.13010,Lightning OPD,arXiv'26,\ teacher-logit source,\ \ offline OPD signals,\ reasoning LLMs
+arxiv:2604.14084,TIP,arXiv'26,\ sampled-token teacher,\ \ \ token-importance signals,\ token-efficient OPD
+arxiv:2604.08527,Demystifying OPD,arXiv'26,\ rollout teacher,\ \ \ stabilized token signals,\ OPD stabilization
+arxiv:2602.02994,Video-OPD,arXiv'26,\ multimodal teacher,\ \ video trajectories,\ video grounding MLLMs
+arxiv:2603.24596,X-OPD,arXiv'26,\ cross-modal teacher,\ \ speech trajectories,\ speech LLM alignment
+arxiv:2601.16547,CORD,arXiv'26,\ internal text teacher,\ \ \ \ token KL + reward,\ audio LLM reasoning
+arxiv:2604.10688,SCOPE,arXiv'26,\ correctness-routed teacher,\ \ \ calibrated KL/MLE,\ reasoning LLMs
+arxiv:2604.24005,TCOD,arXiv'26,\ multi-turn-state teacher,\ \ \ temporal curriculum,\ multi-turn LLM agents
+arxiv:2605.07725,SOD,arXiv'26,\ tool-state teacher,\ \ \ step-weighted tokens,\ small tool-use agents
+arxiv:2605.30833,SFD / Lookahead Group Reward,arXiv'26,\ long-prefix teacher,\ \ \ \ lookahead rewards,\ long-horizon reasoning
+arxiv:2605.31490,POPD / TOPD,arXiv'26,\ controlled-rollout teacher,\ \ \ progressive/truncated horizons,\ efficient reasoning OPD
+arxiv:2602.15260,Prefix OPD,arXiv'26,\ prefix-scoring teacher,\ \ \ truncated prefixes,\ efficient reasoning OPD
+arxiv:2604.04461,DP-OPD,arXiv'26,\ frozen teacher,\ \ \ DP token targets,\ privacy-preserving LMs
+arxiv:2605.01347,MAD-OPD,arXiv'26,\ debating teacher pool,\ \ \ debate-weighted tokens,\ agents and code LLMs
+arxiv:2605.29343,Draft-OPD,arXiv'26,\ target verifier,\ \ \ draft-error feedback,\ speculative draft models
+arxiv:2606.01476,OmniOPD,arXiv'26,\ black-box teacher,\ \ \ chunk verification,\ logit-free reasoning
+arxiv:2606.09456,Cross-Tokenizer OPD,arXiv'26,\ cross-family teacher,\ \ \ token-mapped distributions,\ cross-tokenizer LLMs

@@ -1,0 +1,7 @@
+document_id,Topic,Reference,Year,Country,N of patients,Topic (2)
+doi:10.1002/hed.27283,Surgical margins assessment,Costantino et al. [ 13 ],2023,Italy,453,Prediction of positive surgical margins
+PMC9818424,Surgical margins assessment,Pertzborn et al. [ 14 ],2022,Germany,7,Intraoperative assessment of tumour margins
+PMC6769839,Surgical margins assessment,Halicek et al. [ 16 ],2019,USA,102,HSI for cancer margin detection
+PMC5572439,Surgical margins assessment,Fei et al. [ 19 ],2017,USA,16,HSI for tumour margin assessment
+PMC9203666,Complications assessment,Mascarella et al. [ 21 ],2022,Canada,"43,701 *",Major postoperative adverse events (MPAEs)
+doi:10.1007/s00520-021-06687-8,Complications assessment,Gan et al. [ 22 ],2022,China,632,Risk factors for surgical site infection (SSI)

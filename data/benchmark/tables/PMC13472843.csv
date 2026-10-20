@@ -1,0 +1,16 @@
+document_id,Author/year,N (IG/CG),N (IG/CG) (2),Age,Types,Time,Frequency,Period,Con,Indicators
+PMC8616657,"( Anwar et al., 2021 )",34,34,40.00-60.00,Wii-Fit Balance Board,60 min,3 times,6 weeks,CT,BBS
+PMC3820213,"( Barcala et al., 2013 )",20,20,51.37 ± 7.60,Wii-Fit Balance Board,30 min,5 times,8 weeks,CT,TUG;10MWT
+doi:10.1620/tjem.228.69,"( Cho et al., 2012 )",11,11,65.26 ± 8.35,Wii-Fit Balance Board,30 min,3 times,6 weeks,CT,BBS;TUG
+PMC3120756,"( Gil-Gómez et al., 2011 )",9,8,49.13 ± 21.18,Wii-Fit Balance Board,60 min,3–5 times,6 weeks,CT,BBS;TUG;10MWT
+PMC4500004,"( Lee et al., 2015 )",12,12,49.16 ± 12.85,Wii-Fit Balance Board,30 min,3 times,6 weeks,CT,FRT
+PMC4540816,"( Song and Park, 2015 )",20,20,51.37 ± 7.60,Wii-Fit Balance Board,30 min,5 times,8 weeks,CT,TUG;10MWT
+PMC4433997,"( Yatar and Yildirim, 2015 )",15,15,62.80 ± 10.87,Wii-Fit Balance Board,30 min,3 times,4 weeks,CT,BBS;TUG;FRT
+PMC4968497,"( Lee et al., 2016 )",5,5,65.20 ± 5.00,VR+CT,30 min,3 times,4 weeks,CT,BBS;TUG;FRT
+doi:10.1589/jpts.24.1133,"( Jung et al., 2012 )",11,10,60.50 ± 8.60,VR+treadmill,30 min,5 times,3 weeks,CT,TUG
+doi:10.1589/jpts.24.755,"( Kim and Lee, 2012 )",9,9,47.44 ± 8.39,VR+treadmill,20 min,3 times,8 weeks,CT,BBS;TUG
+PMC9577285,"( Bian et al., 2022 )",23,21,53.25 ± 8.72,VR games,300 min,5 times,3 weeks,CT,BBS
+PMC11224800,"( Kwak et al., 2024 )",18,18,54.28 ± 17.74,VR games,30 min,3 times,5 weeks,CT,BBS;TUG
+PMC10049060,"( Peláez-Vélez et al., 2023 )",12,12,51.91 ± 18.58,VR games,15 min,3 times,6 weeks,CT,BBS
+PMC10270552,"( Sana et al., 2023 )",15,15,54.87 ± 9.47,Wii-Fit Balance Board,60 min,3 times,8 weeks,CT,TUG
+PMC4395728,"( Yom et al., 2015 )",10,10,mean age of 64.60,VR+CT,30 min,5 times,6 weeks,CT,TUG

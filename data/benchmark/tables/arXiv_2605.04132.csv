@@ -1,0 +1,7 @@
+document_id,PS,Path,Primary Discipline(s),Framework Type,Evaluated
+doi:10.3389/fcomp.2021.717787,PS34,C-F,RE-internal (emotional goals → formal),Goal (agent-oriented),Yes
+doi:10.1109/re.2016.39,PS38,C-F,Social Engineering,None (game scenarios),Yes
+doi:10.5220/0006220301960203,PS21,P-I,HCI,None (persona metamodel),No
+doi:10.1007/978-3-030-29381-9_40,PS41,P-I,Interaction Design,Scenario (use cases),No
+doi:10.1017/dsi.2019.385,PS25,P-I,UCD,Scenario (user stories),No
+doi:10.1007/978-3-319-77243-1_23,PS3,Br,UCD + goal-based framework,Goal (contextual),Yes

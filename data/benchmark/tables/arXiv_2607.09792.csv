@@ -1,0 +1,30 @@
+document_id,Dataset,Simulator,Domain,Task Type,Action,Goal Type,Samples,Characteristics
+arxiv:1711.07280,R2R,Matterport3D,Indoor,Navigation,High-level,PointGoal,22K,Foundational dataset; Shortest path bias
+arxiv:1905.12255,R4R,Matterport3D,Indoor,Navigation,High-level,PointGoal,280K,"Extension of R2R; Longer, twisted paths"
+doi:10.18653/v1/2020.emnlp-main.356,RxR,Matterport3D,Indoor,Navigation,High-level,PointGoal,126K,Multilingual; Time-aligned pose traces
+doi:10.18653/v1/d19-1218,CEREALBAR,--,Indoor,Dialogue,High-level,Location/Object,1K,Interactive instruction tuning/correction
+doi:10.18653/v1/d18-1287,LANI/CHAI,CHALET,Indoor,Manipulation,High-level,Landmark,8K,Block manipulation in 3D; 3D Navigation
+arxiv:1907.04957,CVDN,Matterport3D,Indoor,Dialogue,High-level,PointGoal,2K,Two-party cooperative dialogue for navigation
+doi:10.18653/v1/d19-1063,HANNA,Matterport3D,Indoor,Interactive,High-level,ObjectGoal,103K,Request-response assistance; Error correction
+doi:10.1609/aaai.v34i03.5627,Just Ask,Matterport3D,Indoor,Dialogue,High-level,Location/Object,22K,Dialogue to refine navigation instruction
+arxiv:1801.02209,RoomNav,House3D,Indoor,Navigation,High-level,RoomGoal,1K,Navigating to specified room categories
+arxiv:1812.04155,ASKNAV(VNLA),Matterport3D,Indoor,Navigation,High-level,PointGoal,115K,Active language feedback; Guidance dataset
+arxiv:1910.11301,XL-R2R,Matterport3D,Indoor,Navigation,High-level,PointGoal,17K,Cross-lingual extension; Longer instructions
+arxiv:2004.02857,VLN-CE,Habitat,Indoor,Navigation,Low-level,PointGoal,17K,Transferred R2R paths to continuous space
+arxiv:1912.01734,ALFRED,AI2-THOR,Indoor,Manipulation,Low-level,Interaction,25K,Long-horizon; Navigation and Object Interaction
+doi:10.1609/aaai.v36i2.20097,TEACh,AI2-THOR,Indoor,Dialogue,Low-level,Interaction,3K,Dialogue-based complex interaction tasks
+arxiv:2202.13330,DialFRED,AI2-THOR,Indoor,Dialogue,Low-level,Interaction,53K,Dialogue system based on ALFRED tasks
+arxiv:2403.09227,Behavior-1k,Gibson,Indoor,Complex Housework,Low-level,Interaction,1K,"1,000 human-centered activities; High realism"
+arxiv:2507.13019,VLN-PE,GRUTopia,Indoor,Navigation,Low-level,PointGoal,13K,"Focuses on ``embodied gap""; Physical/Visual disparities"
+arxiv:2512.19021,VLNVerse,GRUTopia,Indoor,Navigation,Low-level,PointGoal,85K,"Large-scale, high-quality indoor 3DGS environments"
+doi:10.18653/v1/2023.findings-acl.190,ANDH,xView,Outdoor,Aerial Nav.,High-level,PointGoal,6K,Aerial navigation with dialogue history
+arxiv:2308.06735,AerialVLN,AirSim,Outdoor,Aerial Nav.,High-level,PointGoal,25K,3D movement; Bird's-eye view
+arxiv:1910.07615,CDNLI,CARLA,Outdoor,Driving Nav.,Low-level,PointGoal,--,Cross-domain instruction transfer (city maps)
+doi:10.18653/v1/p19-1537,MC Collab,Minecraft,Outdoor,Dialogue,High-level,Object/Location,509,Collaborative object/location finding in block environment
+arxiv:2010.12639,RobotSlang,Real,Outdoor,Dialogue,High-level,Location,169,Dialogue for outdoor navigation; Requires disambiguation
+doi:10.18653/v1/2022.findings-emnlp.354,SDN,CARLA,Outdoor,Driving Nav.,High/Low-level,PointGoal,183,Social driving cues in dynamic environment
+arxiv:1903.01292,StreetLearn,Street View,Outdoor,Navigation,High-level,PointGoal,114K,"Large-scale, real-world Google Street View environment"
+doi:10.1609/aaai.v34i07.6849,StreetNav,Street View,Outdoor,Navigation,High-level,PointGoal,613K,Navigating with directional cues and landmarks
+arxiv:1807.03367,Talk the Walk,Real,Outdoor,Dialogue,High-level,Location,10K,Outdoor pedestrian navigation guided by human dialogue
+arxiv:1910.02029,Talk2Nav,Street View,Outdoor,Dialogue,High-level,PointGoal,10K,Long-range nav; Dual attention; Spatial memory
+arxiv:1811.12354,TOUCHDOWN,Street View,Outdoor,Navigation,High-level,PointGoal,9K,Real-world urban streets; Nav and SDR

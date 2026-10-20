@@ -1,0 +1,9 @@
+document_id,First author/year,Number/age(M ± SD) - Experimental,Number/age(M ± SD) - Control,Band,Experimental - N1,Experimental - Mean change,Experimental - SD of change,Control - N2,Control - Mean change,Control - SD of change,Intervention programme,Cycle,Time,Frequency/week,Population,Recording_state
+PMC6320386,Du Rietz et al. (2019),21.5 ± 2.52,21.5 ± 2.52,α,13,0.223,0.290,13,0.148,0.290,Cycling,acute,30 min,single,Healthy,task
+PMC4540884,Kim et al. (2015),10 69.5 ± 3.2,69.7 ± 3.5,α,10,0.500,0.354,10,−0.500,0.354,Equestrian,8 weeks,15 min,3times,Healthy,resting _close
+PMC4339827,Nagendra et al. (2015),22.42 ± 2.30,23.67 ± 2.09,α,15,2.457,0.676,15,−0.052,0.262,Yoga,5 months,90 min,6times,Healthy,resting _close
+PMC10955120,Wang and Lyu (2024),20.08 ± 0.28,20.71 ± 0.51,α,35,0.155,0.175,35,−0.681,0.181,Tai Chi,12 weeks,45 min,3times,Healthy,resting _close
+PMC11836319,Wang et al. (2025),20.09 ± 0.29,20.70 ± 0.56,α,22,0.155,0.226,23,−0.473,0.218,Tai Chi,12 weeks,45 min,3times,Healthy,resting _close
+doi:10.18857/jkpt.2017.29.5.227,Son and Lim (2017),40.81 ± 12.1,36.9 ± 10.71,α,11,−1.615,0.530,10,−0.853,0.358,Pilates,6 weeks,50 min,3times,Clinical,unclear
+PMC13390236,Lei et al. (2026),19.00 ± 1.83,20.19 ± 2.13,α,16,4.000,0.763,16,2.846,0.646,HIIT,8 weeks,30 min,3times,Healthy,resting _close
+PMC12978259,Che et al. (2026),21.58 ± 2.21,20.81 ± 2.52,α,20,1.796,0.380,20,1.035,0.287,Cycling,acute,20 min,single,Clinical,resting _unclear

@@ -1,0 +1,7 @@
+document_id,col0,Type,Modality,Task,Deployment\,Edge\,Licensing /\,Main gap to\ deployment
+arxiv:2508.08468,WaterScenes,Dataset,4D radar + camera + GPS/IMU,Detection and segmentation,Unmanned surface vehicle data under diverse environments,"Adverse environments, sensor failure cases",Public release,Edge deployment validation
+arxiv:1602.07360,WiFi sensing networks,Prototype,WiFi,Soil sensing and precision mapping,ESP32-based mesh sensing network,"Battery capacity, embedded deployment",-,Broader modalities and tasks
+doi:10.1145/3450268.3453532,MilliEye,Prototype,Radar + camera,Object detection,Edge deployment with collected multi-modal dataset,"Lightweight edge inference, limited labeled multi-modal data",-,Labeled data scale and benchmark standardization
+doi:10.1002/rob.22082,UAV RGB-thermal onboard system,Prototype + dataset,RGB + thermal,Monitoring and person detection,UAV with onboard NVIDIA AGX Xavier,Onboard resource capacity,Publicly released dataset,Broader edge perception tasks and platforms
+doi:10.1145/3550298,Geryon,Prototype,Radar + camera,Object detection,UAV with nearby edge server,"Edge resources, inference delay",-,Broader edge perception tasks and platforms
+PMC11019185,Wearable fall-detection device,Prototype,Wearable sensing,Fall detection,Jetson Nano / Raspberry Pi boards,Onboard resource capacity and inference latency,Ethics approval,Broader validation on population diversity and long-term deployment reliability

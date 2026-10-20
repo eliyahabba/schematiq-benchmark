@@ -1,0 +1,6 @@
+document_id,Study,Study type,Group size,AF pattern,Follow-up,Energy,Total procedure duration,Fluoroscopy time,Recurrence,Total complications
+PMC10902096,Maurhofer et al . [ 15 ] (2023),Prospective cohert study,40 | 160,PAF: 200 (100%) | PAF: 9 (60%),12-month,PFA | RFA and CBA,"93.5 (79.5–116) | CBA: 75 (60–97), RFA: 182 (134.2–223.5)","25.6 (20.7–31) | CBA: 17.1 (12.7–23.7), RFA: 6.7 (3.5–12.9)",6 (15%) | 48 (30%),2 (5%) | 0
+PMC10558367,Kupusovic et al . [ 18 ] (2023),Retrospective cohert study,15 | 11,PAF: 4 (36.4%),6-month,PFA | CBA,179.3 ± 49.3 | 177.3 ± 56.5,31.1 ± 9.8 | 23.1 ± 7.0,0 | 1 (9.1%),0
+doi:10.1111/jce.16056,Schipper et al . [ 5 ] (2023),Retrospective cohert study,54,PAF: 16 (30%) | PAF: 17 (31%),12-month,PFA | CBA,64.5 ± 17.5 | 73.0 ± 24.8,15.3 ± 4.7 | 12.3 ± 5.3,12 (26%) | 14 (28%),2 (3.7%) | 6 (11.1%)
+PMC8576285,Nakatani et al . [ 17 ] (2021),Prospective cohert study,18 | 23,PAF: 41 (100%),9-month,PFA | RFA and CBA,96 (77–111) | 130 (110–200),23 (17–29) | 20 (18–31),2 (11.1%) | 9 (39.1%),1 (5.6%) | 2 (8.7%)
+doi:10.1111/jce.16101,Woermann et al . [ 19 ] (2023),Cohert study,57,PAF: 17 (30%) | -,3-month,PFA | RFA,65 ± 17 | 95 ± 23,15 ± 5 | 12 ± 3,11 (19.3%) | 13 (22.8%),2 (3.5%) | 3 (5.3%)

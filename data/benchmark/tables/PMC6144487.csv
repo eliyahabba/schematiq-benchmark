@@ -1,0 +1,12 @@
+document_id,Study,n,Country,Type of patients used,Device used,Duration of recording (s),Frequency of recording/ day,Total monitoring (days),Mean/ median age (years),Male (%),BMI (kg/m 2 ),HTN (%),DM (%),IHD (%),Previous diagnosis of AF (%),HF (%),Previous stroke (%),Mean/ median CHADS/ CHA 2 DS 2 -VASC,Definition of AF,New AF (n),New AF rate (%)
+doi:10.1093/europace/euw069,Proietti et al 54,65 747,Belgium,Belgian Heart Week screening,Omron Heartscan HCG-801,30,1,0,58,41,NR,36,21,23,0.5,20,20,2,"Irregular R-R interval, no distinct P waves, variable atrial cycle length",603,1.1
+PMC5072135,Kaasenbrood et al 55,3269,Holland,Influenza vaccination—opportunistic screening,MyDiagnostik,60,1,0,64.1,49,NR,NR,NR,NR,2.6,NR,NR,NR,Cardiologist interpretation×2,37,1.1
+PMC3682914,Hendrikx et al 57,928,Sweden,GP practices,Zenicor,10,2,28,69.8,50,NR,90.3,31.6,19.8,0,3.7,8.6,2,10 s irregular rhythm without P waves,35,3.8
+PMC4234325,Hendrikx et al 67,95,Sweden,Referred for presyncope/ palpitations,Zenicor,30,2,28,54.1,44,NR,28.4,1.1,8.4,0,0,6.3,1,30 s irregular rhythm without P waves,9,9.5
+PMC5015379,Chan et al 15,1013,Hong Kong,Patients aged ≥65 years with HTN or diabetes,Alive Cor,60,1,0,68.4,47,NR,90.4,36.6,16.2,2.2,4.4,10.5,3,Cardiologist interpretation,5,0.5
+PMC5298247,Hendrikx et al 58,201,Sweden,Patients referred to respiratory clinics with suspicion of obstructive sleep apnoea,Zenicor,30,2,14,56,69,30,51,10,9.2,0,4.6,3.1,NR,Irregular supraventricular extra systoles in series for 30 s,13,6.5
+PMC6932331,Barthélémy et al 19,60,France,Consecutive patients admitted with stroke/TIA,Holter,Continuous,Continuous,1,64.4,55,NR,50,17,NR,0,NR,27,NR,Fibrillatory waves associated with irregular ventricular response ratio at least 30 s duration,8,13.3
+doi:10.1161/01.str.17.2.192,Koudstaal et al 21,100,Holland,Retrospective study of 100 patients admitted with stroke/TIA,Holter,Continuous,Continuous,1,60.9,74,NR,NR,NR,41,NR,NR,NR,NR,NR,5,5
+PMC4234325,Hendrikx et al 67,95,Sweden,Patients investigated for palpitations and presyncope,Holter,Continuous,Continuous,1,54.1,42,NR,28.4,1.1,8.4,0,0,6.3,1,30 s irregular rhythm without P waves,2,2.1
+PMC3039012,Dangayach et al 37,51,USA,Retrospective audit of patients admitted with cryptogenic stroke,Holter,Continuous,Continuous,2,58.2,43,NR,35.3,16,15.7,7.4,NR,NR,NR,NR,15,29.4
+PMC3245420,Dogan et al 48,400,Turkey,Retrospective review of patients admitted poststroke,Holter,Continuous,Continuous,1,NR,NR,NR,NR,NR,NR,NR,NR,NR,NR,NR,40,10

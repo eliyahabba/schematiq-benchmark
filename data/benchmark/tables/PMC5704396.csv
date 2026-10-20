@@ -1,0 +1,11 @@
+document_id,Author,Year,Sub-field,Environmental agent,Data mining techniques,Objective
+doi:10.1016/j.ecolmodel.2005.01.008,Corani [ 68 ],2005,Outdoor air pollution,"Ozone, PM10","ANN, Lazy Learning",Predict levels of air pollutants from meteorological and other local variables.
+PMC3714656,Ma et al. [ 58 ],2008,Outdoor air pollution,"SO2, O3, NOx, C6H6",k-means,Developing a distributed air pollution monitoring system & use data mining to find patterns of pollutant distribution
+PMC10187881,Lary et al. [ 4 ],2014,Outdoor air pollution,PM2.5,"Ensemble Algorithms RF, SVM, ANN",Estimating the daily distributions of PM2.5
+PMC4624434,Jiang et al. [ 26 ],2015,Outdoor air quality,AQI,Correlation Analysis,Monitoring the dynamics of air quality in large cities based on social media
+PMC4400579,Wang et al. [ 27 ],2015,Outdoor air pollution,Generic,"Topic Models LDA, NLP",Evaluating the use of social media data to estimate air pollution and public response
+PMC4431482,Lary et al. [ 52 ],2015,Outdoor air pollution,PM2.5,Ensemble regression models,Estimating PM2.5 distribution and relationship of such air pollutants with mental health
+PMC4769278,Hu et al. [ 65 ],2016,In/Outdoor air pollution,Generic,RF,"Understanding, exposure to air pollution by predicting time-activity tracking of individuals"
+PMC4690911,Challoner et al. [ 61 ],2015,Indoor air pollution,"PM NO2,",ANN,Predicting the indoor air quality from outdoor monitors
+PMC5551124,Min et al. [ 43 ],2017,Outdoor air pollution,PM2.5,K-Means,Apply K-Means to the identify potential new monitoring sites by considering a larger set of 313 variables in their models. Traffic and urbanicity are found to be useful to guide site selection
+PMC5510805,Liu et al. [ 47 ],2017,Outdoor air pollution,"PM, SO2, CO, NO2, O3",SVM Regression,"Apply support vector regression for air pollution forecasting using six criteria pollutants, five meteorological conditions and the Air Quality Index"

@@ -1,0 +1,10 @@
+document_id,Methods,Model Type,Guidance,Training Strategy,Generation Strategy,Texture Type
+doi:10.1109/iccv.2019.00463,TextureFields,Neural fields,Uncond./Image,Custom,Feed-forward,RGB textures
+doi:10.1109/cvpr.2018.00411,NMR,VGG,Image,Pre-trained,Optimization,RGB textures
+doi:10.1109/cvpr46437.2021.00790,Chaudhuri,VAE+GAN,Uncond./Image,Pre-trained+Custom,Feed-forward,RGB textures
+doi:10.1109/3dv.2019.00076,Lazova,GAN,Image,Custom,Feed-forward,RGB textures
+doi:10.1109/cvpr52688.2022.01313,Text2Mesh,CLIP,Text,Pre-trained+Custom,Optimization,RGB textures
+doi:10.1145/3550469.3555392,CLIP-Mesh,CLIP,Text,Pre-trained,Optimization,RGB textures
+doi:10.1609/aaai.v39i6.32621,GenesisTex2,Diffusion (2D),Text,Pre-trained,Synchronized,RGB textures
+doi:10.1145/3687909,TEXGen (700M),Diffusion (UV),Text/Image,Custom,Feed-forward,RGB textures
+doi:10.1145/3757377.3763863,SeqTex,Diffusion (Video+UV),Text/Image,Fine-tuned,Synchronized,RGB textures

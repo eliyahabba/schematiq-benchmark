@@ -1,0 +1,19 @@
+document_id,"First author, date, reference",Study design and sample size,mHealth intervention category,Health outcome category,Barriers identified,Continent
+PMC4608740,"Ginsburg, 2015 [ 36 ]",Open data-kit survey (design-stage evaluation activity),Smartphone app,Infectious disease,Technology gap Language barrier,Africa
+PMC5395223,"Nhavoto, 2017 [ 37 ]","RCT a and interviews (tuberculosis n=69, HIV n=72)",SMS b only,Infectious disease,Privacy concerns Literacy Language barrier Equipment,Africa
+PMC3902069,"Bediang, 2014 [ 38 ]","Blinded RCT (intervention n=104, control n=104)",SMS only,Infectious disease,Infrastructure Cost Policy,Africa
+PMC3849485,"Bigna, 2013 [ 39 ]",RCT (n=224 divided into 4 groups),SMS with or without phone calls and voice mail,Infectious disease,Equipment Language barrier Policy Privacy concerns Infrastructure,Africa
+PMC4325949,"Medhanyie, 2015 [ 27 ]","Interviews, 2893 electronic health records of 1122 women",Multimedia messages for diagnosis,Maternal health,Time or work conflict Human resources issues Time or work conflict Time or work conflict,Africa
+PMC4806970,"Toda, 2016 [ 52 ]","Clustered RCT (intervention n=32 [88 cases], control n=32 [21 cases])",SMS only,Preventive health,Human resources issues Technology gap Training,Africa
+PMC5027179,"Flax, 2017 [ 29 ]",Cluster RCT and interviews (n=195),SMS only,Maternal health,Infrastructure Psychosocial stressors,Africa
+PMC3542808,"Ngabo, 2012 [ 30 ]",Pilot study,SMS only,Maternal health,Infrastructure Equipment Cost,Africa
+PMC4765450,"Jia, 2015 [ 53 ]",Longitudinal data analysis of monthly electronic health record suspect and mortality cases for both the traditional sentinel program and mobile phone reporting (n=178),SMS with or without phone calls and voice mail,Preventive health,Training,Africa
+PMC4490665,"Leon, 2015 [ 40 ]","RCT (n=22 studied, n=15 interviewed)",SMS only,Chronic disease,Technology gap Infrastructure Psychosocial stressors,Africa
+PMC3898378,"Lund, 2014 [ 31 ]","Open-label, pragmatic-cluster RCT, 2550 pregnant women (intervention n=1311, control n=1239)",SMS only,Maternal health,Equipment Literacy,Africa
+PMC3237433,"Tuijn, 2011 [ 54 ]",Feasibility study attaching a cell phone to a microscope,Multimedia messages for diagnosis,Preventive health,Infrastructure Equipment Training,Africa
+PMC5240300,"Ippoliti, 20107 [ 32 ]",RCT (n=17),SMS with or without phone calls and voice mail,Maternal health,Infrastructure Literacy,Africa and South America
+PMC5500967,"Uddin, 2017 [ 33 ]",Stratified 2-stage random-cluster sampling technique to select participants (n=5280),"SMS, smartphone app, and cell phone calls",Maternal health,Technology gap,Asia
+PMC4937606,"Balakrishnan, 2016 [ 34 ]",Feasibility study (n=512),Smartphone app,Maternal health,Cost Training,Asia
+PMC5560893,"Mohan, 2017 [ 49 ]",Cross-sectional study (n=800),SMS only,Chronic disease,Language barrier,Asia
+PMC5331605,"Lin, 2017 [ 35 ]",True experiment (n=757),SMS only,Maternal health,Training Policy Exposure of program Time or work conflict,Asia
+doi:10.17843/rpmesp.2015.322.1611,"Beratarrechea, 2015 [ 22 ]",Interviews (n=43),SMS with or without phone calls and voice mail,Preventive health,Infrastructure Technology gap,South America

@@ -1,0 +1,12 @@
+document_id,Study,Country,Study design,Tea intake assessment,Tea type,Outcome assessment / HTN definition,Participants as reported,Age,Sex (male/female)
+PMC3700235,Hidenobu Takami 2013 ( 37 ),Japan,Cross-sectional study,Questionnaire,Green tea,Measurement / ≥ 130 / ≥ 85 mmHg or hypertension treatment,554,35–70,409/145
+PMC4074638,Giuseppe Grosso 2014 ( 38 ),Italy,Cross-sectional study,Questionnaire,/,Measurement / > 130 / > 85 mmHg or treatment of previously diagnosed hypertension,1064/825,50.2 ± 16.3,760/1129
+PMC4575379,Giuseppe Grosso 2015 ( 41 ),Poland,Cross-sectional study,FFQ,/,Measurement / ≥ 130 / ≥ 85 mmHg or use of hypertensive medication,"8,821",45–69,4291/4530
+PMC12879880,Jieyun Yin 2017 ( 43 ),China,Cross-sectional study,Questionnaire,"Black tea, Oolong tea, Green tea",Measurement / ≥ 140 / ≥ 90 mmHg and (or) use of hypertensive medication,3008/1571,67.63 ± 6.32,2200/2379
+PMC7416932,Adefris Chuka 2020 ( 45 ),Ethiopia,Cross-sectional study,Questionnaire,/,Measurement / ≥ 140 / ≥ 90 mmHg and (or) use of hypertensive medication,"3,346",44.59 ± 11.17,1674/1672
+PMC7916404,Agnieszka Micek 2021 ( 46 ),Italy,Cross-sectional study,Questionnaire,/,Measurement /≥ 140 / ≥ 90 mmHg or Self-report or receiving treatment,2044,≥18,/
+PMC8424953,Xiaodong Peng 2021 ( 47 ),China,Cross-sectional study,Questionnaire,Green tea,Self-reported hypertension / ≥ 140 / ≥ 90 mmHg,"9,277",85.45 ± 12.17,3636/5641
+PMC8684663,Xing-Xuan Dong 2021 ( 48 ),China,Cohort study,Questionnaire,"Green tea, other tea",Measurement / ≥ 130 / ≥ 85 mmHg or use of hypertensive medication,"3,005",67.3 ± 5.7,1547/1458
+PMC8390932,Xiao-Ge NIU 2021 ( 49 ),China,Cohort study,Questionnaire,/,Measurement / ≥ 140 / ≥ 90 mmHg and (or) use of hypertensive medication,"38,913",49.2 ± 12.3,"13,846/25,067"
+PMC9459911,Yuxiang Yang 2022 ( 51 ),China,Cohort study,FFQ,/,Measurement / ≥ 130 / ≥ 85 mmHg and (or) use of hypertensive medication,"43,757",18–59,"19,439/24,318"
+PMC10010002,Ying Zhao 2023 ( 52 ),China,Cross-sectional study,Questionnaire,"Green tea, Scented tea, Dark tea, Sweet tea, Black tea, Oolong tea, Yellow tea, and White tea.",Measurement / ≥ 140 / ≥ 90 mmHg,"76,673",30–79,"29,700/46,973"

@@ -1,0 +1,7 @@
+document_id,Ref,Country,Year,Study area,Type of area,Intervention,Study design,Outcome measure,Impact on malaria incidence/ prevalence driven by An. stephensi,Impact on An. stephensi density,An. stephensi mortality or other indicators
+PMC4461903,43,India,2015,Balepura,rural,Indoor Residual spraying (differents formulations of alpha-cypermethrin),small scale-controlled trial,"Knockdown, Mortality rate, duration of effectiveness",NA,NA,Y
+PMC6022384,44,India,2018,North & East Bengaluru,urban,Biolarvicide (Bactivec),Pre-post controlled trial,Larvae and pupae densities,NA,Y,NA
+doi:10.1046/j.1365-2915.2002.00395.x,36,Afghanistan,2002b,Kabul,urban,Insecticide treated materials,controlled,Blood fed rate/insecticide-induced mortality,NA,NA,Y
+doi:10.1046/j.1365-3156.2002.00940.x,35,Afghanistan,2002,"Behsud, Chaprahar",rural,ITNs (permethrin or lambacyhalo-thrin),Cross-sectional/ case-control,Adult densities/malaria prevalence/malaria cases,Y,Y,NA
+doi:10.1046/j.1365-3156.2003.01183.x,45,Afghanistan,2004,Dobella,rural,Repellent (DEET) & ITNs,Case-control,Mosquito landing rate/malaria infection,Y,NA,NA
+doi:10.1046/j.1365-2915.2002.00366.x,37,Pakistan,2002a,Peshawar,Urban,Insecticide treated materials,Controlled,Blood fed rate/insecticide-induced mortality,NA,NA,Y

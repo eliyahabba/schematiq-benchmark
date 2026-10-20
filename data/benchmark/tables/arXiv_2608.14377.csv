@@ -1,0 +1,33 @@
+document_id,Task,Dataset,Sports,Modal,Method,Related Large Model,Performance,Link
+doi:10.18653/v1/2024.naacl-srw.28,,LoL19,Esports,T,,Llama 2 13B,-4.61 (BARTScore),https://github.com/ArnoZWang/esports-data-to-text
+arxiv:2412.17637,,CommentarySet,"TF,SC,BK,GY,TT,TN","V, T",,InternVL-Chat-2,5.44 (SCORES),no
+arxiv:2402.15514,,Custom Dataset,Golf,"V, T",,Llama 2 7B,99.12 (ROUGE-L),no
+doi:10.1109/cvprw59228.2023.00536,,SoccerNet-Caption,Soccer,"V, T",TimeSoccer,Llama 2 7B,8.30 (CIDEr),https://vpx-ecnu.github.io/TimeSoccer-Website/
+arxiv:2011.13367,,SoccerNet-V2,Soccer,"V, T",,Claude 3.5 Sonnet,2.59 / 5.00 (Likert),no
+doi:10.71097/ijsat.v16.i2.3312,,SoccerTrack-Commentary,Soccer,"V, I, T",,GPT-3,33.84 (CIDEr),no
+arxiv:2504.16030,,LiveSports-3K-CC,49 Sports,"V, A, T",LiveCC,Qwen2-VL-7B,40.08 (Win Rate),https://showlab.github.io/livecc/
+arxiv:2011.13367,,SoccerNet-v2,Soccer,"V, A, T",SoccerComment,Vicuna-7B-v1.5,36.58 (CIDEr),no
+arxiv:2507.20163,,NBA-Identity,Basketball,"V, T",LLM-IAVC,Llama 3.2-3B,105.30 (CIDEr),https://github.com/Zeyu1226-mt/LLM-IAVC
+doi:10.1109/cvprw59228.2023.00536,,SoccerNet-Caption,Soccer,"V, T",StreamMind,Video-LLaMA2-7B,82.04 (ROUGE-L),https://aka.ms/StreamMind
+arxiv:1804.04527,,SoccerNet,Soccer,"V, T",VLM-TSI,VideoLLM-Online,39.10 (TRACE),https://github.com/yukw777/tglg
+arxiv:2506.02351,,Custom Dataset,Baseball,T,DIAMOND,Mistral-Large,76.50 (F1),no
+arxiv:1804.04527,,SoccerNet,Soccer,,,,0.92 (HD),
+arxiv:2408.05123,NSG,SportsSum2.0,Soccer,T,,"RoBERTa , etc.",47.78 (ROUGE-L),https://github.com/krystalan/SportsSum2.0
+doi:10.18653/v1/2020.aacl-main.61,,SportsSum,Soccer,,,,47.49 (ROUGE-L),
+doi:10.18653/v1/2020.aacl-main.61,,SportsSum,Soccer,,,,47.79 (ROUGE-L),
+doi:10.18653/v1/d17-1239,,RotoWire,Basketball,T,Tree-of-Report,GPT-4o mini,54.92 (CS F1),no
+arxiv:1906.03221,,MLB,Baseball,,,,62.99 (CS F1),
+arxiv:2502.08621,,Custom Dataset,Basketball,V,SportsBuddy,GPT-4o,90.80 (Acc),no
+arxiv:1804.04527,,SoccerNet,Soccer,"V, A, I",SoccerRAG,"GPT-4 , etc.",80.00 (Acc),https://github.com/simula/soccer-rag
+doi:10.55860/gslz8291,,Custom Dataset,Cricket,T,,Copilot,100.00 (Acc),no
+arxiv:2507.17844,,TF-CoVR,"GY, DV","V, T",TF-CoVR-Base,BLIP,23.02 (mAP@10),https://github.com/UCF-CRCV/TF-CoVR
+arxiv:2011.13367,,SoccerNet-v2,,,,,6.42 / 10.00 (LLM),
+arxiv:2505.03735,,SoccerBench,Soccer,"V, A, T",SoccerAgent,DeepSeek-v3,60.90 (Acc),https://github.com/jyrao/SoccerAgent
+arxiv:2011.13367,,SoccerNet-v2,Soccer,"V, T",MatchVision,Llama 3-8B,80.10 (Acc),https://jyrao.github.io/UniSoccer/
+arxiv:2304.04617,,MVFoul,,,,,44.00 (Acc),
+arxiv:2011.13367,,SoccerNet-V2,Soccer,"V, T",,LLaVA-NeXT-Video,83.76 (Acc),no
+arxiv:2509.11796,,Gym-QA,Gymnastics,"V, T",FineQuest,"Video-LLaVA , etc.",57.00 (Acc),no
+arxiv:2509.11796,,Diving-QA,Diving,"V, T",,,,
+arxiv:2410.08474,,SPORTU,7 Sports,"V, T",,,73.20 (Acc),
+arxiv:2410.17619,MAN,Custom Dataset,-,T,,Claude 3 Opus,90.28 (Acc),no
+doi:10.64252/7e393v66,,Custom Dataset,Soccer,"I, T",Footyintel,-,-,no

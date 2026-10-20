@@ -1,0 +1,7 @@
+document_id,Study (year),Country,Ethnicity,No. of patients,Clinical set,Menopausal status,Aromatase inhibitors,Main SNPs a /haplotypes (total analyzed),Main outcomes b
+doi:10.1007/s10549-014-2873-2,Fontein et al. [ 39 ],Netherlands,C,737,Adj,Post-menopausal,E,"rs934635, rs1694189, rs7176005 (30)","AE (MS-AI, VMS)"
+PMC3794816,Liu et al. [ 24 ],China,As,272,ABC,NR,A,"rs10046, rs4646 (2)","OS, TTP, AE"
+PMC3966714,Napoli et al. [ 38 ],USA,"C (80 %), B (19 %), As (1 %)",101,BC Stage 0-III,Post-menopausal,"A, E, L","rs4646, rs700518, rs1062033 (3)",AE (MS-AI)
+PMC3570232,Ghimenti et al. [ 34 ],Italy,C,37,Neoadj,Post-menopausal,A,"rs7176005, rs6493497 (2)",CR (RECIST)
+PMC3109575,Mao et al. [ 37 ],USA,C,390,Adjuvant BC Stage 0-III,Post-menopausal,"A, E, L","rs749292, rs727479, rs10046, rs11575899, rs60271534 (5)",AE (MS-AI)
+PMC2830181,Garcia-Casado et al. [ 35 ],Spain,C,95,Neoadj,Post-menopausal,L,"rs10046, rs4646, rs700519 (3)","CR (WHO), PFS"

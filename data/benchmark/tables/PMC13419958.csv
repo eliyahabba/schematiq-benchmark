@@ -1,0 +1,8 @@
+document_id,Author,Publication year,Study type,Quality score,Enrollment period,FU,BAV subtype (%) - Type 0,BAV subtype (%) - Type 1,BAV subtype (%) - Type 2,Total sample size (n),Event sample size (n),Mean age (years),Gender (male%),STS score (%),OR/RR/HR,VARC,Adjustment method
+PMC9821499,Dai H et al. [ 21 ],2023,Retrospective Cohort,8/9,2013–2021,1 y,NA,NA,NA,402,211,74.0 [69.0–79.0],58.3,4.4 [2.6–7.6],NA,3,NA
+PMC9821306,Hong N et al. [ 22 ],2023,Retrospective Cohort,8/9,2017–2021,30 d,NA,NA,NA,389,229,72.9 ± 6.9,65.1,2.6 ± 0.9,NA,NA,NA
+PMC10894397,Liu K et al. [ 25 ],2024,Prospective Cohort,8/9,2018–2019,22 m,NA,NA,NA,65,29,72.1 ± 7.6,65.5,NA,NA,NA,NA
+PMC10816957,Magyari B et al. [ 26 ],2024,Retrospective Cohort,7/9,2019–2023,30 d,25,73.1,1.9,104,52,71 ± 7.1,65.4,5.2 ± 3.3,NA,2,Propensity‐matched
+PMC7862532,Xu Q et al. [ 32 ],2021,Prospective Cohort,7/9,2015–2017,1 y,55.6,44.4,0,23,9,71.2 ± 4.8,33.3,5.5 ± 3.0,NA,2,NA
+PMC8039923,Chodór PA et al. [ 34 ],2021,Retrospective Cohort,9/9,2008–2016,1 y,0,85.7,14.3,83,21,75.76 ±7.96,66.7,NA,NA,2,NA
+PMC4357370,Liu XB et al. [ 38 ],2015,Prospective Cohort,8/9,2013–2014,30 d,73.3,26.6,0,40,15,75.4 ± 5.7,60.0,5.6 ± 4.1,NA,1,NA

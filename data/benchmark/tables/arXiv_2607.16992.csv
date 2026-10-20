@@ -1,0 +1,13 @@
+document_id,Authors,Year,Dim.,Method,Dataset,Results
+PMC8670388,Siriapisith et al.,2021,3D,U-Net,260 (Both),DSC = 90.1%
+PMC8669008,Molnar et al.,2021,3D,CNN,1811,DSC = 90%
+doi:10.1109/access.2021.3116265,Ben cevi\'c et al.,2021,2D,"U-Nets, Polar transform",20*,DSC = 78.4%
+arxiv:2204.12904,Ben cevi\'c et al.,2021,2.5D,U-Net,20*,DSC = 85.7%
+PMC8831577,Hoori et al.,2022,2.5D,DeepLab-v3-plus + bisect,89,DSC = 88.5%
+PMC8947414,Bartoli et al.,2022,2D,U-Net + xHRNet,115,DSC = 85%
+arxiv:2605.20064,Silva et al.,2024,2D,pix2pix,20*,DSC = 98.7%
+PMC10838293,Miller et al.,2024,2.5D,Conv. LSTM,1138,_s=0.91
+PMC11496533,Tang et al.,2024,2D,U-Net,108 (CE),DSC = 89.6%
+PMC12718836,Kuo et al.,2024,3D,U-Net,157 (CE),DSC = 87.0%
+arxiv:2112.11381,Rodrigues et al.,2016,2D,"Atlas, RF",20*,DSC = 98.1%
+PMC5632458,Zlokolica et al.,2017,2D,"Fuzzy c-means, ellipse fitting",10,DSC = 69%

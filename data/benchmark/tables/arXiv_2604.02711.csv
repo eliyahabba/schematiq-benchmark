@@ -1,0 +1,12 @@
+document_id,Dataset,Sensors,Datasize,Subjects,Activities,Representative uses (Ref.)
+doi:10.1145/3725856,CAPTURE-24,acc,3883 h,151,200 unique labels,civitarese2025large
+doi:10.1007/s10489-024-05322-3,HAR70+,acc,12.6 h,18,8 daily activities,logacjov2024selfpab
+arxiv:2411.18822,MotionSense,"acc, gyro",---,24,6 daily activities,xu2024relcon
+doi:10.18653/v1/2025.emnlp-main.19,SHL Challenge,"acc, gyro, mag",2812 h,3,8 transportation modes,li2024sensorllm
+PMC11015005,UK Biobank,acc,16.8M,100K,daily activities,yuan2024self
+doi:10.1007/s10489-024-05322-3,HARTH,"acc, video",35.9 h,22,12 daily activities,logacjov2024selfpab
+arxiv:2506.03174,Berkeley MHAD,"acc, optical capture system, video, depth sensor, audio",1.37 h,12,11 daily activities,matsuishi2025multimodal
+arxiv:2506.09108,SensorLM,"PPG, EDA, ACC, TEMP, ALT","59,749","103,731",sensor-language study,zhang2025sensorlm
+arxiv:2507.00191,Apple Study (AHMS; WBM),Behavioral HealthKit metrics (27),>2.5B,162K,Health outcomes (57 tasks),erturk2025beyond
+arxiv:2412.09758,WESAD,EDA/PPG/Temp + Acc,45,15,Stress Detection,luo2024toward
+arxiv:2412.09758,PPG-Dalia,"ECG, PPG, IMU, GSR",36,15,daily activities,luo2024normwear

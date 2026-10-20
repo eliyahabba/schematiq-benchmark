@@ -1,0 +1,13 @@
+document_id,Dataset Name,Year,Subj.,Dur.,Physiological Signals,EDA Device/f_s,Description,Link
+doi:10.1145/3339825.3394939,7. Toadstool,2020,10,1 hr,"ACCEL, BVP, EDA, HR, IBI, ST",Empatica E4/4 Hz,Playing the game ``Super Mario Bros.'',Link
+arxiv:2111.02561,8. MAUS,2021,22,47 min,"ECG, EDA, PPG (Finger/Wrist)",Procomp Infiniti/256 Hz,N-back cognitive task,Link
+arxiv:2209.13542,10. EmpathicSchool,2022,20,1.3 hrs,"ACCEL, BVP, EDA, HR, IBI, ST",Empatica E4/4 Hz,Completing various tasks in front of a computer,Link
+PMC9159985,12. Nurse Stress Prediction,2022,15,1 week,"ACCEL, BVP, EDA, HR, IBI, ST",Empatica E4/4 Hz,Hospital work,Link
+doi:10.1109/taffc.2021.3056960,14. UBFC-Phys,2023,56,9 min,"BVP, EDA (derived: rPPG, PRV)",Empatica E4/4 Hz,Speech and mental arithmetic tasks,Link
+PMC10279542,15. BIOSTRESS,2023,20,15 or 60+ min,"ACCEL, BVP, EDA, HR, IBI, ST",Empatica E4/4 Hz,Stressful interview and final exam,Link
+PMC10238385,16. K-EmoPhone,2023,77,7 days,"ACCEL, EDA, HR, RRI, ST",Microsoft Band 2/5 Hz,Seven days of daily life,Link
+arxiv:2303.07742,17. ForDigitStress,2023,40,85 min,"EDA, PPG, Voice",IOM Biofeedback Sensor/NA,Job interview scenario,Link
+PMC10847510,19. EmpaticaE4Stress,2024,29,40 min,"ACCEL, BVP, EDA, HR, ST",Empatica E4/4 Hz,Simulated work,Link
+PMC10981000,20. WorkStress3D,2024,20,8.75 hrs,"ACCEL, BVP, EDA, ST",Empatica E4/4 Hz,In-office work day,Link
+PMC11953403,23. Structured-Exercise,2025,36,Protocol-Dependent,"ACCEL, BVP, EDA, HR, IBI, ST",Empatica E4/4 Hz,Induced stress and structured exercise,Link
+arxiv:2503.19935,25. CAN-STRESS,2026,82,24 hrs,"ACCEL, BVP, EDA, HR, IBI, ST",Empatica E4/4 Hz,Daily life,Link

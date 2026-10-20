@@ -1,0 +1,6 @@
+document_id,Technique,Ref.,Energy Saving Mechanism,Benefits,Limitation
+arxiv:2301.00774,,frantar2023sparsegpt,One-shot pruning (SparseGPT) for massive models.,Achieves 50-60% sparsity without extensive retraining.,"Smaller models (e.g., 1.3B) incur noticeable accuracy drops."
+arxiv:2402.14905,,liu2024mobilellm,``Deep and thin'' architecture design (MobileLLM).,Consumes only 0.035 J/token (vs 0.7 J for 7B); all-day usage.,Requires specific architectural redesign from scratch.
+doi:10.18653/v1/2024.acl-long.363,,kong2024swapmoe,Swapping Virtual Experts from storage to memory.,Reduces memory by 67% and latency by 50%.,Minor accuracy drop (Rouge-2 score -0.041).
+arxiv:2310.11731,,luo2023saqrl,VQ-VAE to learn state-dependent discrete action codes.,Avoids exponential blowup; enforces exact policy constraints.,Training complexity of VQ-VAE.
+arxiv:1907.02745,,ahn2020wireless,Wireless Federated Distillation (WFD) transmitting analog logits.,Turns interference into aggregation to reduce latency and communication energy.,Susceptible to channel noise and synchronization errors.

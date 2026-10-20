@@ -1,0 +1,15 @@
+document_id,Method,Year,Dataset,Privacy^a,Utility^b,Quality^c,Key Innovation
+arxiv:1801.00349,AGNs,2019,PubFig,Success Rate ( ): 70.0%,no,no,GAN-based natural eyeglasses
+arxiv:1910.07067,OAP,2019,CASIA,Similarity ( ),no,no,Grayscale patches for ArcFace
+arxiv:1908.08705,AdvHat,2021,CASIA,Similarity ( ),no,no,Hat-based surface attack
+doi:10.24963/ijcai.2021/173,AdvMakeup,2021,"LFW , LADN",Success Rate ( ): 63.74%,no,no,Physical eye-shadow makeup attack
+arxiv:2108.07920,ARA,2024,"VGGFace2 , CelebA",Success Rate ( ): 99%,no,"BRISQUE, NIQE",Physical natural adversarial lighting
+doi:10.1609/aaai.v31i1.11233,ISR,2017,"HMDB , DogCentric , \ -Interaction",Subjective,Action,no,Extreme low resolution
+doi:10.1609/aaai.v32i1.12299,LRPrivacy,2018,"HMDB , DogCentric",Subjective,Action,no,Multi-view embedding
+doi:10.1109/icip.2015.7351631,EmotionPreserve,2015,LFW,Verification Rate ( ),"Expression, Gaze",no,Variational adaptive filtering
+PMC7512257,k-Same-Net,2018,"RaFD , XM2VTS , CK+",Recognition Rate ( ),Expression,no,Generative realization of k-anonymity
+arxiv:1908.05008,AdvFaces,2020,"CASIA , LFW",Success Rate ( ): 99.67%,no,SSIM,GAN-based face synthesis
+arxiv:2004.05790,DFANet,2020,"LFW , MS-Celeb-1M , \\ VGGFace2 , CASIA , \\ IMDb-Face",Success Rate ( ),no,SSIM,Dropout-based method
+arxiv:2110.00708,UAXs,2021,"LFW , VGGFace2",FMR ( ),no,no,Universal multi-identity spoofing
+arxiv:2210.06871,Adv-Attribute,2022,"FFHQ , CelebA-HQ",Success Rate ( ),no,"FID, MSE",Compositional attribute editing
+arxiv:2305.13625,DiffProtect,2023,"CelebA-HQ , FFHQ",Success Rate ( ),no,FID,Semantic code optimization

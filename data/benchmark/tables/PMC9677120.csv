@@ -1,0 +1,8 @@
+document_id,First author (year),N,Female %,Age,Publication type,SA measurement,Measurement instrument (Pearson's r ) - Self-esteem,Measurement instrument (Pearson's r ) - Self-control,Measurement instrument (Pearson's r ) - Social support
+PMC6034960,Wang et al. ( 2017 ),768,56.0,2,J,SAS,RSES (−0.17),-,-
+PMC6933501,Li et al. ( 2019 ),637,55.7,1,J,XSAI,RSES (−0.21),-,-
+PMC7235189,Ma et al. ( 2020 ),981,48.5,1,J,MPAI,-,SCS (−0.34),-
+PMC6985778,Xiang et al. ( 2020 ),947,48.4,3,J,SAS-SV,-,SCS (−0.54),-
+PMC7735984,Yang ( 2021 ),1138,66.5,2,D,MPAI,RSES (−0.25),SCS (−0.40),-
+PMC8598166,Li et al. ( 2021 ),1034,38.8,3,J,MPAI,-,DMSC-S (−0.07),-
+PMC9096133,Hu and Wang ( 2022 ),926,46.4,3,J,SAS-SV,,DSCS (−0.36),

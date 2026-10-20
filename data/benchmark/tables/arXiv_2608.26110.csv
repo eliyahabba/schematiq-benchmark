@@ -1,0 +1,8 @@
+document_id,Cat.,Authors,Primary Focus,Main Contributions,Main Limitations
+doi:10.23919/isc.2024.10528929,"0.85 1, 2",Nichols et al. (2024),"HPC-Coder: pragma labeling, performance impact prediction.",97% correct OpenMP pragmas; + 15% MPI correctness over GPT-4.,"Evaluated on controlled benchmarks; generalization to large, messy repos unclear."
+arxiv:2412.15178,1,Chaturvedi et al. (2024),"HPC-Coder-V2: synthetic HPC-INSTRUCT, task-specific tuning.","Strong gains over open-source model, near GPT-4 performance; data quality > size.",Reliance on synthetic data; risk of overfitting to non-realistic patterns.
+arxiv:2309.07103,1,Valero-Lara et al. (2023),"Kernel generation (AXPY, GEMV, and GEMM).",Shows cases where LLaMA-2 is more optimized when correct.,Small kernel set; limited generalizability to broader apps.
+arxiv:2504.15424,1,Ranasinghe et al. (2025),Fortran C++ legacy translation.,High semantic validity (up to 90%); near-native runtime.,Unclear performance on messy/underdocumented legacy code.
+arxiv:2310.04047,2,Mahmud et al. (2025),AutoParLLM: GNN-aided prompting for OpenMP.,+11.7% correctness; 2.3 speedup vs 1.6 baseline.,OpenMP-centric; unknown transfer to MPI/GPU.
+arxiv:2410.15625,2,Wei et al. (2025),Agent system with DSL + feedback for optimization.,Surpasses expert-tuned code on tasks; systematic feedback.,Engineering overhead; unclear portability to large multi-file apps.
+doi:10.1145/3624062.3624172,2,Ding et al. (2023),HPC-GPT: domain-adapted for pragma/opt. reasoning.,Improves pragma inference and performance reasoning.,Sparse MPI/GPU evidence; limited cross-architecture validation.

@@ -1,0 +1,7 @@
+document_id,First author,Year,Region,Cases,Expression,Method,Treatment,Outcome,Analysis,HR estimation,Follow-up time
+doi:10.1016/j.biopha.2015.10.018,Shen H [ 13 ],2016,China,51,Protein,IHC,Surgery/ EGFR-TKI,OS,Univariate,Survival curves,The max follow-up time was 66.2 months
+doi:10.1007/s13277-015-3416-0,Wang J [ 14 ],2015,China,92,Protein,IHC,Surgery,OS,Univariate,Survival curves,"Median 28 months (range, 3 to 98 month)"
+PMC4330385,Tang YA [ 15 ],2015,Taiwan,133,Protein,IHC,Surgery,OS,Univariate,Survival curves,The max follow-up time was 126.8 months
+PMC4250962,Ji Y [ 19 ],2014,China,67,Protein,IHC,Surgery,OS,Multivariate,Reported data,The max follow-up time was 40 months
+PMC4110008,Shen H [ 20 ],2014,China,46,Protein,IHC,Surgery/ EGFR-TKI,OS,Univariate,Survival curves,The max follow-up time was 66 months
+PMC3460290,An SJ [ 23 ],2012,China,97,Protein,IHC,Surgery,OS,Univariate,Survival curves,Median 53.9 months

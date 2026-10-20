@@ -1,0 +1,24 @@
+document_id,Paper,Venue,Platform+UI,Core mechanism,Reported efficiency signal,Unreported / shifted cost,Code
+arxiv:2407.13032,Textual Observation Reduction Agent-E,arXiv'24,Web/DOM,DOM filtering,150--220 s/task; about 25 LLM calls/task; raw DOM up to 800k tokens.,Filtered-token saving and DOM-filter latency are NR.,https://github.com/EmergenceAI/Agent-E
+arxiv:2508.04412,Beyond Pixels,arXiv'25,Web/DOM,DOM compression,Compressed DOM snapshots stay around the 10^3 token order.,DOM downsampling runtime is NR.,
+arxiv:2507.00210,LineRetriever,arXiv'25,Web/AxTree,line retrieval,Observation reduced by 61%/72%/73%; retrieves up to 10 chunks of 100 tokens.,Retriever latency and extra model cost are NR.,
+arxiv:2510.03204,FocusAgent,arXiv'25,Web/AxTree,AxTree filtering,">50% average reduction, often >80%; caps context at 2k tokens.",Full wall-clock retrieval overhead is NR.,
+arxiv:2511.21398,Prune4Web,arXiv'25,Web/DOM,DOM/action pruning,DOMs: 10k--100k tokens; example shrinks >500 elements to <20.,Filter-program generation/runtime is NR.,
+arxiv:2604.01535,"Read More, Think More",arXiv'26,Web/HTML+Ax,adaptive view,WorkArena HTML pages: 40k--500k tokens; look-back settings: 4/9 steps.,Adaptive-view saving and latency are NR.,
+arxiv:2404.05719,Ferret-UI,arXiv'24,Mobile/screen,screen crops,Any-resolution processing splits each screen into 2 sub-images.,Crop encoding and inference overhead are NR.,
+doi:10.18653/v1/2025.findings-acl.501,R-VLM,ACL F.'25,GUI/screen,region proposals,Reports about 5.6 s/sample and up to 2 inference-latency cost.,Region proposal shifts cost to extra inference.,
+arxiv:2505.00684,RegionFocus,arXiv'25,GUI/screen,zoom search,Average trajectory overhead 66.8%; step count increases by 19.74%.,Zoom-search latency is only partially reported.,
+arxiv:2411.17465,ShowUI,CVPR'25,GUI/screen,token pruning,Removes 33% redundant visual tokens; reports 1.4 training speedup.,End-to-end agent latency is NR.,https://github.com/showlab/ShowUI
+arxiv:2504.07981,ScreenSpot-Pro,arXiv'25,GUI/high-res,cascaded search,Benchmark screens often exceed 3k 2k resolution.,Benchmark only; runtime metric is NR.,
+arxiv:2507.03730,SimpAgent,ICCV'25,GUI/screen+hist,screen masking,History image: 64 tokens; action output: 10--20 tokens; LLM branch: 27% FLOP reduction.,Simplifier overhead and full-task latency are NR.,
+arxiv:2310.11441,Observation Enrichment via Parsing and Hybridization Set-of-Mark,arXiv'23,GUI/screen,region marks,"NR; no comparable token, latency, or memory metric.",Mark rendering cost is NR.,
+arxiv:2402.04615,ScreenAI,arXiv'24,GUI/screen-text,screen captioning,Reports 670M/2B/5B model scales and up to 812^2 input resolution.,GUI-agent latency or token saving is NR.,
+arxiv:2408.00203,OmniParser,arXiv'24,GUI/parser,screen parsing,Adds 2 parser models; one setting keeps top-50 relevant elements.,Parser latency and extra calls are NR.,https://github.com/microsoft/OmniParser
+arxiv:2406.19263,Tree-of-Lens,arXiv'24,GUI/pointed,layout tree,"NR; no reported token, latency, or parser-cost saving.",Detector/layout-tree runtime is NR.,https://github.com/eric-ai-lab/Screen-Point-and-Read
+arxiv:2506.03143,GUI-Actor,NeurIPS'25,GUI/screen,region actions,Action head adds about 20M params for 2B and 100M for 7B; candidates in one forward pass.,Wall-clock latency is NR.,https://github.com/microsoft/GUI-Actor
+arxiv:2410.08164,Agent-S,arXiv'24,OS/img+AX,hybrid perception,NR; no observation-side cost metric.,Step count and wall-clock overhead are NR.,https://github.com/simular-ai/Agent-S
+arxiv:2410.18967,Ferret-UI 2,arXiv'24,Cross-platform,adaptive scaling,NR; no runtime or token-efficiency metric.,Adaptive-scaling overhead is NR.,
+arxiv:2410.05243,UGround,ICLR'25,GUI/screen,visual grounding,Adaptive resolution uses about 2/3 of fixed 1344 1344 visual tokens.,End-to-end agent latency is NR.,https://github.com/OSU-NLP-Group/UGround
+doi:10.18653/v1/2025.findings-acl.1152,Aria-UI,ACL F.'25,GUI/screen,instruction grounding,3.9B activated params; phase-1 training: about 18 h/10k steps.,Exact inference latency is NR.,
+arxiv:2412.04454,Aguvis,arXiv'24,GUI/screen,pure-vision loop,"Text agents: 4k--6k tokens/step; pure-vision loop: 1,196 tokens; 70% input-token reduction.",Vision-encoder latency is NR.,https://github.com/xlang-ai/aguvis
+arxiv:2501.12326,UI-TARS,arXiv'25,GUI/screen,native screen agent,Model scales: 2B/7B/72B; training budget about 50B tokens; OSWorld budgets: 15/50 steps.,Training cost and inference latency are NR.,https://github.com/bytedance/UI-TARS

@@ -1,0 +1,58 @@
+document_id,Paradigm,Work,Description,Model,Year ( )
+arxiv:2105.03023,Contrastive\,DExpert,Detoxification with contrastive decoding,PLM,2021
+arxiv:2305.14739,,CAD,Context-aware Decoding,LLM,2023
+arxiv:2311.08981,,SCD,Speculative contrastive decoding,LLM,2023
+arxiv:2309.03883,,DoLa,Decoding by contrasting layers,LLM,2023
+arxiv:2311.16922,,VCD,Visual contrastive decoding,LVLM,2024
+arxiv:2402.11889,,ROSE,Reverse prompt contrastive decoding,LLM,2024
+arxiv:2405.02750,,Zhao et al.,Multi-input contrastive decoding,LLM,2024
+arxiv:2406.17519,,CLeHe,Entropy-based contrastive decoding,LLM,2024
+arxiv:2408.01084,,ACD,Adaptive contrastive decoding,LLM,2024
+arxiv:2405.14507,,SCMoE,Self-contrast Mixture-of-Experts,LLM,2024
+arxiv:2404.09338,,Das et al.,Entropy guided extrapolative decoding,LLM,2024
+arxiv:2403.18715,,ICD,Instruction contrastive decoding,LVLM,2024
+arxiv:2402.18476,,IBD,Image-biased decoding,LVLM,2024
+arxiv:2408.05337,,VACoDe,Visual augmented contrastive decoding,LVLM,2024
+arxiv:2411.15839,,VaLiD,Visual Layer Fusion contrastive decoding,LVLM,2024
+arxiv:1912.02164,Guided\,PPLM,Attribute model guidance,PLM,2020
+arxiv:2010.12884,,Neurologic,Constrained decoding,PLM,2020
+arxiv:2104.05218,,FUDGE,Future discriminator guidance,PLM,2021
+arxiv:2112.08726,,NeurologicA^,Lookahead heuristics guidance,PLM,2021
+arxiv:2212.10938,,CriticControl,Critic-guided decoding,PLM,2022
+arxiv:2205.12910,,NaturalProver,Stepwise constrained decoding,PLM,2022
+doi:10.18653/v1/2023.acl-long.11,,MIL-Decoding,Multiple instance learning guidance,PLM,2023
+arxiv:2310.09520,,RAD,Reward augmented decoding,LLM,2023
+arxiv:2309.15028,,PPO-MCTS,Value-guided Monte-Carlo tree search,LLM,2023
+arxiv:2303.05510,,PG-TD,Planning-guided decoding,LLM,2023
+arxiv:2305.00633,,Xie et al.,Self-evaluation guided beam search,LLM,2023
+arxiv:2401.17686,,DBS,Decoding deducible rationale for CoT,LLM,2024
+arxiv:2406.14164,,DMMCS,Data-driven guided decoding,LVLM,2024
+arxiv:2410.13321,,SGD,Summary-Guided decoding,LVLM,2024
+arxiv:2408.02032,,SID,Self-Introspective decoding,LVLM,2024
+arxiv:2309.17179,,TS-LLM,AlphaZero-like tree-search,LLM,2024
+arxiv:2412.06474,,Dropout,Dropout decoding,LVLM,2024
+arxiv:2402.08983,,SafeDecoding,Expert model guidance,LLM,2024
+arxiv:2403.06988,,DOMINO,Minimally-Invasive constrained decoding,LLM,2024
+arxiv:2402.15300,,CGD,Clip-guided decoding,LVLM,2024
+arxiv:2303.00855,,DFD,Dynamic Focus Decoding,LLM,2025
+arxiv:2503.08342,,AttnReal,Attention reallocation,LVLM,2025
+arxiv:1811.03115,Parallel\,Blockwise,Blockwise parallel decoding,PLM,2018
+arxiv:2106.04970,,SAD,Shallow aggressive decoding,PLM,2021
+doi:10.18653/v1/2023.findings-emnlp.257,,SpecDec,Speculative decoding for seq2seq generation,PLM,2023
+arxiv:2305.10427,,Santilli et al.,Hybrid GS-Jacobi decoding,PLM,2023
+arxiv:2309.08168,,Self-speculative,Self-speculative decoding,LLM,2023
+arxiv:2211.17192,,Speculative,Speculative sampling,LLM,2023
+arxiv:2302.01318,,Speculative,Speculative sampling with distributed serving,LLM,2023
+arxiv:2310.08461,,DistillSpec,Speculative via knowledge distillation,LLM,2023
+arxiv:2305.09781,,SpecInfer,Tree-based speculative verification,LLM,2023
+arxiv:2310.07177,,Online Speculative,Online Speculative,LLM,2023
+arxiv:2407.08223,,Speculative RAG,Speculative RAG,LLM,2024
+arxiv:2402.02057,,Lookahead,Lookahead decoding,LLM,2024
+arxiv:2401.10774,,Medusa,Multiple decoding heads,LLM,2024
+arxiv:2401.15077,,Eagle,Extrapolative speculative sampling,LLM,2024
+arxiv:2404.08856,,Gagrani et al.,Multimodal speculative,LVLM,2024
+arxiv:2410.03355,,Lantern,Latent neighbor token acceptance relaxation,LVLM,2024
+arxiv:2410.01699,,SJD,Speculative Jacobi decoding,LVLM,2024
+arxiv:2405.18400,,SPD,Superposed decoding,LLM,2024
+arxiv:2410.06916,,Swift,On-the-fly Self-speculative decoding,LLM,2024
+arxiv:2503.06433,,Seesaw,Dynamic Model Resharding,LLM,2025

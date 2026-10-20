@@ -1,0 +1,6 @@
+document_id,Method,Encoder,Base model,Clustering,\# iters.,LF/LC,VoxCeleb1-O,VoxCeleb1-E,VoxCeleb1-H
+arxiv:2010.12731,DKU-DukeECE (VoxSRC-20),Fast ResNet-34,SimCLR,K-M (6k),2,yes,5.42,6.22,9.60
+arxiv:2010.12468,IDLAB (VoxSRC-20),ECAPA-TDNN,MoCo,K-M (50k); AHC (7.5k),7,no,2.10,,
+arxiv:2109.13425,JHU (VoxSRC-21),Res2Net-50,DINO,K-M (50k); AHC (7.5k),4,no,1.89,,
+arxiv:2109.02853,DKU-DukeECE* (VoxSRC-21),Fast ResNet-34,SimCLR,K-M (6k),4,yes,1.81,2.06,3.80
+doi:10.21437/interspeech.2024-486,DINO-WavLM,WavLM base+,DINO,K-M (50k); AHC (7.5k),3,yes,0.99,1.21,2.35

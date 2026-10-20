@@ -1,0 +1,7 @@
+document_id,Trial,Number of patients,Inclusion criteria,Treatment,Mortality data
+doi:10.1007/s11655-011-0630-5,Wan [ 31 ],81,SIRS,D iv 1 mg/kg 3 times/day for 3 days,30 days
+PMC11060357,Cicarelli [ 32 ],29,SIRS with or without sepsis,D 0.2 mg/kg (in a single dose),7 days
+PMC11020550,Cicarelli [ 51 ],29,Septic shock,D 0.2 mg/kg given three times at intervals of 36 h,7 and 28 days
+doi:10.1007/s00134-007-0868-8,Kaufmann [ 54 ],30,Septic shock,HC bolus of 100 mg followed by a continuous infusion of 10 mg/h for 24 h,Not reported
+PMC125315,Yildiz [ 61 ],40,Sepsis,P iv at 06.00 (5 mg) and 18.00 (2.5 mg) for 10 days,28 days
+PMC3430057,Yildiz [ 62 ],55,Sepsis,"P iv 3 times a day at 06.00 (10 mg), 14.00 (5 mg), and 22.00 (5 mg) for 10 days",28 days

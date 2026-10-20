@@ -1,0 +1,7 @@
+document_id,Corpus,Lang,Song,Singer,Dur. (hour),Score,Align,Style
+arxiv:2006.02959,PJS,1,100(sentences),1,0.5,Both,,
+doi:10.1250/ast.42.140,Tohoku Kiritan,1,50,1,3.5,Score,,
+doi:10.1609/aaai.v36i10.21350,PopCS,1,117,1,5.9,,,
+doi:10.18653/v1/2022.acl-long.549,PopBuTFy,2,542,34,50.8,,,
+arxiv:2401.17619,ACE-Opencpop,1,100,30,4.3,MIDI,,
+arxiv:2401.17619,ACE-KiSing,2,23,34,1.0,MIDI,,

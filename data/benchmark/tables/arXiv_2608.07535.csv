@@ -1,0 +1,18 @@
+document_id,Category,Sub-category,Paper,Safety Constraints - Cap. 1,Cap. 2,Cap. 3,Year & Venue
+arxiv:2402.12336,Safety \\ Fine-Tuning,Modality-Wise \\ Fine-Tuning,Robust CLIP,,,yes,ICML'24
+arxiv:2402.02207,,,VLGuard,yes,yes,,ICML'24
+doi:10.18653/v1/2024.naacl-long.70,,,Mmc,yes,yes,,NAACL'24
+arxiv:2504.01308,,,Robust-VLGuard,,yes,,ICCV'25
+arxiv:2505.16916,,,BYE,yes,yes,,NeurIPS'25
+arxiv:2411.01703,,,UNIGUARD,yes,,,arXiv'25
+arxiv:2503.04833,,,ProEAT,yes,yes,,arXiv'25
+doi:10.18653/v1/2025.findings-emnlp.735,,,Adversary-aware DPO,yes,yes,yes,EMNLP'25 Findings
+arxiv:2312.10665,,AI Feedback,Silkie,yes,yes,,arXiv'23
+doi:10.18653/v1/2025.findings-acl.478,,,MHALO,yes,yes,,ACL'25 Findings
+arxiv:2403.09513,Training-Free \\ Solutions,Input-level \\ Safeguard,AdaShield,yes,yes,,ECCV'24
+arxiv:2410.20971,,,BlueSuffix,yes,yes,,ICLR'25
+arxiv:2411.08410,,,LLM-Pipeline,,yes,,NeurIPS'25
+doi:10.18653/v1/2024.emnlp-main.585,,Internal-level \\ Intervention,InferAligner,,yes,yes,EMNLP'24
+arxiv:2410.06625,,,ETA,,yes,yes,ICLR'25
+doi:10.18653/v1/2024.findings-emnlp.803,,,CIDER,,yes,yes,EMNLP'25 Findings
+arxiv:2401.02906,,Output-level \\ Control,MLLM-Protector,yes,yes,,EMNLP'24

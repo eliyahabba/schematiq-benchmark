@@ -1,0 +1,7 @@
+document_id,Source,Group size/age - IG,Group size/age - CG,Intervention description - IG,Intervention description - CG,Population,Intervention environment,Treatment frequency (sessions),Session duration (min),Outcomes
+PMC3212418,Timothy CY Kwok 2011 ( 20 ),14 85.79 ± 4.93,17 85.76 ± 6.93,Visual Art Therapy,usual care,MCI,Nursing Homes,40,30,MMSE
+PMC5098772,ShuYu Tai 2016 ( 21 ),14 70.21 ± 7.90,10 76.3 ± 7.07,Combined Art Therapy,maintaining daily activities,Mild AD,Community,12,180,MMSE
+PMC6899401,Eliana C. Ciasca 2018 ( 22 ),31 66.1 ± 5.7,25 69.8 ± 6.4,Visual Art Therapy,usual care,depression,Hospital,20,90,MMSE
+PMC6063252,Junyu Zhao 2018 ( 23 ),48 70.6 ± 6.9,45 69.5 ± 6.7,Combined Art Therapy,standard cognitive rehabilitation,MCI,Hospital,25,55-65,MoCA CVADL
+PMC12046668,Chenshan Huang 2025 ( 27 ),40 87.5 ± 1.4,40 85 ± 2.36,Visual Art Therapy,usual care,MCI,Nursing Homes,28,60,MoCA ADL VFT BNT
+PMC11956415,Yuanjiao Yan 2025 ( 29 ),34 70.8 ± 6.2,36 70.2 ± 5.4,Combined Art Therapy,usual care,Mixed,Community,24,90,MMSE MoCA VFT BNT

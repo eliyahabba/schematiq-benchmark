@@ -1,0 +1,8 @@
+document_id,FRB,Period,Type,"Method Periodicity search methods: Lomb-Scargle periodogram (LSP), Phase-folding algorithm (PFA), Phase-folding probability binomial analysis (PBA), Autocorrelation function (ACF), Time-differencing algorithm (TDA), Fast Fourier transform (FFT), H-test and Rayleigh test",Reference
+doi:10.1038/s41586-020-2398-2,20180916B,16.35 0.15 days,Burst arrivals,"PFA, H-test",CHIMEFRB:2020bcn
+doi:10.1093/mnras/staa1237,20121102A,159.3 0.8 days,Burst arrivals,LSP,Rajwade:2020uat
+doi:10.3847/1538-4357/ad4294,20121102A,4.605 days,Burst arrivals,PBA,Li:2024ckk
+arxiv:2502.11215,20240209A,126 days,Burst arrivals,"ACF, LSP",Pal:2025qxc
+doi:10.1007/s11433-025-2866-2,20240114A,multi-timescale,Burst arrivals,"TDA, LSP, ACF",Zhou:2025acx
+doi:10.1038/s41586-022-04841-8,20191221A,216.8 ms (6.5 ),Substructure,"FFT, Rayleigh test",CHIMEFRB:2021fvq
+arxiv:2412.11347,20230708A,7.267 ms (1.77 ),Substructure,ACF,Dial:2024ljo

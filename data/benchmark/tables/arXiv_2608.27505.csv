@@ -1,0 +1,19 @@
+document_id,Method,Domain,Prior P( R),Posterior P( R|x),Aggregation,Training / Optim.
+arxiv:2507.17746,RaR,Text,Implicit,Deterministic point,Weighted sum / Implicit,GRPO
+arxiv:2602.01511,Rubric-ARM,Text,Learned,Variational,Learned,PPO
+arxiv:2605.03871,EvoLM,Text,Implicit,Variational (temporal),Discriminative,GRPO
+arxiv:2602.10885,RLCER,Reasoning,Implicit,Process-conditional,Process-level,Extended from PPO
+arxiv:2212.08073,Constitutional AI,Text,Fixed principles,Point mass at prior,Principle ensembling,PPO
+doi:10.18653/v1/2025.findings-emnlp.1123,QA-LIGN,Text,Fixed principles,QA decomposition,Decomposed,GRPO
+arxiv:2305.20050,PRM,Math/Code,Correctness,Implicit,Step product,RM training
+arxiv:2507.18624,RLCF,Text,Implicit,Instance checklist,Weighted sum,DPO
+doi:10.18653/v1/2026.acl-long.791,OpenRubrics,Text,CRG,Contrastive,Multi-dimensional,RM training
+arxiv:2602.05125,RRD,Text,Coarse rubrics,Refined criteria,Corr.-aware weights,RM training
+arxiv:2602.14069,OpenRS,Text,Principles,Pairwise adaptive,Criterion prefs.,GRPO
+arxiv:2602.16165,HiPER,Agent,Hierarchical,Plan-Execute,HAE,PPO
+arxiv:2605.10899,RubricEM,Agent,Stagewise,Stagewise,Stagewise,Extended from GRPO
+arxiv:2603.21362,AdaRubric,Agent,Task desc.,Task-adaptive,Conf.-weighted,DPO
+arxiv:2605.08354,ARR,VLM,Implicit,Generated,Explicit,GRPO
+arxiv:2605.09269,DeltaRubric,VLM,Implicit,Plan-checklist,Verification,GRPO
+arxiv:2604.13029,rDPO,VLM,Implicit,Instance-specific,Extended from DPO,
+arxiv:2604.25719,Step-Audio-R1.5,Audio,Implicit,Acoustic criteria,Preference RM,GRPO

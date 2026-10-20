@@ -1,0 +1,29 @@
+document_id,Family,Work,Primary intervention,Evidence emphasis
+arxiv:2409.03137,Temporal,AdEMAMix,Fast and slow gradient EMAs,"Scaled, method-specific"
+arxiv:2411.10438,Temporal,MARS,Recursive variance-reduced momentum,Controlled and scaled
+arxiv:2411.16085,Temporal,Cautious,Gradient--momentum agreement mask,Broad empirical
+doi:10.52202/079017-2309,Temporal,ADOPT,Decouples current gradient from current denominator,Theory plus empirical
+arxiv:2605.29547,Robustness / low precision,S-Adam,Randomized probes and instability-dependent damping,Theory plus emerging empirical
+arxiv:2507.11005,Hybrid matrix,AdaMuon,Second moments after orthogonalization,Emerging
+arxiv:2510.05491,Hybrid matrix,NorMuon,Rowwise variance normalization after polar step,"Scaled, method-specific"
+arxiv:2603.09697,Hybrid matrix,Mousse,Kronecker whitening before polar step,Emerging
+arxiv:2603.28254,Hybrid matrix,MuonEq,Row/column equilibration before polar step,Emerging
+arxiv:2605.10797,Hybrid matrix,Muown,Explicit row-norm control,Emerging
+arxiv:2606.23637,Hybrid matrix,AngularMuown,Explicit control of angular step size,Emerging
+arxiv:2503.01843,Memory,SlimAdam,SNR-guided aggregation of second moments,Controlled
+arxiv:2412.05270,Memory,APOLLO,Random low-rank auxiliary state,Scaled
+arxiv:2410.16103,Memory,LDAdam,Projected moments with state transport,Controlled
+arxiv:2504.20437,Memory,GaLore2,Scalable low-rank gradient projection,Scaled
+arxiv:2502.07752,Memory,Alice/RACS,Low-rank eigen-Adam / row-column-scaled SGD,Controlled and scaled
+arxiv:2412.13148,Memory,SWAN,Stateless instantaneous normalization/whitening,Scaled
+arxiv:2410.05192,Horizon,WSD,Indefinite stable trunk plus decay branch,Controlled and scaled
+arxiv:2408.13359,Horizon,Power Scheduler,Token- and batch-aware learning-rate scaling law,Controlled and scaled
+arxiv:2507.17634,Horizon,WSM,Checkpoint merging as implicit decay,Controlled
+arxiv:2605.23061,Horizon,SF-NorMuon,Schedule-free neuron-normalized spectral update,Emerging
+arxiv:2410.19313,Low precision,COAT,FP8 state and activations,Scaled
+arxiv:2505.00347,Low precision,SOLO,2--3 bit log-quantized states,Controlled and scaled
+arxiv:2509.23106,Low precision,8-bit Muon,Blockwise momentum quantization,"Scaled, method-specific"
+arxiv:2601.22101,Low precision,ECO,No master weights; quantization error feedback,Emerging
+arxiv:2603.16731,Low precision,State staleness,Analysis and resets for recursively quantized EMAs,Emerging
+arxiv:2604.06836,Low precision,STQuant,Layer- and time-dependent optimizer-state precision,Emerging
+arxiv:2506.19697,Quantization-aware pretraining,OSP,Optimizer and parameterization choices that suppress activation outliers,"Scaled, method-specific"

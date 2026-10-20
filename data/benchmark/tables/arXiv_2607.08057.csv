@@ -1,0 +1,14 @@
+document_id,Method,Mode,Eviction policy,Budget policy
+arxiv:2402.06262,RoCo,Dynamic,Mean & std. dev. of attention scores,Uniform
+arxiv:2310.01801,FastGen,Static,Hybrid (special/punctuation/locality/H_2),Uniform
+arxiv:2309.17453,StreamingLLM,Dynamic,\,Uniform
+arxiv:2403.09054,Keyformer,Dynamic,\ + Key (via Gumbel-softmax scores),Uniform
+arxiv:2406.02069,PyramidKV,Static,Observation window-based identification,"Preset (L, pyramid)"
+doi:10.18653/v1/2024.acl-long.428,NACL,Dynamic,Attention w.r.t. proxy tokens & randomness,Uniform
+arxiv:2410.23079,BUZZ,Dynamic,\ \ + Segmented local H_2,Uniform
+doi:10.18653/v1/2024.emnlp-main.1178,VATP,Dynamic,\ + Attention & value L_1-norm,Uniform
+arxiv:2412.12094,SepLLM,Dynamic,\ \ + Separator tokens,Uniform
+arxiv:2507.14204,LaCache,Dynamic,Ladder pattern based,"Preset (L, ladder)"
+arxiv:2509.05165,KVCompose,Dynamic,Aggregated attention & form composite token,"Adaptive (L, composite importance)"
+doi:10.18653/v1/2025.findings-emnlp.426,DynamicKV,Static,\ + Attention w.r.t. instruction tokens,"Adaptive (L, task-aware)"
+arxiv:2407.11550,Ada-KV,Dynamic,Plug-in (adopt existing eviction methods),"Adaptive (H, attention sparsity)"

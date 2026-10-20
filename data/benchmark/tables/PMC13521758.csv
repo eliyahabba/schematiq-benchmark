@@ -1,0 +1,21 @@
+document_id,Author,Study period,Region,Study design,Cancer type,ICI treatment,Timing of detection,No. of patients,Gender (male/female),Median follow-up (months),Mean/median Age,TNM stage,PIV cut-off,Outcomes
+PMC11491092,"Wang, F. 2024 ( 38 )",2018-2023,Multicenter,Retrospective cohort,Biliary Tract Cancer(BTC),Anti-PD-(L)1 antibodies,Pre-treatment,118,73/45,NA,55.00,NA,209.27,OS
+PMC12082983,"Li, Y.Q. 2025a ( 30 )",2017-2023,China,Retrospective cohort,Non-Small Cell Lung Cancer(NSCLC),ICIs,within 7 days before treatment,102,82/20,13.80,61.60,III-IV,341.62,PFS
+PMC12082983,"Li, Y.Q. 2025b",2017-2023,China,Retrospective cohort,Non-Small Cell Lung Cancer(NSCLC),ICIs,within 7 days before the 3rd treatment cycle,102,82/20,13.80,61.60,III-IV,329.49,PFS
+PMC12082983,"Li, Y.Q. 2025c",2017-2023,China,Retrospective cohort,Non-Small Cell Lung Cancer(NSCLC),ICIs,within 7 days before the 5th treatment cycle,102,82/20,13.80,61.60,III-IV,238.49,PFS
+doi:10.14744/ejmo.2024.67906,"Su, Z. 2024 ( 36 )",2018-2022,China,Retrospective cohort,Recurrent or Metastatic Head and Neck Cancer(R/M HNC),ICIs,Pre-treatment,57,50/7,12.00,56.00,NA,940.27,"OS, PFS"
+PMC10044937,"Mesti, T. 2023a ( 18 )",2018-2020,Slovenia,Retrospective cohort,Metastatic Melanoma,ICIs,Pre-treatment,129,84/53,22.50,66.20,NA,390.00,"OS, PFS"
+PMC10044937,"Mesti, T. 2023b ( 18 )",2018-2020,Slovenia,Retrospective cohort,Metastatic Melanoma,ICIs,before the second cycle of ICI,129,84/53,22.50,66.20,NA,390.00,"OS, PFS"
+PMC11596302,"Ulas, A. 2024 ( 37 )",2019-2024,Turkey,Retrospective cohort,Advanced Non-Small Cell Lung Cancer(aNSCLC),nivolumab,Pre-treatment,104,94/10,22.00,62.00,IIIB/IV,682.90,"OS, PFS"
+PMC11227331,"Ma, S.X. 2024 ( 32 )",2019-2022,China,Retrospective cohort,Advanced Non-Small Cell Lung Cancer(aNSCLC),Anti-PD-(L)1 antibodies,Pre-treatment,161,127/34,NA,65 ± 8.7,IIIB/IV,250.51,OS
+PMC10557237,"Chen, Y.Q. 2023 ( 14 )",2019-2022,China,Retrospective cohort,Advanced Non-Small Cell Lung Cancer(aNSCLC),pembrolizumab or nivolumab,Pre-treatment,269,232/37,NA,67.00,III-IV,387.00,"OS, PFS"
+PMC12548070,"Cheng, X.Y. 2025a ( 24 )",2019-2021,Multicenter,Retrospective cohort,Esophageal Squamous Cell Carcinoma(ESCC),Anti-PD-(L)1 antibodies,During the course of treatment,86,66/20,40.40,58.00,I-IV,813.10,PFS
+PMC12548070,"Cheng, X.Y. 2025b",2019-2021,Multicenter,Retrospective cohort,Esophageal Squamous Cell Carcinoma(ESCC),Anti-PD-(L)1 antibodies,Pre-treatment,86,66/20,40.40,58.00,I-IV,316.70,PFS
+PMC12548070,"Cheng, X.Y. 2025c",2019-2021,Multicenter,Retrospective cohort,Esophageal Squamous Cell Carcinoma(ESCC),Anti-PD-(L)1 antibodies,Post-treatment,86,66/20,40.40,58.00,I-IV,259.90,PFS
+PMC8586214,"Zeng, R. 2021a ( 41 )",2015-2021,China,Retrospective cohort,Small Cell Lung Cancer(SCLC),Atezolizumab,Pre-treatment,53,34/19,NA,65.00,NA,581.95,"OS, PFS"
+PMC8586214,"Zeng, R. 2021b",2015-2021,China,Retrospective cohort,Small Cell Lung Cancer(SCLC),Anti-PD-(L)1 antibodies,Pre-treatment,84,75/9,NA,65.00,NA,581.95,"OS, PFS"
+PMC11289435,"Lei, W.Q. 2024 ( 29 )",2019-2023,China,Retrospective cohort,Advanced Non-Small Cell Lung Cancer(aNSCLC),ICIs,Pre-treatment,108,83/25,NA,60.00,VI,297.49,PFS
+PMC10260499,"Qi, W.X. 2023 ( 34 )",2019-2022,Multicenter,Prospective cohort,Esophageal Squamous Cell Carcinoma(ESCC),pembrolizumab,Pre-treatment,51,44/7,20.00,62.00,II-IVA,232.83,PFS
+PMC11719015,"Midik, M.M. 2025 ( 33 )",2012-2023,Turkey,Retrospective cohort,cancer,ICIs,Pre-treatment,226,143/83,55.60,56.50,II-IV,1312.00,"OS, PFS"
+PMC12335471,"Gao, Z. 2025 ( 27 )",2020-2024,Multicenter,Retrospective cohort,Metastatic Colorectal Cancer(mCRC),bevacizumab and anti-PD-1 immunotherapy,Pre-treatment,29,21/8,13.30,60.00,IV,NA,PFS
+PMC12793062,"Yang, S. 2025 ( 39 )",2019-2024,China,Retrospective cohort,Advanced Non-Small Cell Lung Cancer(aNSCLC),ICIs,Pre-treatment,298,273/25,42.11,64.00,IIIB–IVB,208.00,OS

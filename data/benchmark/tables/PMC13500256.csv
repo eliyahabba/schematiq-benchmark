@@ -1,0 +1,6 @@
+document_id,Study,Year,Types of PRK,Country,Sample size,Types of drugs,Intervening measure(T/C),Time,Outcomes
+doi:10.1007/bf02849978,Eric D. Donnenfeld ( 22 ),2007,Bilateral mPRK,USA,38,NSAIDs,Nepafenac0.1%/ Ketorolac0.4%,3/d for 3 days,"VAS, AE"
+doi:10.1007/bf02877774,Daniel S. Durrie ( 23 ),2007,aaPRK,USA,30/16/12,NSAIDs,Nepafenac0.1%/ Ketorolac0.4%/ Bromfenac0.09%,3/d,VAS
+PMC3399291,Hassan Razmju ( 29 ),2012,Bilateral aaPRK,Iran,47/36,NSAIDs,Diclofenac0.1%/ Ketorolac0.5%/ Placebo,2d,VAS
+PMC7266408,Madeline Ripa ( 37 ),2020,aaPRK,USA,68/67,NSAIDs,Ketorolac0.4%/ Naproxen0.22%,2/d,VAS
+doi:10.35975/apic.v25i3.1527,Sanwal Javaid ( 38 ),2021,aaPRK,Pakistan,20/20,Opioid,Ketorolac0.4%/ Naproxen0.22%,2/d,VAS

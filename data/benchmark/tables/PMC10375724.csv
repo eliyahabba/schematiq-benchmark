@@ -1,0 +1,6 @@
+document_id,Study,Year,Country,Design,Stent type,Restenosis,ISR symptoms,Total,Follow-up (mo),Dual antiplatelet (mo),Significant factors
+PMC4598959,Feng et al. ( 31 ),2015,China,single arm,Enterprise,3,0,44,25.6,1.5,NR
+PMC6169608,Ma et al. ( 34 ),2018,China,single arm,BMS and SES,21,NR,76,12.5,3,Irregular medication intake
+PMC7871004,Guo et al. ( 35 ),2021,China,cohort,BMS and SES,24,4,97,12.7,3,"Stent length, hs-CRP, general anesthesia, stent type"
+PMC8131349,Zhang et al. ( 37 ),2021,China,cohort,Enterprise,62,NR,359,5.7,6,"Residual stenosis, calcification, inflation pressure, nTICI"
+PMC8329296,Haidegger et al. ( 38 ),2021,Austria,single arm,Wingspan,38,7,115,11,3,Recurrent ischemic stroke

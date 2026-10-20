@@ -1,0 +1,21 @@
+document_id,"Study (first author, year, country",Total sample size,Effect estimate with 95% CI,ROB-E,Neuropathy type,Diabetes type *,Smoking status,Table 2: Effective sample size
+PMC8628037,"Abdissa et al. 2021, Ethiopia [ 30 ]",217,"430. (1.70, 10.30)",Low,Peripheral neuropathy,T1DM,Current vs. never,192
+doi:10.5603/dk.2020.0004,"Akkuzulu et al. 2020, Turkey [ 32 ]",210,"2.63 (1.39, 4.98)",Some,Peripheral neuropathy,T2DM,Current vs. never,
+PMC6303088,"AlOlaiwi et al. 2018, Saudi Arabia [ 9 ]",400,"2.27 (1.07, 4.81)",High,Cardiac autonomic neuropathy,T2DM,Smokers vs. non-smokers,
+PMC8747623,"Le et al. 2022, Vietnam [ 34 ]",473,"1.64 (1.03, 2.62)",Low,Peripheral neuropathy,T2DM,Smokers vs. non-smokers,
+PMC5566278,"Jaiswal et al. 2017, USA [ 35 ]",1992,"3.13 (2.13, 4.62)",Very high,Peripheral neuropathy,Both,Current vs. never,1641
+PMC8261778,"Mathiyalagen et al. 2021, India [ 39 ]",421,"1.96 (1.2, 3.18)",Low,Peripheral neuropathy,T2DM,Smokers vs. non-smokers,
+PMC6112121,"Motataianu et al. 2018, Romania [ 42 ]",195,"1.78 (1, 3.16)",Low,Cardiac autonomic neuropathy,Both,Current vs. never,
+PMC6825939,"Ponirakis et al. 2019, Qatar [ 44 ]",1095,"0.92 (0.63, 1.34)",Low,Peripheral neuropathy,T2DM,Smokers vs. non-smokers,
+doi:10.53350/pjmhs22161330,"Sahito et al. 2022, Pakistan [ 45 ]",1057,"5.88 (4.11, 8.43)",Some,Peripheral neuropathy,T2DM,Ever vs. never,
+PMC2883349,"Cho. 2010, Korea [ 49 ]",90,"2.86 (1.17, 6.98)",Low,Peripheral neuropathy,T2DM,Ever vs. never,
+PMC4568420,"D’Souza et al. 2015, India [ 53 ]",208,"6.8 (3.1, 14.7)",Some,Peripheral neuropathy,T2DM,Smokers vs. non-smokers,
+PMC7341394,"Abdissa et al. 2020, Ethiopia [ 54 ]",366,"6.96 (3.20, 14.87)",Some,Peripheral neuropathy,T2DM,Current vs. never,312
+PMC7078109,"Yokoyama et al. 2020, Japan [ 55 ]",9914,"0.94 (0.83, 1.07)",High,Peripheral neuropathy,T2DM,Current vs. never,6231
+PMC4153691,"Wang et al. 2014, Saudi Arabia [ 57 ]",551,"0.92 (0.54, 1.56)",Low,Peripheral neuropathy,Both,Ever vs. never,
+PMC3408375,"Katulanda et al. 2012, Sri Lanka [ 72 ]",528,"5.9 (1.4, 9.7)",Some,Peripheral neuropathy,T2DM,Current vs. never,
+PMC7017941,"Gylfadottir et al. 2020, Denmark [ 74 ]",5249,"1.36 (1.14, 1.63)",Low,Peripheral neuropathy,T2DM,Ever vs. never,
+PMC6077025,"Al-Mahroos F, Al-Roomi K. 2007, Bahrain [ 76 ]",1477,"1.24 (1.01, 1.31)",Low,Peripheral neuropathy,T2DM,Current vs. never,
+doi:10.1016/j.scitotenv.2022.159878,"Herder et al. 2023, Germany [ 77 ]",423,"1.11 (0.53, 2.35)",High,Peripheral neuropathy,T2DM,Current vs. never,391
+doi:10.1507/endocrj.51.563,"Boru et al. 2004, Turkey [ 78 ]",866,"1.3 (0.89, 1.91)",Low,Peripheral neuropathy,T2DM,Smokers vs. non-smokers,
+PMC11284303,"Cho et al. 2024, Korea [ 79 ]",2316,"1.38 (1.05, 1.81)",Low,Peripheral neuropathy,T2DM,Current vs. never,1286

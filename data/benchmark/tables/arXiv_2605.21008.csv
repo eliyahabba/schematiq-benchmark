@@ -1,0 +1,16 @@
+document_id,Benchmark,Domain,Audio Type,Eval Type,Size,\#Tasks,Year
+arxiv:2410.19168,MMAU,General Audio Reasoning,"Speech, Sound, Music",Closed,10K,27,2024
+arxiv:2508.13992,MMAU-Pro,General Audio Reasoning,"Speech, Sound, Music",Closed,0.5K,49,2025
+arxiv:2505.13032,MMAR,General Audio Reasoning,"Speech, Sound, Music",Closed,1K,16,2025
+doi:10.48550/arxiv.2506.04779,MMSU,Speech-focused Reasoning,Speech,Closed,5K,47,2025
+doi:10.18653/v1/2025.acl-long.818,VoxEval,Speech-focused Reasoning,Speech,Closed,14K,56,2025
+arxiv:2509.22461,CMDAR,Chinese Audio Reasoning,"Speech, Sound","Closed, Open",3K,5,2025
+arxiv:2505.15000,Spoken-MQA,Spoken Mathematical Reasoning,Speech,"Closed, Open",3K,5,2025
+arxiv:2506.21875,WildSpeech-Bench,End-to-end Interaction,Speech,Open,1.1K,5,2025
+arxiv:2502.17810,URO-Bench,End-to-end Interaction,Speech,"Closed, Open",5K,20,2025
+arxiv:2510.07978,VoiceAgentBench,Multi-turn Tool Use & Reasoning,Speech,Closed,6K,6,2025
+arxiv:2505.13237,SAKURA,Multi-hop audio reasoning,"Speech, Sound",Closed,4K,4,2025
+arxiv:2602.12135,WavBench,End-to-end Interaction,Speech,"Closed, Open",2K,5 (scenarios),2026
+arxiv:2603.13686,-Voice,End-to-end Interaction,Speech,Closed,0.3K,3 (domains),2026
+arxiv:2602.10656,AudioRAG,Audio Retrieval-based Reasoning,"Speech, Sound, Music",Closed,8K,3 (scenarios),2026
+arxiv:2604.04847,Full-Duplex-Bench-v3,Multi-turn Tool Use & Reasoning,Speech,Closed,0.1k,4,2026

@@ -1,0 +1,7 @@
+document_id,Paper,Year,Market,Method,Horizon,Look-back,Recal. freq.,Calibration window,Test set,Type,Metrics
+doi:10.1109/eem.2019.8916375,Dumas et al.\,2019,Belgium,Two-step approach,6 h,/,1 m,1 y,1 y,P,"NMAE, NRMSE, PLF, CRPS"
+doi:10.3390/en15103645,Browell and Gilbert,2022,GB,Kernel density estimation and linear regression,5 h,?,?,3 y 9 m,3 m,P,MAE
+doi:10.3390/en15144976,Narajewski,2022,Germany,"Lasso with bootstrap, gamlss, prob.\ NN",30 min,30 min,1 d,730 d,539 d,P,"CRPS, RMSE, MAE, %-cov"
+doi:10.1109/tpwrs.2022.3195970,Bottieau et al.\,2022,Belgium,Transformer,4 h,6 h,/,3 y,1 y,P,"PLF, CRPS, Winkler score, PINAW, PICP"
+doi:10.1016/j.egyai.2025.100571,O'Connor et al.\,2024,Ireland,"k-NN, lasso AR, random forest, gradient boosting",8 h,48 h,8 h,1 y,?,P,"PLF, interval width, coverage, Winkler"
+doi:10.1016/j.apenergy.2025.125944,Pavirani et al.\,2024,Belgium,C--VSN + MCTS,1--15 min,4 h,/,3 y,10 d,P,MAE

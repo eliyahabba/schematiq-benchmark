@@ -1,0 +1,10 @@
+document_id,Category,Method,Granularity,Core Technique,Task,Code
+doi:10.24963/ijcai.2021/203,,THINE,Con.,Chronological Meta-path Walk with Hawkes Process,NC/LP/TLP,Link
+doi:10.1145/3485189,,M-DHIN,Dis.,Meta-graph Sampling with LSTM,NC/LP/TLP,-
+doi:10.1109/tc.2021.3057082,,LIME,Dis.,Meta-path RW with Recursive NN,NC/Clust.,Link
+PMC7148053,,DyHAN,Dis.,Relation-specific GNN with Temporal Att.,TLP,-
+arxiv:2110.13889,,HTGNN,Dis.,Relation-specific GNN with Temporal Modeling,NR/TLP,Link
+arxiv:2506.17312,,HTHGN,Dis.,Relation-specific GNN with Temporal Att.,LP/TLP,Link
+arxiv:2003.01332,90Transformer-based,HGT,Con.,Relation-specific Transformer with RTE,TLP,Link
+doi:10.1609/aaai.v37i9.26338,,DHGAS,Dis.,Relation- and Time-aware Self-Att.,NC/NR/RP/LP/TLP,Link
+arxiv:2305.18622,,SUPA,Con.,Meta-path RW with Memory Update,Recomm.,Link

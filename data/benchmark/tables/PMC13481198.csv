@@ -1,0 +1,6 @@
+document_id,"First author, year",Study type,Country,Timing of ferritin measurement,Ferritin cut-off determination,Ferritin cut-off value,Sample size,Gender (male/female),Age(median or mean ± SD),Reported outcomes
+PMC2784982,Moo-KonSong.2009 ( 23 ),RC,Korea,Post-treatment,ULN,300 ng/mL,89,Male:46 Female:43,64(38-87),OS
+PMC10881573,"Zetan Chen,2024 ( 25 )",RC,China,Pre-treatment,Tertile median,164 ng/mL,252,Male:177 Female:75,49(19-80),"OS, PFS"
+doi:10.1007/s12185-012-1048-3,"Shohei Kikuchi,2012 ( 26 )",RC,Japan,Pre-treatment,Clinical guideline for iron overload diagnosis,500 ng/mL,47,Male:28 Female:19,66(27-86),OS
+PMC12319231,"Gloria Moreno Carrasco,2025 ( 27 )",RC,Spain,Pre-treatment,prior studies,1000 ng/mL,190,Male:133 Female:57,70(40-90),"OS, OR"
+doi:10.1007/s12185-019-02710-1,"Hiroshi Kawabata,2019 ( 28 )",RC,Japan,Pre-treatment,the median serum ferritin level,210 ng/mL,107,Male:72 Female:35,70(20-94),OS

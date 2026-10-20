@@ -1,0 +1,24 @@
+document_id,Capabilities,Task,Dataset,Modality,Task Type,Number of Samples,Answer Form,Language
+doi:10.18653/v1/w19-3204,,,MedNorm,Txt,"NER, \\ Concept Normalization","27,979 \\ descriptions",Free-Form,English
+doi:10.18653/v1/2022.acl-long.544,,10pt12pt Medical Named \\ Entity Recognition,CBLUE,Txt,Multi-task NLU,-,Free-form / labels,Chinese
+arxiv:2012.13978,,10pt12pt Abbreviation \\ Disambiguation \\ in Clinical Texts,MeDAL,Txt,Abbr. Disambig.,"14,393,619 articles",Open-text / label,English
+arxiv:2205.12689,,,Clinical-ie,Txt,Information Extraction,Depends on \\ subtasks,Span / \\ Structured output,English
+PMC4901374,,10pt12pt Medication \\ Name Normalization,OpenFDA,Txt,Regulatory Retrieval,-,Structured JSON,English
+PMC7346345,,,CMID,Txt,Intent Understanding,12K dialogues,MC-QA,Chinese
+PMC12216331,,10pt12pt Acuity/Urgency \\ Detection,MC-MED,"Img,Txt",Prediction,"118,385 \\ visits",Open,English
+arxiv:1705.02315,,,ChestX-ray14,Img,Disease Detection,"112,120 images",Open,English
+PMC6244189,,,VQA-RAD,"Img, Txt",QA,315 images \\ 3.5K QA pairs,Open,English
+arxiv:2003.10286,,,PATHVQA,"Img, Txt",QA,"4,998 images \\ 32,799 QA pairs",Open,English
+doi:10.18653/v1/2021.bionlp-1.7,12pt14.4pt Level4: \\ Clinical \\ Decision \\ Support \\ and \\ Individualized \\ Recommendation,10pt12pt Clinical QA \\ & Decision Support,emrKBQA,Txt,QA,940K question,Open,English
+arxiv:2503.07459,,,MedAgentsBench,Txt,QA,seven established \\ medical datasets,Free-Form,English
+arxiv:2506.09513,,,ReasonMed,Txt,QA,370k examples,Free-Form,English
+PMC10767804,,10pt12pt Medication \\ Recommendation,DrugBank,Txt,Information Extraction,"10,794 drugs, 1413413 \\ drug–drug interactions",Free-Form,English
+PMC8457105,,,PharmGKB,Txt,Relation Extraction,-,Free-Form,English
+arxiv:2106.02524,,10pt12pt Follow-up \\ Recommendation,CLIP,Txt,Multi-aspect extractive \\ summarization,718 discharge,Free-Form,English
+arxiv:1901.08079,12pt14.4pt Level5: \\ Dynamic \\ Interaction \\ and \\ Complex \\ Scene \\ Management,10pt12pt Dialogue-based \\ Reasoning,Med-QuAD,Txt,QA,47K QA pairs,Open,English
+arxiv:2009.13081,,,MedQA,Txt,QA,"61,097 questions",MC-QA,EN & CN
+arxiv:2203.14371,,,MedMCQA,Txt,QA,194K questions,MC-QA,English
+doi:10.18653/v1/d19-1259,,,PubMedQA,Txt,QA,211.3k QA pairs,Open,English
+PMC11922739,,,MultiMedQA,Txt,QA,208k QA pairs,MC-QA,English
+arxiv:2505.08775,,,HealthBench,Txt,QA,"5,000 conversations",Free-Form,English
+arxiv:2504.13861,,,3MDBench,"Img, Txt",Dialogue,3013 cases,Free-Form,English

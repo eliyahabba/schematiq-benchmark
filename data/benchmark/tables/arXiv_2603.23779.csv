@@ -1,0 +1,12 @@
+document_id,Model Used,Data Features,Crop,Region,Performance,Reference
+doi:10.1016/j.rse.2019.111410,RF,"S2 bands/VIs, Environmental data",Wheat,UK,RMSE = 0.61 t/ha,hunt2019high
+doi:10.1016/j.asr.2024.01.040,"RF, KNN, MLR, Decision Tree","S1/S2 VIs, Topographic data",Soybean,Hungary,R² = 0.41-0.89; RMSE = 0.122-0.224 t/ha,amankulova2024integrating
+doi:10.1016/j.jag.2022.102697,"RF, SVM, MLR","S2 VIs, LAI (RTM-derived)",Wheat,Spain,R² = 0.89; RMSE = 0.74 t/ha (RF),segarra2022farming
+doi:10.3390/agronomy10030327,RF,Multi-temporal S2/L8 (NDVI primary),Wheat,France,R² 0.60; RMSE < 7 q/ha,fieuzal2020combined
+doi:10.3390/rs11232873,RF,S2 VIs (GNDVI),Corn,Italy,R² = 0.48 (GNDVI); R² 0.6 (RF),kayad2019monitoring
+doi:10.3390/rs12142278,"Stepwise MLR, RF, GWR","S2 VIs, Topography, Rainfall",Wheat,Spain,R² = 0.83,segarra2020estimating
+PMC5017787,Correlation-based Regression Models,"L8/S2 NDVI, SAVI",Potato,Saudi Arabia,Error: 3.8-10.2% (S2); R = 0.47-0.65,al2016prediction
+doi:10.3390/rs11151768,Empirical Regression with Phenological Fitting,"HLS VIs, Surface reflectances, AGDD",Winter Wheat,Ukraine,RMSE = 0.201 t/ha (5.4%); R² = 0.73,skakun2019winter
+doi:10.1007/s10668-024-05220-1,Empirical Regression,"S2 VIs (NDVI, MSAVI2, RCI, NDRE)",Cotton,Uzbekistan,R² up to 0.96; RMSE = 0.21 (NDRE),khodjaev2024accuracy
+doi:10.3390/rs15235551,3D-ResNet-BiLSTM,"S2 bands, VIs, S1 SAR, Weather",Soybean,United States,R² = 0.791; RMSE = 5.56 Bu/Ac,fathi20233d
+doi:10.3390/rs15184425,SAFY + EnKF Data Assimilation,"S2 time-series, LAI (from EVI2)",Winter Wheat,Sweden,R² = 0.80 (LAI); 70% yield improvement,bouras2023wheat

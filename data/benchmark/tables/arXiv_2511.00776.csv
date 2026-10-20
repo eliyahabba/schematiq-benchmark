@@ -1,0 +1,9 @@
+document_id,Year,Author,Factors,Empirical Projects
+arxiv:2408.08333,2024,Agarwal et al.,Code hallucination taxonomy,CodeMirage benchmark
+arxiv:2404.00971,2024,Liu et al.,Hallucination types and detection,HALLUCODE benchmark
+arxiv:2409.20550,2024,Zhang et al.,Repository-level hallucination analysis,CoderEval benchmark
+arxiv:2401.01313,2024,Tambon et al.,Bug patterns,333 buggy code samples
+arxiv:2406.10279,2024,Spracklen et al.,Package hallucinations,576k samples across 16 LLMs
+arxiv:2502.07036,2024,Patwardhan et al.,Response consistency,Cybersecurity benchmark
+arxiv:2504.20799,2025,Lee et al.,Survey and classification,CodeLLMs hallucination types
+arxiv:2307.10236,2025,Huang et al.,Uncertainty estimation,NLP and code risk assessment

@@ -1,0 +1,12 @@
+document_id,Lifecycle Stage,Technique,Cause,Benchmark / Dataset,Key Quantitative Outcome,Computational Cost,Limitations,Paper
+arxiv:2005.11401,Data,RAG,"C.D.1, C.D.3","NQ, TriviaQA, WebQuestions, CuratedTrec",NQ EM +10 pts; TriviaQA EM 56.8; FEVER 89.5%,High (retrieval + training),Retriever dependency; external knowledge bias,Lewis2021
+arxiv:2502.07340,,Post-training Data Augmentation,C.D.2,"BioGEN, LongFact, FollowRAG",FactScore +8.6; LongFact +5.1; faithfulness +7.2,Moderate (offline filtering),Single-turn focus; data quality dependency,Si2025
+arxiv:2206.06520,Training,Model Editing,C.T.1,"VitaminC, QA, FC, ConvSent",Edit Success 0.986; Drawdown 0.009; stable up to 75 edits,Moderate (memory modules),Scope generalization issues; misuse risk,Mitchell2022
+arxiv:2407.09417,,Attention Reweighting,C.T.3,"WikiBio, NQ, StrategyQA, 2WikiMultiHopQA",AUC 89.31; StrategyQA acc 0.76; fewer retrieval calls,Moderate (attention control),Depends on token probability access; weak for pretraining hallucinations,Su2024
+arxiv:1706.03741,,RLHF,C.T.2,Human preference datasets,Preference win-rate improvement (qualitative),High (human feedback),Human bias; expensive scaling,Christiano2017
+arxiv:2309.00267,,RLAIF,C.T.2,"Reddit, Helpful-Harmless",Win-rate 71%; harmless rate 88%,Moderate (AI feedback),Teacher model bias; reward model staleness,Lee2024
+arxiv:2212.10400,,Contrastive Learning,C.T.1,Wizard of Wikipedia,5--15% relative gain; 5 efficiency,Moderate (contrastive training),Knowledge forgetting; domain generalization,Sun2022
+arxiv:2310.06271,Inference,Self-reflection,C.I.1,"PubMedQA, MedQuAD, MASH-QA",MedNLI 3 gain; inconsistency 8.69% 7.38%,Moderate (multi-pass inference),Domain-specific (medical); not standalone,Ji2023m
+doi:10.18653/v1/2020.emnlp-main.21,,Confidence Calibration,"C.I.2, C.I.4","SNLI, MNLI, QQP, SWAG",ECE 2.54 1.14,Low (post-hoc scaling),Indirect mitigation; task-dependent,Desai2020
+doi:10.18653/v1/2024.findings-naacl.12,,Intervention,"C.I.1, C.I.2","TruthfulQA, NQ, TriviaQA, MMLU",TruthfulQA +32.6 pts; Vicuna +22.5 pts,Low (activation control),Truthfulness vs helpfulness trade-off,Li2023m
+arxiv:2303.08896,,Fact-checking,C.I.3,WikiBio,AUC-PR 93.42; strong factuality correlation,High (verification calls),Computationally heavy; sampling dependent,Manakul2023

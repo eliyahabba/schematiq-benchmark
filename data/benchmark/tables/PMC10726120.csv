@@ -1,0 +1,7 @@
+document_id,Study,Country,Sample Size - COVID-19,Sample Size - Control,Sample Size - Severe,Sample Size - Mild,"Age(Year, mean ± SD)",Male(%),Outcome
+PMC8547402,Dabas 2021 ( 18 ),India,/,/,64,22,53.85 ± 19.54,63.70%,TSH
+PMC8630756,Dutta 2021 ( 19 ),India,/,/,36,200,65(15~91),42.50%,TSH、FT3、FT4
+PMC7605732,Gao 2021 ( 11 ),China,/,/,66,34,62.6 ± 14.6,50.80%,TSH、FT3、FT4
+PMC8009384,Malik 2021 ( 13 ),Pakistan,48,28,9,22,57.5 ± 16.6,59.30%,TSH、TT3、TT4
+PMC8490165,Okwor 2021 ( 16 ),Nigeria,45,45,/,/,36.5 ± 10.6,26.70%,TSH、FT3、FT4
+PMC9732974,Razu 2022 ( 21 ),Bangladesh,/,/,10,30,/,/,TSH、TT3、TT4

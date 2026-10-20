@@ -1,0 +1,54 @@
+document_id,Method,Paradigm,Backbone,Eval / Note
+arxiv:2312.13139,GR-1,,GPT,"LIBERO, CALVIN"
+arxiv:2410.06158,GR-2,,"GPT, 38M","LIBERO, CALVIN"
+arxiv:2504.02792,UWM,,4-mode DiT,LIBERO
+arxiv:2411.09153,VidMan,,vid.\ diff.+adapt.,Bridge
+arxiv:2601.16163,Cosmos Policy,,Cosmos-P2,bimanual
+arxiv:2603.17240,GigaWorld-Policy,,action-cent.,DROID
+arxiv:2603.16666,Fast-WAM,,video pred.,"LIBERO, RoboTwin"
+arxiv:2506.21539,WorldVLA,,Chameleon AR,LIBERO
+arxiv:2512.13030,Motus,,MoT,RoboTwin
+arxiv:2601.21998,LingBot-VA,,causal-diff MoT,AgiBot
+arxiv:2603.10422,World2Act,,LLM+skill,RoboCasa
+arxiv:2512.23541,Act2Goal,,goal-cond.,RoboTwin 2.0
+arxiv:2602.10098,VLA-JEPA,,JEPA+flow,LIBERO
+arxiv:2509.18428,LAWM,,latent action,LIBERO
+arxiv:2603.25685,PRWM,,contrastive RL,DROID
+arxiv:2105.08756,Pathdreamer,,panoramic gen.,R2R
+arxiv:2308.07498,DreamWalker,,latent+MCTS,"R2R, VLN-CE"
+arxiv:2412.03572,NWM,,multi-domain,"Habitat, Ego4D"
+arxiv:2409.16784,WMP,,RSSM,Isaac
+arxiv:2309.17080,GAIA-1,,text-video,large-scale
+doi:10.1609/aaai.v39i10.33130,DriveDreamer-2,,multi-cam.\ gen.,nuScenes
+arxiv:2503.20523,GAIA-2,,multi-cam.\ scaled,OpenDV
+arxiv:2412.19505,DrivingWorld,,long-horizon AR,nuScenes
+arxiv:2601.01528,DrivingGen,,policy-cont.\ eval,nuScenes
+doi:10.1609/aaai.v39i9.33010,Drive-OccWorld,,multi-step occ.,nuScenes-Occ
+arxiv:2603.24587,DreamerAD,,Dreamer-AD,"nuScenes, nuPlan"
+arxiv:2603.17808,EVA,,video WM,RoboTwin 2.0
+arxiv:2602.11075,RISE,,latent,contact-rich
+arxiv:2502.00622,GPC,,rollout WM,Push-T
+arxiv:2511.09515,WMPO,,pixel WM,LIBERO
+arxiv:2501.06605,RoboHorizon,,LLM+WM,sparse reward
+arxiv:2602.06508,World-VLA-Loop,,feedback,ManiSkill
+arxiv:2603.08546,IWS,,video WM,10-min @15FPS
+arxiv:2506.19842,ManiGaussian++,,Gaussian,bimanual
+arxiv:2506.23126,ParticleFormer,,particles,deformable
+arxiv:2508.17600,GWM,,VAE+diff,MetaWorld
+arxiv:2601.03782,PointWorld,,point cloud,2M+ traj
+arxiv:2504.16693,PIN-WM,,physics-inf.,non-prehensile
+arxiv:2602.06001,VT-WM,,visuo-tactile,contact
+arxiv:2602.16675,Cloth-WM,,DreamerV2,cloth
+arxiv:2509.19080,World4RL,,diff.\ WM,frozen env
+arxiv:2603.16860,DreamPlan,,video WM,VLA finetune
+arxiv:2603.19370,VAMPO,,GRPO/denoise,"LIBERO, CALVIN"
+arxiv:2410.17491,X-MOBILITY,,latent WM env,mobile robot
+arxiv:2311.13549,ADriver-I,,AR img+act,nuScenes
+arxiv:2412.18607,DrivingGPT,,large AR video,NAVSIM
+arxiv:2412.09627,Doe-1,,autoregressive,nuScenes
+arxiv:2409.03272,OccLLaMA,,occ.+language,nuScenes-QA
+arxiv:2505.18650,ProphetDWM,,long-horizon,"NAVSIM, nuPlan"
+arxiv:2502.15672,VaViM/VaVAM,,video AR+action AR,OpenDV
+arxiv:2512.23421,DriveLaW,,language-action,nuScenes
+arxiv:2603.14851,AutoMoT,,async.\ MoT,Bench2Drive
+arxiv:2507.00603,World4Drive,,virtual env RL,"NAVSIM, nuPlan"

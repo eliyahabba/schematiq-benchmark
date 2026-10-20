@@ -1,0 +1,121 @@
+document_id,Year,Paper,Subtype,Backbone,Training,Evaluation
+arxiv:2503.07608,2025,AlphaDrive,Compressed,Qwen,RL+SFT,MetaAD
+arxiv:2505.00284,2025,LightEMMA,Compressed,Qwen+LLaMA,Prompt,nuScenes
+arxiv:2505.05360,2025,DSDrive,Compressed,Qwen+LLaMA,Distill,CARLA
+arxiv:2505.15925,2025,VERDI,Compressed,Qwen,Distill,"nuScenes,HugSim"
+arxiv:2506.00819,2025,DriveMind,Compressed,CLIP-based,RL+Distill,CARLA
+arxiv:2506.13757,2025,AutoVLA,Compressed,Qwen,RL+SFT,"nuScenes, NAVSIM, Waymo E2E, Bench2Drive"
+arxiv:2507.20879,2025,DriveAgent-R1,Compressed,Qwen,RL+SFT,nuScenes
+arxiv:2509.13769,2025,AdaThinkDrive,Compressed,InternVL,RL+SFT,NAVSIM
+arxiv:2511.00088,2025,Alpamayo-R1 (AR1),Compressed,Cosmos-Reason,RL+SFT,open-loop + closed-loop
+arxiv:2511.19912,2025,Reasoning-VLA,Compressed,Qwen,RL+SFT,"nuScenes, NAVSIM"
+arxiv:2512.09349,2025,COVLM-RL,Compressed,InternVL,RL+Prompt,CARLA
+arxiv:2512.13636,2025,MindDrive,Compressed,Qwen,RL+SFT,Bench2Drive
+arxiv:2512.14044,2025,OmniDrive-R1,Compressed,Qwen,RL,DriveLMM-o1
+arxiv:2601.04714,2026,ThinkDrive,Compressed,Qwen,RL+SFT,DrivingVQA
+arxiv:2604.01681,2026,Bridging Large-Model Reasoning,Compressed,InternVL+DeepSeek,SFT+Prompt,CARLA
+arxiv:2310.01415,2023,GPT-Driver,Descriptive,GPT,SFT,nuScenes
+arxiv:2310.01412,2023,DriveGPT4,Descriptive,LLaMA,SFT,BDD-X
+arxiv:2310.03026,2023,LanguageMPC,Descriptive,GPT,Prompt,IDSim
+arxiv:2407.21293,2024,SimpleLLM4AD,Descriptive,InternVL,SFT,DriveLM-nuScenes
+arxiv:2410.23262,2024,EMMA,Descriptive,Gemini,SFT,"nuScenes, Waymo"
+arxiv:2412.04209,2024,CALMM-Drive,Descriptive,GPT,Prompt,nuPlan
+arxiv:2412.09951,2024,WiseAD,Descriptive,LLaMA,SFT,CARLA
+arxiv:2412.15208,2024,OpenEMMA,Descriptive,Qwen+LLaMA,Prompt,nuScenes
+arxiv:2503.19755,2025,ORION,Descriptive,Vicuna,SFT,Bench2Drive
+arxiv:2504.10757,2025,ReasonDrive,Descriptive,Qwen+LLaMA,SFT+Distill,DriveLM
+arxiv:2505.05098,2025,X-Driver,Descriptive,LLaVA,SFT,"CARLA,Bench2Drive"
+arxiv:2507.07938,2025,Multimodal Framework for Explainable Autonomous Driving,Descriptive,VideoMAE,SFT,"nuScenes, BDD-X"
+arxiv:2507.12499,2025,ReAL-AD,Descriptive,LLaMA+Qwen,SFT,"nuScenes, Bench2Drive"
+arxiv:2509.00789,2025,OmniReason,Descriptive,LLaVA,SFT+Distill,"nuScenes,Bench2Drive"
+arxiv:2509.11071,2025,The System Description of CPS,Descriptive,LLaVA,SFT,DriveLM-nuScenes
+arxiv:2510.19001,2025,Robust Driving QA through Meta,Descriptive,Qwen,Prompt,driving QA benchmark
+arxiv:2510.24152,2025,Enhancing Vision-Language Mode,Descriptive,Qwen,Prompt,RoboSense Challenge at IROS 2025
+arxiv:2511.19914,2025,CoC-VLA,Descriptive,LLaVA,SFT,nuScenes + CARLA
+arxiv:2512.16760,2025,E3AD,Descriptive,Qwen,SFT,"Talk2Car, DrivePilot, MoCAD,Talk2Car-Trajectory"
+arxiv:2601.12142,2026,"Listen, Look, Drive",Descriptive,Qwen,SFT,nuScenes
+arxiv:2602.08440,2026,SteerVLA,Descriptive,InternVL,SFT,Bench2Drive
+arxiv:2312.09245,2023,DriveMLM,Procedural,LLaMA,SFT,CARLA
+arxiv:2401.00125,2024,LLM-Assist,Procedural,LLaMA+GPT,Prompt,nuPlan
+arxiv:2402.12289,2024,DriveVLM,Procedural,Qwen,SFT,nuScenes
+arxiv:2403.16996,2024,DriveCoT,Procedural,VideoSwin-Transformer,SFT + Distill,CARLA
+arxiv:2403.18344,2024,LC-LLM,Procedural,LLaMA,SFT,highD
+arxiv:2409.18053,2024,DualAD,Procedural,GLM+GPT,Prompt,nuPlan
+arxiv:2502.14917,2025,Sce2DriveX,Procedural,Vicuna,SFT,"nuScenes, Bench2Drive"
+arxiv:2503.07234,2025,CoT-Drive,Procedural,GPT,Distill,"NGSIM, HighD, MoCAD, ApolloScape,nuScenes"
+arxiv:2504.05908,2025,PRIMEDrive-CoT,Procedural,Bayesian Graph Neural Network,SFT,DriveCoT
+arxiv:2505.20665,2025,DriveRX,Procedural,DeepSeek,RL,"DriveBench, DriveLM-Hard"
+arxiv:2506.05883,2025,HMVLM,Procedural,Qwen-VL,SFT,Waymo
+arxiv:2505.20024,2025,ReasonPlan,Procedural,Qwen,SFT+Self-sup,Bench2Drive
+arxiv:2511.22532,2025,CoT4AD,Procedural,LLaMA,SFT,"nuScenes, Bench2Drive"
+arxiv:2512.18211,2025,LLaViDA,Procedural,LLaVA,SFT,nuScenes
+arxiv:2602.04256,2026,AppleVLM,Procedural,Janus Pro,SFT,CARLA
+arxiv:2603.07901,2026,NaviDriveVLM,Procedural,Qwen-VL,SFT,nuScenes
+arxiv:2603.28522,2026,RAD-LAD,Procedural,Qwen,3-stage curriculum,nuPlan
+arxiv:2602.02864,2026,Accelerating Structured Chain-of-Thought in Autonomous Vehicles,Procedural,Qwen,SFT,Internal
+arxiv:2402.13602,2024,Hybrid Reasoning Based on Large Language Models for Autonomous Car Driving,Procedural (K),GPT,Prompt,CARLA
+arxiv:2509.01944,2025,AutoDrive-R 2,Reflective,Qwen,RL+SFT,"nuScenes, NAVSIM, Waymo"
+arxiv:2509.20109,2025,Discrete Diffusion for Reflective Vision-Language-Action Models in Autonomous Driving,Reflective,LLaDA-V,SFT,NAVSIM
+arxiv:2512.01830,2025,OpenREAD,Reflective,Qwen,RL+SFT,nuScenes
+arxiv:2512.24426,2025,Counterfactual VLA,Reflective,Qwen,SFT,Internal
+arxiv:2603.01063,2026,Unleashing VLA Potentials in Autonomous Driving via Explicit Learning from Failures,Reflective,Qwen+InternVL,RL+SFT,NAVSIM
+arxiv:2501.04671,2025,Retrieval-Based Interleaved Visual Chain-of-Thought in Real-World Driving Scenarios,Action-grounded,Qwen+LLaVA,SFT,DrivingVQA
+arxiv:2505.16805,2025,SOLVE,Action-grounded,LLaMA,SFT,nuScenes
+arxiv:2512.10719,2025,SpaceDrive,Action-grounded,Qwen,SFT,"nuScenes, Bench2Drive"
+arxiv:2601.03519,2026,A Vision-Language-Action Model with Visual Prompt for OFF-Road Autonomous Driving,Action-grounded,Qwen,Prompt,RELLIS-3D (off-road).
+arxiv:2602.21952,2026,MindDriver,Action-grounded,Qwen,RL+SFT,"nuScenes, CARLA, Bench2Drive"
+arxiv:2311.17918,2023,Driving into the Future,Predictive,World/Diff,Diffusion,nuScenes
+doi:10.1609/aaai.v39i9.33010,2024,Driving in the Occupancy World,Predictive,BEVFormer-style,SFT,nuScenes
+arxiv:2412.18607,2024,DrivingGPT,Predictive,LLaMA,SFT,"NAVSIM, nuPlan"
+arxiv:2601.04453,2026,UniDrive-WM,Predictive,Vicuna,SFT,"nuScenes, Bench2Drive"
+arxiv:2604.01765,2026,DriveDreamer-Policy,Predictive,Qwen,SFT,NAVSIM
+arxiv:2604.09059,2026,Learning Vision-Language-Action World Models for Autonomous Driving,Predictive,Qwen,RL+SFT,nuScenes
+arxiv:2505.19381,2025,DiffVLA,Optimization-based,LLaMA,SFT,NAVSIM
+arxiv:2506.08052,2025,ReCogDrive,Optimization-based,Qwen + InternVL,GRPO + SFT,"NAVSIM, CARLA, Bench2Drive"
+arxiv:2510.17148,2025,DiffVLA++,Optimization-based,LLaMA,SFT,NAVSIM
+arxiv:2512.04459,2025,dVLM-AD,Optimization-based,SigLIP-based,SFT,"nuScenes, Waymo"
+doi:10.1609/aaai.v40i14.38149,2025,WorldRFT,Optimization-based,E2E CNN/Trans,RL+SFT,"nuScenes, NAVSIM"
+arxiv:2512.22939,2025,ColaVLA,Optimization-based,LLaMA,SFT,nuScenes
+arxiv:2512.09864,2025,UniUGP,Rollout-based,Qwen,SFT,"nuScenes, Waymo, DriveLM"
+arxiv:2507.00603,2025,World4Drive,Rollout-based,E2E CNN/Trans,SFT,"nuScenes, NAVSIM"
+arxiv:2512.11226,2025,FutureX,Rollout-based,model-agnostic,SFT,"NAVSIM, CARLA"
+arxiv:2512.10226,2025,Latent Chain-of-Thought World Modeling for End-to-End Driving,Rollout-based,Qwen,RL+SFT,PhysicalAI-AV
+arxiv:2512.03454,2025,Think Before You Drive,Rollout-based,BERT,SFT,"Talk2Car, MoCAD, DrivePilot, RefCOCO/+/g"
+arxiv:2601.05640,2026,SGDrive,Rollout-based,InternVL,RL+SFT,NAVSIM
+arxiv:2602.06521,2026,DriveWorld-VLA,Rollout-based,InternVL,SFT,"nuScenes, NAVSIM"
+arxiv:2603.01928,2026,LaST-VLA,Rollout-based,InternVL,RL+SFT,NAVSIM
+arxiv:2602.08167,2026,R&B-EnCoRe,Tokenized,Qwen+LLaMA,2-stage variational,"LIBERO-90, nuScenes"
+arxiv:2602.13329,2026,HiST-VLA,Tokenized,LLaMA,SFT,NAVSIM
+arxiv:2603.11041,2026,DynVLA,Tokenized,EMU3,RL+SFT,"NAVSIM, CARLA, Bench2Drive"
+arxiv:2604.18486,2026,OneVL,Tokenized,Qwen,SFT,NAVSIM
+arxiv:2404.06345,2024,AgentsCoDriver,Cooperative,GPT,Prompt,highway-env multi-vehicle
+arxiv:2502.09980,2025,V2V-LLM,Cooperative,LLaVA,SFT,V2V-QA
+arxiv:2503.08683,2025,CoLMDriver,Cooperative,InternVL,SFT+Prompt,CARLA
+arxiv:2504.13406,2025,LangCoop,Cooperative,Qwen+LLaMA,Prompt,CARLA
+arxiv:2505.02123,2025,DriveAgent,Cooperative,LLaMA,SFT,Internal
+arxiv:2310.08034,2023,"Receive, Reason, and React",Knowledge-grounded,GPT,Prompt,HighwayEnv
+arxiv:2406.01587,2024,PlanAgent,Knowledge-grounded,GPT,Prompt,nuPlan
+arxiv:2407.14239,2024,KoMA,Knowledge-grounded,GPT,Prompt,HighwayEnv
+arxiv:2411.18013,2024,FASIONAD,Knowledge-grounded,Qwen,SFT,"nuScenes, CARLA"
+arxiv:2502.01387,2025,TeLL-Drive,Knowledge-grounded,GPT,RL+SFT,HighwayEnv
+arxiv:2503.08162,2025,FASIONAD++,Knowledge-grounded,Qwen,SFT,"nuScenes, CARLA, Bench2Drive"
+arxiv:2503.00502,2025,"Interact, Instruct to Improve",Knowledge-grounded,LLaMA,Prompt,simulated heterogeneous HVs + real world
+arxiv:2505.06875,2025,Towards Human-Centric Autonomous Driving,Knowledge-grounded,GPT,RL+Prompt,HighwayEnv
+arxiv:2507.05754,2025,LeAD,Knowledge-grounded,Qwen,Prompt,CARLA
+arxiv:2507.15266,2025,VLM-UDMC,Knowledge-grounded,GPT,SFT+Prompt,simulation + real-world
+arxiv:2509.20843,2025,MTRDrive,Knowledge-grounded,Qwen,RL+SFT,NAVSIM
+doi:10.26599/commtr.2026.9640012,2025,KEPT,Knowledge-grounded,Qwen,SFT,nuScenes
+arxiv:2511.06253,2025,AdaDrive,Knowledge-grounded,LLaMA,SFT,LangAuto
+arxiv:2603.21029,2026,KLDrive,Knowledge-grounded,Qwen,Prompt,nuScenes
+doi:10.1609/aaai.v40i45.41168,2024,Driving with Regulation,Retrieval-augmented,GPT,Prompt,DriveReg
+arxiv:2309.16292,2024,DiLu,Retrieval-augmented (K),GPT,Prompt,HighwayEnv
+arxiv:2311.10813,2024,A Language Agent for Autonomous Driving,Retrieval-augmented (K),GPT,SFT,nuScenes
+arxiv:2501.03535,2025,SenseRAG,Retrieval-augmented,LLaMA,Prompt,real-world V2X
+arxiv:2503.09024,2025,Traffic Regulation-aware Path,Retrieval-augmented,LLaVA,Prompt,simulation + real-world
+arxiv:2503.13861,2025,RAD,Retrieval-augmented,Qwen,SFT,nuScenes
+arxiv:2504.04419,2025,Driving-RAG,Retrieval-augmented,GPT,Prompt,CitySim
+arxiv:2506.02580,2025,V2X-UniPool,Retrieval-augmented,GPT,Prompt,DAIR-V2X (real-world V2X)
+arxiv:2506.20531,2025,Case-based Reasoning Augmented,Retrieval-augmented,LLaMA,Prompt,Internal
+arxiv:2509.18626,2025,The Case for Negative Data,Retrieval-augmented,GPT+Mistral,Prompt,nuScenes
+arxiv:2505.15298,2025,AgentThink,Tool-mediated,Qwen,RL+SFT,DriveLMM-o1
+arxiv:2601.12358,2026,From Prompts to Pavement,Tool-mediated,GPT,Prompt,CARLA

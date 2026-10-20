@@ -1,0 +1,23 @@
+document_id,Author,Number of observers,Number of subjects,Stroma-high subjects [%],Tissue type,Scoring method,ICC (Range),Kappa (Range),Concordance (Range),TABLE 7: Tumour Region,TABLE 7: Mode of automation,TABLE 7: Model type,TABLE 7: Task,TABLE 7: Kappa,TABLE 7: Pearson correlation,TABLE 7: Spearman correlation,TABLE 7: ICC,TABLE 7: Patch/Pixel-wise accuracy
+doi:10.1016/j.modpat.2025.100738,Kristensen MP ( 65 ),2,50,,SS,ROI,,0.84,,,,,,,,,,
+PMC10378655,Kazemi A ( 90 ),3,86,10%,SS,WSI,0.48,0.49 (0.26–0.72),0.76 (0.72–0.78),,,,,,,,,
+PMC10216342,Firmbach D ( 62 ),10,30,73%,SS,ROI,0.81 (0.42–0.87),0.734,,,Semi,CNN,Seg,,0.540,,,86.7%
+PMC9922811,Smit MA ( 72 ),3,75,51%,SS,WSI,0.91 (0.89–0.94),0.75 (0.68–0.86),,SH,Semi | Fully,CNN,Seg,,,0.88 | 0.72–0.77,0.78,
+PMC10518130,Aboelnasr LS ( 31 ),2,106,65%,SS,WSI,,0.72,,,,,,,,,,
+PMC9604175,Van de Weerd S ( 39 ),2,83,65%,SS,WSI,,0.77,,,,,,,,,,
+PMC9338005,Polack M ( 55 ),2,126,28%,LN,WSI,,>0.9,0.96,,,,,,,,,
+doi:10.1007/s12094-021-02746-y,Strous MTA ( 10 ),2,201,29%,SS,WSI,,0.876,,,,,,,,,,
+PMC8616493,"Ravensbergen CJ ( 45 , 75 )",2,111,,SS,WSI,,0.85,,,,,,,,,,
+PMC8589816,Smit MA ( 66 ),2,,44%,SS,WSI,,0.83,,,,,,,,,,
+PMC8235870,Liang Y ( 40 ),2,30,78%,PB,ROI a,0.99,,,,,,,,,,,
+PMC8210572,Li T ( 69 ),2,996,36%,SS,WSI,0.545,0.509,,SH,Semi,Thresholding,Seg,0.813,,,0.822,
+PMC8122297,Smit MA ( 63 ),36 | 34 | 31,40,45%,SS,WSI,,0.72 (0.21–0.90) | 0.77 (0.51–0.97) | 0.76 (0.60–0.89),,,,,,,,,,
+PMC7887673,Da Silva RMS ( 64 ),4,98,33%–49%,SS,WSI,(0.823–0.875),(0.673–0.813),,,,,,,,,,
+doi:10.1016/j.ejrad.2020.109345,Zunder SM ( 91 ),2,33 | 69,52% | 46%,SS,WSI,,0.84 | 0.67,,,,,,,,,,
+PMC8259249,Dang H ( 28 ),2,183,30%,SS,WSI,,0.42,,,,,,,,,,
+PMC7000705,Fu M ( 58 ),2,353,37%,PB,WSI,,0.866,,,,,,,,,,
+PMC6966701,Park JH ( 59 ),2,115,22%,SS,WSI,0.743,,,,,,,,,,,
+PMC12994344,Sandberg TP ( 60 ),2,88,,SS,WSI,,0.8,,,,,,,,,,
+PMC12994350,Geessink OGF ( 17 ),2,129,33%,SS,WSI,0.736,0.578,,SH,Semi,CNN,Seg,0.239,,,0.411–0.475,94.6%
+PMC5859415,Eriksen AC ( 67 ),2,50,,SS,WSI,,(0.70–0.75),,,,,,,,,,
+doi:10.1111/his.13326,Hutchins GGA ( 49 ),2,"2,975",,SS,ROI b,,0.986,0.991,,,,,,,,,

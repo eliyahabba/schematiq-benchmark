@@ -1,0 +1,6 @@
+document_id,Category,Ref.,Objective,Proposed Method,Role of Diffusion
+arxiv:2502.07211,,zhang2025improve,Sum-Rate Maximization,DM-enabled DDPG,State-Action-Reward Explorer
+arxiv:2510.22969,,xie2025multi,Rate and Echo Maximization,DM-enabled DDPG,Action Policy Generator
+arxiv:2506.07880,,nouri2025diffusion,Joint PRB and Power Allocation,DM-enabled Q-Learning,Conditional Action Generator
+arxiv:2305.18459,,he2023diffusion,Robotic Manipulation,DM-enabled Multi-Task Offline RL,Planner and Data Synthesizer
+arxiv:2501.05819,,emami2025diffusion,UAV Communication Control,DM-enabled DT-RL,Generative Decision Tool

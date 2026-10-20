@@ -1,0 +1,49 @@
+document_id,Author (year) country[Ref],Study design,Sample,Age (mean age),Sex (M%),Fracture type,Sampling time biomarker,Outcome,Effect (95%CI),Unadjusted effect (95%CI),Calculated from contingency table,Cut off,Risk of bias
+PMC10845798,Bala (2022) Turkey ( 92 ),Retrospective,176,>65(81.36 ± 9.22),67.6%,Hip fracture,Pre- NLR SII PLR | Post- NLR 2nd SII 2nd PLR 2nd | Post- NLR 5th SII 5th PLR 5th,1-year mortality,HR 1.03(0.90–1.17) 1.00(0.92–1.08) 1.00(0.99–1.01) | 1.07(0.99–1.17) 0.99(0.96–1.03) 1.00(0.99–1.01) | 1.04(1.01–1.07) 1.02(1.00–1.05) 1.00(1.00–1.01),,,NA,L
+PMC10342779,Kadir (2024) Turkey ( 61 ),Retrospective,222,>65(80.60 ± 7.40),66.2%,Hip fracture,Pre- PNI,ICU admission in-hospital mortality,OR 1.36(1.17–1.57) 1.16(0.93–1.44),,,NA,L
+PMC11471118,Cacciola (2023) Italy ( 71 ),Retrospective,676,≥65(82.30 ± 10.30),55.9%,Hip fracture,Pre- CAR,30-day mortality,,OR 9.38(4.50–19.50),,14.72,H
+PMC11308471,Sercan (2020) Turkey ( 68 ),Retrospective,254,≥65(78.74 ± 6.88),58.7%,Hip fracture,Adm- CAR,1-year mortality,OR 3.52(1.49–8.30),,,0.25,M
+PMC13070836,Zekeriya (2024) Turkey ( 105 ),Retrospective,311,≥65(80.70 ± 8.00),67.8%,Hip fracture,Post- SII 5th,1-year mortality,HR 2.16(1.38–3.38),,,1751.9,L
+PMC7934427,Aytek (2023) Turkey ( 94 ),Retrospective,522,≥65(78.43 ± 9.08),66.1%,Femoral neck fracture,Post- NLR 3rd,30-day mortality,OR 1.05(1.01–1.09),,,NA,M
+PMC11717259,Chen (2024) China ( 60 ),Prospective,705,≥65(78.20 ± 7.50),70.8%,Hip fracture,Adm- PNI,Unassisted ambulation: 120-day mobility,OR 1.69(1.10–2.61),,,46.8,H
+PMC10443014,Chen (2024) China ( 59 ),Prospective,942,≥65(79.60 ± 7.80),72.3%,Hip fracture,Adm- PNI,3-year mortality,HR 0.39(0.28–0.55),,,45.275,L
+PMC12318684,Choi (2025) China ( 75 ),Retrospective,775,≥65(84.08 ± 7.88),70.2%,Hip fracture,Pre- RAR,3-month mortality 6-month mortality 1-year mortality,HR 3.37(1.75–6.50) 3.47(2.14–5.62) 3.94(2.62–5.90),,,0.468,H
+PMC12023628,Kai (2025) China ( 91 ),Prospective,565,≥65(78.90 ± 7.80),73.1%,Hip fracture,Adm- NLR | SII,1-year mortality 1-year-walking independence | 1-year-walking independence,OR 1.13(1.09–1.17) 1.37(1.26–1.50) | 1.00(1.00–1.00),,,NA,L
+doi:10.4274/ejgg.galenos.2023.2023-5-2,Mohammad (2023) Australia ( 99 ),Retrospective,834,≥65(84.10 ± 7.55),71.6%,Hip fracture,Adm- NLR,in-hospital mortality,OR 1.04(0.98–1.10) a,,,NA,L
+PMC11876120,Hong (2023) Korea ( 63 ),Retrospective,199,>65 (Mean80.85),65.3%,Hip fracture,Pre- NLR PNI,in-hospital complications,OR(NLR) 1.14(1.06–1.23),OR(PNI) 1.06(1.01–1.10) a,,NA,L
+PMC12112460,Zhao (2024) China ( 88 ),Retrospective,"1,242",≥60 (Median81),66.7%,Hip fracture,Adm- NLR,POD,OR 7.79(5.35–11.34),,,7.613,L
+PMC11470640,Yuan (2024) China ( 78 ),Retrospective,307,≥65(81.21 ± 7.61),66.5%,Intertrochan-teric fracture,Post- HRR,AKI,OR 0.59(0.37–0.93),,,NA,M
+PMC10039504,Yao (2023) China ( 89 ),Retrospective,"1,199",≥60(74.77 ± 9.61),60.1%,Hip fracture,Adm- NLR PLR SII,POP,OR 1.20(1.01–1.42) 1.84(1.17–2.88) 1.19(1.00–1.43),,,NA,L
+PMC10782247,Xu (2025) China ( 56 ),Retrospective,260,≥65,59.6%,Femoral neck fracture,Pre- PNI,POD,OR 6.28(3.12–12.66),,,45.45,L
+PMC11676286,Wu (2025) China ( 55 ),Retrospective,577,≥60 (Median82),67.9%,Hip fracture,Adm- GNRI PNI,1-year mortality,HR(PNI) 1.65(0.91–2.99),,OR(GNRI) 2.65(1.51–4.66),98 38,H
+PMC10003114,Wu (2025) China ( 54 ),Retrospective,526,≥60 (Median73),70.0%,Hip fracture,Pre- PNI,BADL dependence at 2 years,OR 0.90(0.82–0.99),,,NA,H
+PMC12863805,Wang (2021) China ( 107 ),Retrospective,460,≥60 (Mean79.31),67.0%,Hip fracture,Adm- PLR,1-year mortality,HR 1.55(1.01–2.39),,,189,L
+PMC7539448,Wang (2025) China ( 73 ),Retrospective,"1,707",≥60 (Median80),64.5%,Hip fracture,Adm- HALP,90-day mortality,HR 0.99(0.98–1.00),,,NA,L
+PMC11169710,Wang (2021) China ( 104 ),Prospective,290,≥60(77.60 ± 8.60),65.2%,Hip fracture,Adm- SII,1-year mortality,HR 1.08(1.01–1.17),,,NA,L
+doi:10.18621/eurj.835339,Wang (2025) China ( 87 ),Retrospective,"1,807",≥60 (Median82),59.9%,Hip fracture,Pre- GAR NLR,POD,OR 2.40(1.60–3.70) 1.00(1.00–1.10),,,0.2 NA,L
+doi:10.18678/dtfd.1549923,Wang (2024) China ( 112 ),Retrospective,"1,231",≥60(74.99 ± 9.47),60.2%,Hip fracture,Adm- GAR,UTIs,OR 2.44(1.69–3.54),,,0.18,L
+PMC11161424,Vural (2025) Turkey ( 70 ),Retrospective,435,≥65(81.56 ± 7.37),68.3%,Hip fracture,Adm- HALP CAR,1-year mortality,,OR 11.79 (7.19–19.34) 4.14 (2.69–6.38),,17.975 0.6574,H
+PMC11237825,Turgut (2022) Turkey ( 51 ),Retrospective,335,≥70(83.21 ± 6.10),59.4%,Hip fracture,Per- NLR,90-day mortality,OR 1.05(1.01–1.09),,,NA,M
+PMC11260016,Mahmut (2024) Turkey ( 52 ),Prospective,124,≥70(80.40 ± 7.19),62.1%,Femoral neck fracture,Pre- PNI,1-year mortality,HR 1.24(1.05–1.46) a,,,NA,H
+PMC12389209,Tsutsui (2023) Japan ( 110 ),Prospective,623,≥60 (Mean82),79.9%,Hip fracture,Adm- GNRI,5-year mortality,,,OR 3.42(2.41–4.85),92,H
+PMC12833119,Tang (2024) China ( 111 ),Retrospective,"1,279",≥60(74.70 ± 9.55),60.3%,Hip fracture,Pre- GAR,30-day POP,OR 2.14(1.50–3.05),,,0.175,L
+PMC11541133,Ren (2017) China ( 49 ),Prospective,80,≥70(86.00 ± 5.00),56.3%,Hip fracture,Pre- PNI,1-year mortality,HR 0.20(0.03–0.65),,,NA,L
+PMC10277357,Perna (2025) Italy ( 98 ),Retrospective,395,≥65(84.00 ± 12.30),56.4%,Hip fracture,Adm- NLR PLR,1-year mortality,HR(PLR) 1.81(1.61–2.23),,OR(NLR) 2.15(1.11–4.19),7.2189.4,H
+PMC10315978,Liu (2025) China ( 85 ),Retrospective,"1,238",≥60(74.83 ± 9.59),60.5%,Hip fracture,Adm- NLR PLR SII,UTIs,OR 1.30(1.12–1.52) 1.20(1.04–1.38) 1.31(1.13–1.52),,,NA,L
+PMC10544652,Li (2025) China ( 84 ),Retrospective,193,82.90 ± 9.05,61.1%,Intertrochan-teric fracture,Post- SII NLR,POP,OR 1.00(1.00–1.00) 1.28(1.08–1.52),,,NA,L
+PMC11368716,Kim (2023) South Korea ( 72 ),Retrospective,300,≥65(79.90 ± 7.60),72.7%,Hip fracture,Pre- CAR,POD,,OR 1.31(1.15–1.49),,NA,H
+PMC9821284,Fujimoto (2022) Japan ( 53 ),Retrospective,108,≥78 (Median84),78.7%,Hip fracture,Pre- GNRI,1-year mortality,OR 1.25(1.08–1.47) a,,,NA,L
+PMC9865272,Ji (2023) China ( 90 ),Retrospective,315,≥60(74.31 ± 6.75),46.7%,Intertrochan-teric fracture,Pre- NLR,POD,OR 3.49(1.73–5.98),,,4.85,M
+PMC10498878,Balta (2022) Turkey ( 69 ),Retrospective,165,≥60(83.09 ± 8.52),57.6%,Intertrochan-teric fracture,Pre- CLR CAR,30-day mortality,OR 1.01(0.99–1.02) 1.33(0.99–1.79),,,NA,M
+PMC10496383,Cheng (2023) China ( 79 ),Prospective,"1,958",≥60 (Median76),67.0%,Hip fracture,Pre- CONUT,Loss of mobility (180 days),RR 1.42(1.12–1.80),,,5,L
+PMC12304692,Fatih (2025) Turkey ( 74 ),Retrospective,60,≥65(83.20 ± 6.30),46.7%,Femoral neck fracture,Adm- HALP,6-month mortality,OR 1.09(1.06–1.13),,,NA,L
+PMC11535218,Zhou (2024) China ( 102 ),Retrospective,597,≥60(77.55 ± 10.90),78.4%,Hip fracture,Adm- SII GNRI,1-year mortality,,HR(SII) 2.69(1.78–4.07),OR(GNRI) 4.88(2.90–8.21),1621.92 92,H
+PMC11020614,Kekeç (2022) Turkey ( 95 ),Retrospective,317,≥65 (Mean81.2),53.3%,Intertrochan-teric fracture,Pre- NLR,ICU admission,,,OR 2.70(1.70–4.28),6.14,H
+PMC12456328,Faust (2023) Germany ( 64 ),Retrospective,156,≥65 (Mean83.4),77.1%,Intertrochan-teric fracture,Post- PNI,Limited mobility at discharge,OR 1.18(1.08–1.30),,,NA,L
+PMC11538184,Temiz (2019) Turkey ( 50 ),Retrospective,50,≥65 (Mean73.81),100.0%,Intertrochan-teric fracture,Adm- NLR,1-year mortality,,,OR 23.22 (5.10–105.60),4.7,H
+PMC7521768,Miniksar (2021) Turkey ( 97 ),Retrospective,188,≥65 (Median78),59.0%,Hip fracture,Adm- NLR,ICU admission,,,OR 17.53(7.00–43.89),9.65,H
+PMC12460436,Popp (2024) Austria ( 65 ),Retrospective,"1,500",>60 (Mean81.1),70.8%,Hip fracture,Pre- PNI,1-month mortality,,,OR 2.41(1.43–4.07),40,H
+PMC9647681,Zhou (2021) China ( 86 ),Retrospective,124,≥60 (Mean76),58.9%,Hip fracture,Post- NLR,1-year mortality,,,OR 18.00(6.18–52.41),6.939,H
+doi:10.1017/s0954422425100255,Yerli (2024) Turkey ( 108 ),Retrospective,"1,345",≥65(80.27 ± 7.45),62.9%,Hip fracture,Adm- GNRI,90-day mortality,,,OR 1.80(1.22–2.64),98,H
+doi:10.1017/s0954422425100255,Tekin (2022) Turkey ( 108 ),Retrospective,124,≥60 (Mean79.7),52.4%,Intertrochan-teric fracture,Adm- MLR,1-year mortality,,,OR 13.13(4.23–40.72),0.54,H
+PMC11284060,Tan (2025) China ( 103 ),Retrospective,"2,766",≥65(79.50 ± 7.30),69.8%,Hip fracture,Post- SII,2-year mortality,HR 1.47(1.07–2.01),,,1293.03,L

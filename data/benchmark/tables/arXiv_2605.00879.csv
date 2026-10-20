@@ -1,0 +1,11 @@
+document_id,Ref,Year,AI Tasks,AI Techniques
+PMC7642877,zhao2020smart,2020,Gait recognition,MLP
+arxiv:2010.08221,furst2021hperl,2021,Pose estimation,RPN (AVOD)
+PMC8942631,zhao2022safe,2022,Gait recognition,NIFPN
+arxiv:2203.14698,li2022lidarcap,2022,Pose estimation,PointNet + MLP
+arxiv:2308.00628,fan2023human,2023,Pose estimation,CNN + MLP
+doi:10.1609/aaai.v37i1.25120,cong2023weakly,2023,Pose estimation,PointNet + Transformers + MLP
+doi:10.1609/aaai.v38i7.28545,zhang2024neighborhood,2024,Pose estimation,PointNet + Transformers
+arxiv:2211.12371,han2024gait,2024,Gait recognition,CNN + MLP
+PMC11174988,kovacs2024lidpose,2024,Pose estimation,Transformers + MLP
+arxiv:2504.02920,kulkarni2025lidar,2025,Object detection,PointNet

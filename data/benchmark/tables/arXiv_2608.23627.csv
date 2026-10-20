@@ -1,0 +1,8 @@
+document_id,Task,Training Paradigm,Paper,Reported performance
+doi:10.18653/v1/2024.bionlp-1.46,Triage classification,Transfer learning,maschhur-etal-2024-towards,F1: 0.63
+doi:10.18653/v1/2024.findings-emnlp.329,,Agent-based,lu-etal-2024-triageagent,Discordance: 0.19; Acc.: 0.81
+PMC12064692,,Retrieval-augmented,Gaber2025,Acc.: 0.66
+doi:10.18653/v1/2021.acl-long.384,,Transfer learning,krishna2021generating,R-L: 0.38
+doi:10.18653/v1/2023.nlpmc-1.1,,,a,Acc.\ gain: +10.7
+doi:10.18653/v1/2024.naacl-short.47,,,b,Missed: 4.3; Incorrect: 0.85; Irrelevant: 0.30
+doi:10.18653/v1/2023.clinicalnlp-1.26,,Prompt-based,c,GPT-F1: 0.62

@@ -1,0 +1,6 @@
+document_id,Study,Country,Study design,Sample size,Mean age (years),Female (%),Cancer type,Assessment tool,Prevalence (%)
+PMC12135104,Alotaibi and Alsuhail. 2025 ( 13 ),Saudi Arabia,Cross-sectional,130,NA,66.9,Mixed cancer types,HADS-D,50.0
+PMC9175223,Atinafu et al. (2022) ( 21 ),Ethiopia,Cross-sectional,171,47.0 ± 13.6,68.4,Mixed cancer types,HADS-D,47.4
+PMC10426043,Gontijo Garcia et al. (2023) ( 28 ),Brazil,Cross-sectional,70,66.1 ± 11.7,60,Mixed cancer types,HADS-D,44.3
+PMC9617648,Islam et al. (2022) ( 30 ),Bangladesh,Cross-sectional,95,48.9 ± 9.9,100,Breast cancer,HADS-D,48.4
+PMC12131379,Jung et al. (2025) ( 31 ),South Korea,Cross-sectional,144,60.7 ± 7.2,42.4,Mixed cancer types,PHQ-9,31.3

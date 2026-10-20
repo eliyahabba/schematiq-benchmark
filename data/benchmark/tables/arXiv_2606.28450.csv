@@ -1,0 +1,33 @@
+document_id,Category,Method,Subcategory,Modal,Agent type,Access,Targeted Threat
+arxiv:2310.18940,Mitigating endogenous threats,bib258,Decision-making,Text,Multi-agent,N/A,Bias
+arxiv:2404.17833,,bib9,Decision-making,Text,Single-agent,N/A,Erroneous Planning
+arxiv:2307.10490,,bib323,Decision-making,N/A,Multi-agent,N/A,Hallucination/Collaboration
+doi:10.18653/v1/2024.emnlp-main.1193,,QuBE,Reasoning,Text,Single-agent,N/A,Hallucination
+doi:10.1609/aaaiss.v3i1.31188,,bib272,Reasoning,Text,Single-agent,N/A,Hallucination/Erroneous Planning
+doi:10.18653/v1/2024.emnlp-main.416,,MAgIC,Reasoning,Text,Multi-agent,N/A,General Cognition
+arxiv:2309.04658,,bib10,Decision-making/Reasoning,Text,Multi-agent,N/A,Hallucination
+arxiv:2308.00352,,MetaGPT,Decision-making/Reasoning,Text,Multi-agent,N/A,Hallucination
+doi:10.18653/v1/2025.emnlp-main.1771,Mitigating exogenous threats,bib265,Guidance,Text,Single-agent,Black-box,Prompt Injection
+arxiv:2502.05174,,Melon,Filter,Text,Single-agent,Black-box,Prompt Injection
+arxiv:2406.09187,,GuardAgent,Guidance,Text,Multi-agent,White-box,Injection/Manipulation
+arxiv:2405.20770,,LLAMOS,Guidance,Text,Multi-agent,Black-box,Adversarial Examples
+arxiv:2403.04783,,AutoDefense,Filter,Text,Multi-agent,Black-box,Jailbreaking
+arxiv:2404.05993,,AEGIS,Guidance,Text,Multi-agent,Black-box,Jailbreaking
+doi:10.18653/v1/2024.emnlp-main.1121,,ICAG,Guidance,Text,Multi-agent,Black-box,Jailbreaking
+doi:10.18653/v1/2024.acl-long.812,,PsySafe,Guidance,Text,Multi-agent,Gray-box,Jailbreaking/Injection
+arxiv:2310.03951,,CoNLI,Guidance,Text,Single-agent,Black-box,Hallucination
+arxiv:2412.16325,,SOO,Alignment,Text,Multi-agent,White-box,General Safety
+arxiv:2411.08504,,bib31,Guidance/Alignment,Text,Multi-agent,White-box,Bias
+arxiv:2410.01639,,bib25,Alignment,Text,Multi-agent,White-box,Bias
+doi:10.18653/v1/2024.naacl-long.23,,Volcano,Guidance,Multi,Single-agent,Gray-box,Hallucination
+arxiv:2410.20911,,Mantis,Agent2Agent,Text,Multi-agent,Black-box,Malicious Attack
+arxiv:2410.07283,,bib12,Agent2Agent,Text,Multi-agent,Black-box,Malicious Attack
+arxiv:2503.04392,,AgentSafe,Agent2Agent,Text,Multi-agent,Gray-box,Malicious Attack
+arxiv:2412.04859,,S2MAD,Agent2Agent,Text,Multi-agent,Gray-box,False Communication
+doi:10.18653/v1/2025.acl-long.399,,AGrail,Agent2Env,Text,Single-agent,Gray-box,Environment Perception
+doi:10.18653/v1/2024.emnlp-industry.84,,Athena,Agent2Env,Text,Single-agent,Gray-box,Tool Misuse
+doi:10.18653/v1/2025.acl-long.1435,,TaskShield,Agent2Env,Text,Single-agent,Black-box,Tool Misuse
+arxiv:2502.08966,,Rtbas,Agent2Env,Text,Single-agent,Gray-box,Tool Misuse
+arxiv:2504.11703,,Progent,Agent2Env,Text,Single-agent,Gray-box,Tool Misuse
+arxiv:2504.19951,,bib308,Agent2Env,Text,Multi-agent,White-box,Tool Misuse
+arxiv:2405.05175,,AirGapAgent,Agent2Env,Text,Single-agent,Black-box,Data Leakage

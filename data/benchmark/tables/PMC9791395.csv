@@ -1,0 +1,8 @@
+document_id,First author,Indication,Target,Signal domain,Dose* (million cells),Response higher at higher dose,Toxicity higher at higher dose
+PMC7897944,Ying et al 75,B-cell lymphoma,CD19,4–1-BB,100 or 150,N,Y
+PMC6302465,Zhao et al 71,MM,BCMA,CD28,Range: 4.9 to 147†,Y,Y
+PMC7943908,Li et al 38,MM,BCMA,CD28,Range: 378–1750 DL1: ≤784; DL2: >784,N,N
+PMC4887159,Turtle et al 53,B-ALL,CD19,4–1-BB,DL1: 14; DL2: 140; DL3: 1400,N,Y
+PMC7781235,Brudno et al 17,DLBCL,CD19,CD28,DL1: 46.2; DL2: 140; DL3: 420,N,N
+PMC7983916,Cui et al 24,DLBCL,CD19,No data,Range: 70–490 DL1‡: <140; DL2‡: 140–<280; DL3‡: ≥280,N,Y
+PMC9989524,Frigault et al 92,MM,BCMA,41BB and CD3,DL1: 100; DL2: 300,N,Y

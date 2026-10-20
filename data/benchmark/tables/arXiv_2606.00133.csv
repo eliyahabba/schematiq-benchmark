@@ -1,0 +1,13 @@
+document_id,Model,Year,Paradigm,Key Contribution,Interactive
+arxiv:1710.11252,SV2P,2018,Stochastic VAE,Variational latent for multi-future prediction,
+arxiv:1802.07687,SVG,2018,Stochastic VAE,Learned prior for stochastic video generation,
+arxiv:1804.01523,SAVP,2018,VAE + GAN,Combined variational and adversarial training,
+arxiv:2104.10157,VideoGPT,2021,Autoregressive,VQ-VAE + GPT for video token prediction,
+arxiv:2410.18072,Sora,2024,Diffusion transformer,Minute-long high-fidelity video generation,
+arxiv:2408.06072,CogVideoX,2024,Diffusion transformer,Expert adaptive normalization for text-to-video,
+arxiv:2412.20404,Open-Sora,2024,Diffusion transformer,Open-source efficient video generation,
+arxiv:2402.15391,Genie,2024,Latent action model,Interactive 2D worlds from unlabeled video,yes
+arxiv:2405.12399,DIAMOND,2024,Pixel diffusion,"Pixel-space diffusion world model, Atari 100k SOTA",yes
+arxiv:2408.14837,GameNGen,2024,Latent diffusion,Neural DOOM engine at 20+ FPS,yes
+arxiv:2406.09455,Pandora,2024,Hybrid,Language-action conditioned video world model,yes
+arxiv:2407.01392,Diffusion Forcing,2024,Causal diffusion,Next-token meets full-sequence diffusion,

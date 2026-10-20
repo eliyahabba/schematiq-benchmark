@@ -1,0 +1,28 @@
+document_id,Paper,L_1-Transferability,L_2-Adaptability,L_3-Deployment Readiness,Target Model
+arxiv:2106.10807,AP NeurIPS'21,Black-box,Transformation Resistant,Application Scenario,Discriminative
+arxiv:2101.04898,EM ICLR'21,Black-box,Non-Adaptive,Application Scenario,Discriminative
+arxiv:2111.13244,ULEO-GrayAugs arXiv'21,Black-box,Transformation Resistant,No Deployment Evidence,Discriminative
+arxiv:2305.10691,TSM-UE CVPR'24,Black-box,Training-Pipeline Resistant,No Deployment Evidence,Discriminative
+doi:10.1609/aaai.v38i4.28169,SEM AAAI'24,Black-box,Training-Pipeline Resistant,Application Scenario,Discriminative
+arxiv:2501.08862,ARMOR TPAMI'26,Black-box,Transformation Resistant,Application Scenario,Discriminative
+arxiv:2303.02559,ALP arXiv'23,White-box,Non-Adaptive,Application Scenario,Discriminative
+arxiv:2211.12005,SEP ICLR'23,Black-box,Non-Adaptive,No Deployment Evidence,Discriminative
+arxiv:2210.10114,TUE ICLR'23,Black-box,Training-Pipeline Resistant,No Deployment Evidence,Discriminative
+arxiv:2508.03091,T2UE ACM MM'25,Black-box,Non-Adaptive,Workflow Design,Foundational
+doi:10.1609/aaai.v38i19.30130,GUE AAAI'24,Black-box,Training-Pipeline Resistant,No Deployment Evidence,Discriminative
+arxiv:2603.04731,BAIT ICLR'26,Black-box,Training-Pipeline Resistant,Application Scenario,Foundational
+doi:10.14722/ndss.2025.240886,PUE NDSS'25,White-box,Training-Pipeline Resistant,No Deployment Evidence,Discriminative
+arxiv:2111.00898,LSP KDD'22,Black-box,Transformation Resistant,Application Scenario,Discriminative
+arxiv:2206.03693,AR NeurIPS'22,Black-box,Transformation Resistant,No Deployment Evidence,Discriminative
+arxiv:2205.12141,OPS ICLR'23,Black-box,Non-Adaptive,No Deployment Evidence,Discriminative
+arxiv:2609.04627,IRP ECCV'24,Black-box,Purification Resistant,No Deployment Evidence,Discriminative
+arxiv:2403.14250,UMed arXiv'24,Black-box,Non-Adaptive,Application Scenario,Discriminative
+arxiv:2507.07483,TUE-V ICCV'25,Black-box,Non-Adaptive,Application Scenario,Discriminative
+arxiv:2302.04578,AdvDM ICML'23,Black-box,Non-Adaptive,Application Scenario,Generative
+arxiv:2302.04222,Glaze USENIX Security'23,Black-box,Non-Adaptive,External Evaluation,Generative
+arxiv:2311.12832,DiffProtect-UE ICLR'24,Black-box,Non-Adaptive,Application Scenario,Generative
+arxiv:2505.18766,StyleGuard NeurIPS'25,Black-box,Purification Resistant,Application Scenario,Generative
+arxiv:2303.15433,Anti-DreamBooth ICCV'23,Black-box,Non-Adaptive,Application Scenario,Generative
+arxiv:2507.17554,HAAD ACM MM'25,Black-box,Non-Adaptive,Application Scenario,Generative
+arxiv:2310.04687,ACE ICLR'25,Black-box,Non-Adaptive,Application Scenario,Generative
+arxiv:2509.13922,AntiPure ICCV'25,Black-box,Purification Resistant,Application Scenario,Generative

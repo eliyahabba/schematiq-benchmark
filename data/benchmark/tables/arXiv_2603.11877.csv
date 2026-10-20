@@ -1,0 +1,10 @@
+document_id,Modality,Architecture,Dataset / Corpus,Vocab.,Metric,Result,Population,Ref.
+PMC13375540,Utah Array,Trans-based,BrainGate2 (T15),125k,W. Acc.,99.2%,ALS / Dysarthria,card2025long
+PMC13375540,Utah Array,RNN,BrainGate2 (T12),125k,Acc.,96.5%,ALS / Dysarthria,card2025long
+arxiv:2009.02110,ECoG,Seq2Seq + LLM,Kinematic Decod.,Cont.,WER,3.0%,Healthy / Clinical,gonzalez2020silent
+arxiv:2506.13835,EEG / EMG,Conformer + HTNet,Japanese Corpus,64 Words,W. Acc.,95.3%,Clinical Patients,inoue2025silent
+doi:10.1007/s00521-024-10456-z,sEMG,DNN-HMM Hybrid,WSJ0 5k Corpus,"5,000",WER,6.45%,Healthy Subjects,chowdhury2025decoding
+arxiv:2506.03831,UTI (Submental),Conformer + bi-LSTM,TaL80 / TaL Corpus,1k Utter.,MCD,3.03 dB,Multi-speaker,ibrahimov2025conformer
+arxiv:1904.05259,UTI,AutoEncoder,Custom Dataset,Sentences,NMSE,-,Single speaker,gosztolya2019autoencoder
+PMC7922488,Video (Lip),LipNet (STCNN + Bi-GRU),GRID Corpus,51 Words,S. Acc.,95.2%,Healthy Subjects,lee2021biosignal
+PMC11894117,SAAS (PMUT),ResNet (Residual Network),Daily Comm.,10 Sent.,Acc.,99.8%,Potential Patients,liu2025machine

@@ -1,0 +1,7 @@
+document_id,Paper,Axis 1,Axis 2,Axis 3,Axis 4,Axis 5
+doi:10.1111/j.1467-985x.2009.00618.x,basu_tiwari_2010,Cause-specific cure,Mixture,Parametric / piecewise constant,Masked causes; cure--event link,Bayesian MCMC
+doi:10.1002/cjs.11256,choi_et_al_2015,Global cure,Mixture,Transformation (semi-param.),No cross-cause joint model,Semiparametric NPMLE
+doi:10.1002/sim.7508,choi_et_al_2018,Global cure,Mixture,AFT (semi-param.),No cross-cause joint model,Kernel-smoothed profile likelihood
+arxiv:2007.02305,kuttumannil_et_al_2020,Global cure,CIF-based transformation,CIF transformation,No cross-cause joint model,Counting-process estimating eqs.
+arxiv:2412.04803,silpa_et_al_2024a,Global cure,Defective survival,Parametric (defective),Independent cause components,Direct MLE (nlminb)
+PMC13147822,wang_et_al_2026a,Cause-specific cure,Clustered mixture,PH (semi-param.),Working cluster correlation,ES/GEE + bootstrap

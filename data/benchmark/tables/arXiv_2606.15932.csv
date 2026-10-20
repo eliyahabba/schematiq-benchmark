@@ -1,0 +1,15 @@
+document_id,Benchmark,Year,Data Source,Test Instances,Evaluation Metrics
+arxiv:2403.09029,WebSight,2024,Synthetic,823k,"BLEU, TreeBLEU, SSIM"
+doi:10.18653/v1/2025.naacl-long.199,Design2Code,2024,Real,484,"CLIP, Block match, Visual sim"
+arxiv:2506.23918,IW-Bench,2024,Real+Synthetic,1.2k,Element/Layout Accuracy
+arxiv:2505.17399,FullFront,2025,Real+Synthetic,400,"Gemini Visual Score, Code Score"
+arxiv:2510.04097,WebRenderBench,2024,Real,45.1k,"RDA, GDA, SDA"
+arxiv:2510.15306,WebGen-V Bench,2024,Real,647,Layout/Style consistency
+arxiv:2506.06251,DesignBench,2025,Real,900,Generation/Editing/Repair
+arxiv:2411.03292,Interaction2Code,2024,Real,97,Interaction success rate
+arxiv:2412.15310,MRWeb,2024,Real,500,Functionality completeness
+arxiv:2505.07473,Web-Bench,2025,Real,50 projects,Pass@k
+arxiv:2505.03733,WebGen-Bench,2024,Real,101,"Accuracy, Appearance score"
+arxiv:2509.24709,IWR-Bench,2025,Real,113,Interaction fidelity
+arxiv:2511.15567,AUI-Gym,2024,Synthetic,52 apps,"Function Completeness, CUA SR"
+arxiv:2511.06251,WebVIA,2025,Synthetic+Real,11k,Task completion rate

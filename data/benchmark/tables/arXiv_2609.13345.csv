@@ -1,0 +1,48 @@
+document_id,Method Name,Uncertainty Quantification Method,Data Type,Application Domain,Venue,Year,Reference
+arxiv:2206.10696,EWNet,Pre-Control Limits,Univariate,Epidemiology,Neural Networks,2023,panja2023epicasting
+doi:10.1111/rssc.12540,S-ESN,Randomization-based Ensemble,Spatiotemporal,Energy,JRSS C,2022,huang2022esn
+arxiv:1806.10728,D-EESN,Randomization-based Ensemble,Spatiotemporal,Meteorology,Environmetrics,2019,McDermott2019deen
+arxiv:2010.11310,TimeSeriesXAI,Deep Ensemble,Univariate,Healthcare,IEEE JBHI,2021,wickstrom2021uncertainty
+arxiv:2505.21658,STACI,Conformal Prediction,Spatiotemporal,Environmental,NeurIPS,2026,feng2026staci
+arxiv:2605.03789,CSP,Conformal Prediction,Univariate,General,ArXiv,2026,valery2026csp
+arxiv:2202.08756,EnCQR,Conformalized Quantile Regression,Multivariate,Energy,IEEE TNNLS,2024,jensen2024ensqr
+doi:10.1109/access.2021.3100261,BSTI,Bayesian Hierarchical Model,Spatiotemporal,Transportation,IEEE Access,2021,cui2021bus
+arxiv:2106.06064,AGCGRU+flow,State Space Model,Spatiotemporal,Traffic,ICML,2021,pal2021rnnpf
+arxiv:1801.03222,MBSTS,State Space Model,Multivariate,Econometrics,JMLR,2018,qiu2018mbsts
+arxiv:2111.01732,ST-SVGP,Gaussian Process,Spatiotemporal,General,NeurIPS,2021,hamelijnck2021stvgp
+arxiv:1609.05372,GpGp,Gaussian Process,Spatiotemporal,General,Technometrics,2018,guinness2018gpgp
+arxiv:2311.12379,-,Dirichlet Process,Univariate,General,IEEE ICDMW,2023,ren2023infinite
+doi:10.1214/10-aoas395,Sticky HDP-HMM,Dirichlet Process,Multivariate,Speech Processing,AOAS,2011,fox2011sticky
+doi:10.4236/am.2024.154018,ARDL-BART,Bayesian Additive Regression Tree,Multivariate,Macroeconomics,AM (SCIRP),2024,mahdavi2024measuring
+arxiv:2211.04752,BNN,Bayesian Neural Network,Multivariate,Macroeconomics,J. Econom.,2025,Hauzenberger2025bnn
+arxiv:2501.18665,BARNN,Bayesian Neural Network,Univariate,Synthetic,ICML,2025,coscia2025barnn
+arxiv:1711.00636,BAST-RNN,Bayesian Neural Network,Spatiotemporal,General,Entropy,2019,mcdermott2019bayesianrnn
+PMC6919583,BSTIM,Approximate Bayesian Inference (MCMC),Spatiotemporal,Epidemiology,PLOS ONE,2019,stojanovic2019bayesian
+PMC11390735,BayesNF,Approximate Bayesian Inference (VI),Spatiotemporal,General,Nat. Commun.,2024,saad2024scalable
+doi:10.1007/s10940-020-09469-3,-,Approximate Bayesian Inference (INLA),Spatiotemporal,Criminology,JQC,2021,mahfoud2021burglary
+doi:10.1007/s13253-019-00369-z,Spliced Gamma-GP,Approximate Bayesian Inference (INLA),Spatiotemporal,Energy,JABES,2019,castro2019spliced
+arxiv:1704.04110,DeepAR,Single Parametric Distribution,Multivariate,General,IJF,2020,salinas2020deepar
+arxiv:2208.07590,EQRN,Quantile Regression,Spatiotemporal,Hydrology,AOAS,2024,pasche2024eqrn
+arxiv:2603.11909,Enformer,Engression,Multivariate,General,ArXiv,2026,pathak2026entransformer
+arxiv:2603.07108,GCEN/STEN,Engression,Spatiotemporal,Epidemiology,TMLR,2026,pathak2026engression
+doi:10.1016/j.neucom.2020.01.111,DeepPIPE,Loss-Driven Interval Prediction,Multivariate,General,Neurocomputing,2020,wang2020DeepPIPE
+arxiv:2310.01327,TACTiS-2,Copula-Based Model,Multivariate,General,ICLR,2024,ashok2024tactis
+arxiv:1910.03002,GP-Copula,Copula-Based Model,Multivariate,General,NeurIPS,2019,salinas2019gpcopula
+arxiv:2312.15002,C2FAR,Hierarchical Discretization,Univariate,General,NeurIPS,2022,bergsma2022c2far
+doi:10.1609/aaai.v39i1.32057,HDT,Hierarchical Discretization,Multivariate,General,AAAI,2025,shibo2025hdt
+arxiv:2505.23017,K^2VAE,Variational Autoencoder,Multivariate,General,ICML,2025,wu2025kvae
+arxiv:2406.04759,Graph-EFM,Variational Autoencoder,Spatiotemporal,Meteorology,NeurIPS,2024,oskarsson2024probabilistic
+arxiv:2112.08217,-,Generative Adversarial Networks,Spatiotemporal,Environmental,JMLR,2024,pacchiardi2024gan
+doi:10.1109/access.2021.3069134,STI-GAN,Generative Adversarial Networks,Spatiotemporal,Autonomous Systems,IEEE Access,2021,huang2021stigan
+doi:10.1609/aaai.v39i20.35494,ProFITi,Normalizing Flows,Multivariate,General,AAAI,2025,yalavarthi2025ProFITi
+arxiv:2104.04391,MotionFlow,Normalizing Flows,Spatiotemporal,Computer Vision,IEEE TPAMI,2023,Zand2023stsp
+arxiv:2002.06103,LSTM/Transformer-MAF,Normalizing Flows,Multivariate,General,ICLR,2021,rasul2021multivariate
+arxiv:2401.08119,SpecSTG,Denoising Diffusion Probabilistic Model,Spatiotemporal,Transportation,IJCNN,2025,lin2025SpecSTG
+arxiv:2301.13629,DiffSTG,Denoising Diffusion Probabilistic Model,Spatiotemporal,General,SIGSPATIAL,2023,wen2023diffstg
+arxiv:2306.05043,TimeDiff,Denoising Diffusion Probabilistic Model,Multivariate,General,ICML,2023,shen2023nonautoregressive
+arxiv:2101.12072,TimeGrad,Denoising Diffusion Probabilistic Model,Multivariate,General,ICML,2021,rasul2021timegrad
+arxiv:2312.15796,GenCast,Score-based Diffusion Model,Spatiotemporal,Meteorology,Nature,2025,price2024gencast
+arxiv:2211.02590,-,Score-based Diffusion Model,Multivariate,General,ICML,2023,bilos2023diffusion
+arxiv:2312.11966,SHADECast,Latent Diffusion Model,Spatiotemporal,Energy,Applied Energy,2025,Carpentieri2025SHADECast
+doi:10.1609/aaai.v38i11.29085,LDT,Latent Diffusion Model,Multivariate,General,AAAI,2024,feng2024ldt
+arxiv:2511.18539,TimePre,Multiple Choice Learning,Multivariate,General,TMLR,2026,jiang2026timepre

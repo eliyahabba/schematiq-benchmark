@@ -1,0 +1,20 @@
+document_id,Study information - Author,Study information - Tumor analysed,Study information - Year of recruitment,Study information - Study design,Study information - Country,Study information - Sociodemographic factors,Study information - Clinical factors,Study information - Occupational factors,Study information - Outcome,DataSheet1.docx: Failure to develop and apply appropriate eligibility criteria (inclusion of control population),DataSheet1.docx: Under- or over-matching in case-control studies,DataSheet1.docx: Selection of exposed and unexposed in cohort studies from different populations,DataSheet1.docx: Flawed measurement of both exposure and outcome,DataSheet1.docx: Differences in measurement of exposure (e.g. recall bias in case-control studies),DataSheet1.docx: Differential surveillance for outcome in exposed and unexposed in cohort studies,DataSheet1.docx: Failure to adequately control confounding,DataSheet1.docx: Failure to match for prognostic factors and/or adjustment in statistical analysis,DataSheet1.docx: Failure of accurate measurement of all known prognostic factors,DataSheet1.docx: Incomplete or inadequately short follow-up,DataSheet1.docx: OVERALL RESULTS
+PMC6153559,Bennett (2018),Prostate,2015–2017,Cohort,United Kingdom,- Age - Cohabiting,- Stage - Comorbidities - Radiotherapy,Type of contract,RTW,,,●,,,●,,,●,●,●
+PMC3263326,Blinder (2012),Breast,2004–2005,Cohort,United States,- Cohabiting - Education,- Comorbidity - Radiotherapy - Chemotherapy,N/A,RTW,,,●,,,●,,,●,●,●
+PMC8534983,Caumette (2021),Breast,2012–2017,Cohort,France,- Age - Cohabiting,- Stage - Comorbidity - Radiotherapy - Chemotherapy - Surgery,N/A,RTW,,,●,,,●,,,●,●,●
+PMC8213801,Chen W (2021),Not specified,2004–2010,Cohort,Taiwan,- Age - Sex,- Stage - Comorbidities - Radiotherapy - Chemotherapy - Surgery,- Type of contract - Type of occupation,Time to RTW,,,●,,,●,,,●,●,●
+PMC7048162,Dumas (2020),Breast,2012–2015,Cohort,France,- Age - Cohabiting - Income,- Stage - Radiotherapy - Chemotherapy - Surgery,- Type of contract - Designation of workers,RTW,,,●,,,●,,,●,●,●
+PMC4801999,Endo (2016),Not specified,2000–2011,Cohort,Japan,Age,N/A,N/A,Time to RTW,,,●,,,●,,,●,●,●
+doi:10.1080/03630242.2024.2324312,Fiabane (2024),Breast,2017–2019,Cohort,Italy,N/A,- Chemotherapy - Radiotherapy,- Designation of workers - Type of contract - Type of occupation,RTW,,,●,,,●,,,●,●,●
+PMC4190428,Gordon (2014),Colorectal,2010–2011,Cohort,Australia,Sex,N/A,N/A,- RTW - Time to RTW,,,●,,,●,,,●,●,●
+PMC10225211,Johnsson (2023),Breast,1997–2011,Cohort,Sweden,- Age - Cohabiting,N/A,N/A,RTW,,,●,,,●,,,●,●,●
+PMC9404600,Kang (2022),Not specified,2017–2018,Cross- sectional,South Korea,- Sex - Education - Income,Stage,Designation of workers,RTW,,,,,,,,,,,
+doi:10.1002/cncr.31735,Landeiro (2018),Breast,2012–2014,Cohort,Brazil,- Age - Education,- Radiotherapy - Chemotherapy - Surgery,N/A,RTW,,,●,,,●,,,●,●,●
+PMC8550547,Li (2021),Breast,2012–2018,Cohort,China,- Age - Education,- Stage - Comorbidity - Radiotherapy - Chemotherapy - Surgery,Designation of workers,RTW Time to RTW,,,●,,,●,,,●,●,●
+PMC8163665,Rashid (2021),Lung,2015–2016,Cross- sectional,Germany,- Age - Sex - Income,- Stage - Comorbidity - Radiotherapy,- Type of contract - Designation of workers,RTW,,,,,,,,,,,
+PMC7716905,Rosbjerg (2020),Not specified,2016–2018,Cohort,Denmark,- Sex - Education,N/A,N/A,Time to RTW,,,●,,,●,,,●,●,●
+PMC7605502,Rydén (2020),Brain,2005–2015,Cohort,Sweden,- Age - Sex,Surgery,N/A,RTW,,,●,,,●,,,●,●,●
+PMC7605502,Rydén (2020),Brain,2005–2015,(Matched),Sweden,- Age - Sex,Surgery,N/A,RTW,,,●,,,●,,,●,●,●
+PMC6838305,Tamminga (2019),Not specified,2009–2010,RCT,Netherlands,Education,N/A,Chemotherapy,Time to RTW,,,,,,,,,,,
+PMC6053748,Ullrich (2018),Prostate,2010–2012,Cohort,Germany,- Age - Education - Income,- Stage - Comorbidity,- Type of contract - Designation of workers,RTW,,,●,,,●,,,●,●,●
+PMC8636403,Ullrich (2022),Prostate,2010–2012,Cohort,Germany,- Cohabiting,N/A,N/A,RTW,,,●,,,●,,,●,●,●

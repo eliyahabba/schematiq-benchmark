@@ -1,0 +1,7 @@
+document_id,Author-year,Country,Species (strain),Age (w),sex,n(I/C),Model induction method,Dose,D (w),ROA,Outcomes of interest
+PMC8445893,Ahn et al. ( 13 ),Korea,Mice (C57BL/6J),6,m,10/10,High-fat diet,NA,8,Dietary,"Liver weight, hepatic TG/TC"
+PMC10421254,Hong et al. ( 14 ),Korea,Mice (C57BL/6J),4,m,10/10,High-fat diet,NA,8,Dietary,"BW, blood TG/TC/HDL-C/FFA, FBG, insulin, HOMA-IR, adiponectin, leptin"
+PMC11508832,Li et al. ( 4 ),China,Rat (SD),5–6,m,8/8,High-fructose diet,2 mg/kg/d,4,Gavage,"BW, liver index, blood TG/TC, hepatic TG/TC"
+PMC11508832,Li et al. ( 4 ),China,"Mice (C57BL/6J, SCD1 +/+)",8–10,m,6/6,High-fructose diet,2 mg/kg/d,2,Gavage,"BW, liver index, hepatic TG/TC"
+PMC10094681,Liu et al. ( 20 ),China,Mice (C57BL/6J),6,m,6/6,High-fat diet,10/20 mg/kg/d,5,Gavage,"BW, liver weight, liver index, blood TG/TC, hepatic TG/TC, FBG, insulin, HOMA-IR, ALT, AST, TNF-α, IL-6, FAS"
+PMC11662909,Gunawan et al. ( 21 ),Indonesia,Rat (SD),8,m,5/5,Hfhf,50/100/200 mg/kg/d,8,Gavage,"BW, liver weight, liver index, blood TG/TC/HDL-C/LDL-C, ALT, AST"

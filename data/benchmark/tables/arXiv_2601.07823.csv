@@ -1,0 +1,13 @@
+document_id,Application,Method,Backbone,Architecture,Input Modality,Robot-Agnostic
+arxiv:2505.12705,IDM-Based Data Generation,DreamGen,Wan 2.1,DiT,I2V,"no\ (GR1, Franka, SO-100)"
+arxiv:2412.14803,,VPP,SVD,U-Net,I2V,no\ (OpenX)
+arxiv:2507.12898,,Vidar,Wan 2.2,DiT,I2V,"no\ (Aloha, AgiBot)"
+arxiv:2503.09871,Motion Retargeting,LuciBot,KLING,DiT,I2V,no\ (N/A)
+arxiv:2310.08576,,AVDC,ADM-G,U-Net,I2V,"no\ (Sawyer, Bridge, Franka)"
+arxiv:2410.10076,,VideoAgent,ADM-G,U-Net,I2V,"no\ (Sawyer, Bridge)"
+arxiv:2406.16862,,Dreamitate,SVD,U-Net,I2V,"no\ (xArm, UR5)"
+arxiv:2503.00200,Policy Backbone,UVA,Scratch,DiT,I2V,no\ (ARX X5)
+arxiv:2504.02792,,UWM,Scratch,DiT,I2V,no\ (DROID)
+arxiv:2506.19850,,UniVLA,Emu3,DiT,I2V,no\ (AgileX)
+arxiv:2508.00795,,Video Policy,SVD,U-Net,I2V,no\ (DROID)
+arxiv:2512.15692,,Mimic-Video,Cosmos-Predict2,DiT,I2V,no\ (Franka)

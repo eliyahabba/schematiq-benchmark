@@ -1,0 +1,6 @@
+document_id,Author,Year,Group,Number,Study,Country,Inflammatory,Detection method,Age (years),Smoking (n),Male/Females (n),Hypertension (n),BMI (kg⁄ m 2 ),Diabetes (n),Dyslipidemia (n)
+PMC2597763,Palazzuoli et al . [ 35 ],2008,Case | Control,98 | 82,Case-control,Italy,CRP,,74 ± 8,59 | 31,76/22 | 50/32,,29 ± 3.8 | 28 ± 3.6,,
+doi:10.1016/j.jvs.2006.09.049,Dawson et al . [ 52 ],2007,Case | Control,25 | 12,Case-control,UK,CRP,,73 | 50,,27/0 | 3/12,,,4 | 0,
+doi:10.1161/circulationaha.107.717926,Golledge et al . [ 28 ],2007,Case | Control,318 | 634,Case-control,AUS,CRP,ELISA,,,,,,,
+PMC6213834,Qin et al . [ 21 ],2013,Case | Control,31 | 32,Case-control,China,CRP,ELISA,63.45 ± 12.83 | 58.88 ± 7.12,19 | 7,25/6 | 15/17,22 | 1,26.26 ± 9.41 | 24.55 ± 3.42,,
+PMC4889176,Jones et al . [ 31 ],2016,Case | Control,442 | 970,Case-control,New Zealand,CRP and IL-10,,75.0 ± 7.9 | 68.5 ± 7.6,,334/108 | 741/229,262 | 307,,50 | 66,

@@ -1,0 +1,6 @@
+document_id,Study,Year,Country,Study design,"Subjects, n - E","Subjects, n - C",Population,Primary diagnosis,Operative location,Irrigation techniques and Volumes - E,Irrigation techniques and Volumes - C
+PMC5642872,De Luna et al. ( 31 ),2017,Italy,RCT,25,25,Adult,Scoliosis,Varied,"3% P-I , 2L","Normal saline, 2L"
+PMC5486885,Fei et al. ( 32 ),2017,China,RCT,40,40,Adult,PLID,Lumbar,"0.1% P-I , 0.2L","Normal saline, N/A"
+doi:10.35975/apic.v24i3.1282,Sigari et al. ( 36 ),2020,Germany,RCT,468,468,Adult,"Scoliosis, DD",Varied,"3% P-I , N/A","Normal saline, N/A"
+PMC8363528,Roberto et al. ( 38 ),2021,USA,RCS,13,88,Pediatric,Spinal deformity,Varied,"3.5% w/v P-I , N/A",No irrigation techniques
+PMC9210233,Lin et al. ( 39 ),2022,China,RCS,120,124,Adult,Varied,Lumbar,"0.35% P-I , 1L","Normal saline, N/A"

@@ -1,0 +1,10 @@
+document_id,Foundation Model,Architecture,Pre-training Strategy,Dataset,Wireless Layer,Application,Transfer Learning,Evaluation Metric,Main Contribution
+arxiv:2502.06877,WirelessGPT,Transformer,Self-supervised,"CSI, IQ",PHY,"Channel estimation, detection",Fine-tuning,"NMSE, BER",General-purpose Transformer backbone for multi-task wireless communications.
+arxiv:2411.08872,Large Wireless Model (LWM),Transformer,SSL,Large wireless channel dataset,PHY,Channel prediction,Fine-tuning,NMSE,Learns transferable channel representations across propagation environments.
+arxiv:2411.08872,WavesFM,Vision Transformer,Masked Modeling,"CSI, IQ, Spectrograms",PHY,"Channel estimation, localization, sensing",LoRA,"NMSE, Localization Error","Unified foundation model supporting communication, sensing, and localization."
+arxiv:2507.05938,MuSE-FM,Transformer,Multi-modal SSL,CSI + Environmental Data,Cross-layer,"Beamforming, Resource Allocation",LoRA,Spectral Efficiency,Environment-aware multi-task optimization framework.
+arxiv:2412.08908,WiFo,Transformer,Masked Channel Modeling,CSI,PHY,Channel prediction,Fine-tuning,NMSE,Long-term channel prediction using pre-trained representations.
+arxiv:2506.05237,CSI2Vec,Transformer Encoder,Contrastive Learning,CSI,PHY,Localization,Fine-tuning,Position Error,Universal CSI embedding for localization and channel charting.
+arxiv:2506.06718,IQFM,Transformer,Self-supervised,IQ Streams,PHY,Signal Detection,Fine-tuning,BER,Learns transferable representations directly from raw IQ samples.
+arxiv:2604.18255,WiFo-MISAC,Transformer,Multi-modal SSL,Wireless Sensing Dataset,Cross-layer,Integrated Sensing and Communication,LoRA,Detection Accuracy,Unified multimodal sensing and communication foundation model.
+arxiv:2605.00020,AirFM-DDA,Physics-informed Transformer,Self-supervised,Delay--Doppler Channel Dataset,PHY,Channel Estimation,Prompt / Fine-tuning,NMSE,Introduces physics-aware positional encoding for wireless foundation models.

@@ -1,0 +1,7 @@
+document_id,Paper,Year,Platform,Env.,Model,\# Mic,Max Src.,/M
+arxiv:1807.00129,40_SELFnet,2019,N/S,Indoor,CRNN + ACCDOA / mACCDOA,4,3,Moving
+arxiv:2103.03954,33_9561885,2021,Humanoid,Indoor,CNN Mask + GCC-PHAT-SM + MLP/SNN,4,2,Static
+PMC10098578,4_Shin2023SoundEL,2023,N/S,Indoor,RCNN + Transformer,4,3,Moving
+arxiv:2506.16173,9_wang2025singlemicrophonebasedsoundsourcelocalization,2025,Wheeled,Indoor,Filter-Attention CNN + EKF,1,1,Static
+arxiv:2509.21900,10_wang2025ipdnet2efficientimprovedinterchannel,2025,N/S,Indoor,IPDnet2,5,1,S+M
+arxiv:2509.21382,70_jazaeri2025multispeakerdoaestimationbinaural,2025,N/S,Indoor,CRNN + Source Count Fusion,3,2,S+M

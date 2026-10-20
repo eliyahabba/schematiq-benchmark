@@ -1,0 +1,12 @@
+document_id,"Author, Year",Design,Subjects ( n ),Age (Range),Music Genre,Rehearsal Time (hs),HL (%),HL (Frequency),HL (Symmetry),Tinnitus (%),Hyperacusis (%),Diplacusis (%)
+PMC9450680,"Mendes, 2007 [ 29 ]",PS,34,ns,PR,ns,58.8%,3000–6000 Hz,Symmetric,47%,ns,ns
+doi:10.1007/s00420-008-0317-1,"Jansen, 2009 [ 46 ]",PS,241,23–64,CL,ns,51.9%,6000 Hz,Symmetric,17%,ns,8.2%
+PMC5926315,"Russo, 2013 [ 54 ]",PS,44,41–57,CL,4:00,100%,4000–6000 Hz,Symmetric,ns,ns,ns
+PMC9444655,"Luders, 2014 [ 57 ]",RS,42,18–58,CL,ns,7.14%,250–3000 Hz,Symmetric,ns,ns,ns
+PMC4918652,"Halevi-Katz, 2015 [ 31 ]",PS,44,20–64,PR,5:15,100%,3000–6000 Hz,Symmetric,6%,2%,ns
+PMC4900477,"Stormer, 2015 [ 61 ]",CC,111,16–52,PR,2:00,37.8%,6000 Hz,Symmetric,10%,ns,ns
+doi:10.5935/0946-5448.20160009,"Luders, 2016 [ 62 ]",PS,30,33–54,CL,3:00,43.3%,3000–6000 Hz,Symmetric,53%,33%,ns
+PMC4918677,"Hennir, 2016 [ 63 ]",PS,28,18–25,CL,2:00,25%,ns,Symmetric,ns,ns,ns
+PMC5388610,"Pouryaghoub, 2017 [ 65 ]",CS,125,31–38,PR and CL,ns,82.4%,3000–6000 Hz,Asymmetric,51.2%,ns,ns
+doi:10.5935/0946-5448.20170010,"Stormer, 2017 [ 67 ]",CS,111,22–41,PR,ns,ns,ns,ns,19.8%,ns,ns
+PMC5926315,"Behar, 2018 [ 69 ]",LS,46,ns,CL,ns,100%,4000–8000 Hz,ns,ns,ns,ns

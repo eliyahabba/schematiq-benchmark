@@ -1,0 +1,6 @@
+document_id,Droplet[Epilayer],T ( ),i,Method,Source
+PMC6787194,Ga[GaAs(111)A] Growth surface is vicinal with a miscut of 2 towards ( 1 12).,300450,"3 1 and 2 0.5 For T < 400 , give i=3 1. For T > 400 , the authors give i = 2 0.5 due to a change in the diffusion conditions associated with the vicinal epilayer.",GWS,Ref.
+PMC7994575,Ga[GaAs(111)A],300450,1.0 0.4 to 4.0 0.3,GWS,Ref.
+doi:10.1016/j.apsusc.2024.160450,Ga[ In_0.4Ga_0.6As(111)A],540,5.4 1.5 give i = 1.675 0.150 consistent with initially incomplete condensation. The value tabulated here is for complete condensation; see text for details.,Scaling,Ref.
+doi:10.1007/s11664-022-10012-2,Al[GaAs],480,"5 give values of i equal to 1, 2, and 5, depending on the nucleation regime. Consistent with other works we assume nucleation to be in the complete condensation regime for this system.",Scaling,Ref.
+doi:10.1103/physrevb.100.155402,Al[ Al_0.4Ga_0.6As],600,2,GWS,Ref.

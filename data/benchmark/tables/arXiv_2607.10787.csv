@@ -1,0 +1,36 @@
+document_id,L0.28 Benchmark & Dataset,Description,Paradigms,Date
+arxiv:1901.08971,FaceForensics++,"Forensics dataset with 1,000 original videos.",LMV,01/2019
+arxiv:2006.07397,DFDC,Large-scale face-swapping dataset (mostly local forgeries).,LMV,06/2020
+arxiv:2103.10094,KoDF,Large-scale Korean AIGC-V detection dataset.,LMV,10/2021
+arxiv:2406.00783,AI-Face,"Million-scale, demographically annotated AI-face dataset.",LMV&GVS,06/2024
+arxiv:2503.14421,ExDDV,Benchmark for explainable AIGC-V video detection.,LMV,11/2025
+doi:10.48550/arxiv.2602.21779,FAQ / Beyond Static Artifacts,Forensic benchmark and instruction-tuning resource for temporal video deepfake reasoning in VLMs.,LMV,02/2026
+arxiv:2108.05080,FakeAVCeleb,Audio-visual multimodal deepfake dataset.,AVE,08/2021
+arxiv:2204.06228,LAV-DF,Content-driven localized audio-visual deepfake dataset.,AVE,11/2022
+arxiv:2408.02954,FakeMix,Clip-level benchmark for manipulated audio and video segments.,AVE,08/2024
+doi:10.1145/3664647.3680795,AV-Deepfake1M,Large-scale LLM-driven audio-visual deepfake dataset.,AVE,10/2024
+arxiv:2505.22581,ArEnAV,Audio-visual deepfake dataset for Arabic--English code-switching (CSW).,AVE,05/2025
+arxiv:2505.11109,MAVOS-DD,Multilingual open-set benchmark for audio-visual AIGC-V detection.,AVE,05/2025
+arxiv:2505.16512,DigiFakeAV,Benchmark for diffusion-based digital-human audio-visual forgeries.,AVE,05/2025
+arxiv:2508.14581,X-AVFake,Dual-modality manipulations with grounded language reasoning.,AVE,08/2025
+arxiv:2507.20579,AV-Deepfake1M++,2M clips extending AV-Deepfake1M with diverse audio-visual manipulations.,AVE,10/2025
+doi:10.48550/arxiv.2603.08483,MMDF,"Multimodal deepfake dataset spanning GAN, diffusion, and flow-matching manipulations.",AVE,03/2026
+arxiv:2402.02085,GVF,Generated Video Forensics benchmark for AI-video detection.,GVS,02/2024
+arxiv:2405.15343,GenVidDet,Real and AIGC-V videos from eight generation models.,GVS,05/2024
+arxiv:2405.19707,GenVideo,AIGC-V detection dataset.,GVS,05/2024
+arxiv:2501.11340,GenVidBench,AIGC-V detection dataset.,GVS,01/2025
+arxiv:2503.02857,Deepfake-Eval-2024,Multi-modal in-the-wild benchmark of deepfakes from 2024.,L&A&G,03/2025
+arxiv:2410.09732,LOKI,"Multimodal synthetic-data detection benchmark over video, image, 3D, text, and audio.",GVS,04/2025
+arxiv:2505.12620,GenBuster-200K,Real + synthetic videos simulating real-world conditions.,GVS,05/2025
+arxiv:2506.10975,GenWorld,Large-scale real-world simulation dataset for AI-video detection.,GVS,06/2025
+arxiv:2506.00979,Ivy-Fake,Large-scale benchmark for explainable AIGC detection.,GVS,06/2025
+arxiv:2506.14827,DAVID-X,AIGC-V with defect-level spatiotemporal annotations + rationales.,GVS,06/2025
+arxiv:2507.14632,GenBuster++,A cross-modal benchmark for VLM evaluation.,GVS,07/2025
+arxiv:2509.22646,DeeptraceReward,Spatiotemporal benchmark with human-perceived fake traces.,GVS,09/2025
+arxiv:2510.16442,ER-FF++set,Benchmark with supervision for detection + explanation.,GVS,10/2025
+doi:10.1145/3746027.3758295,AEGIS,Large-scale benchmark for AIGC-V authenticity.,GVS,10/2025
+arxiv:2512.15693,ViFBench,3K videos from 10+ SOTA generators.,GVS,12/2025
+arxiv:2512.13281,Video Reality Test,An ASMR-sourced benchmark.,GVS,12/2025
+doi:10.48550/arxiv.2601.11035,AIGVDBench,Large-scale benchmark with 440K videos from 31 generation models and 33 evaluated detectors.,GVS,01/2026
+doi:10.48550/arxiv.2602.04939,SynthForensics,"Human-centric synthetic-video benchmark with 6,815 videos from five open-source T2V generators.",GVS,02/2026
+doi:10.48550/arxiv.2602.08828,MintVid,Lightweight high-quality benchmark with 3K videos from nine state-of-the-art generators.,GVS,02/2026

@@ -1,0 +1,9 @@
+document_id,Reference,Region/year,Study design,Sample size(n),Number of KOA(n),Muscle image acquisition,Risk factors
+PMC11792356,Aily et al. (2025),Brazil/2025,Cross-sectional,46,23,MRI,"Intermuscular adipose tissue, Extensor strength, Knee extension torque"
+PMC3251718,Beattie et al. (2012),Canada/2013,Case control,86,41,MRI,"Quadriceps Femoris volume, Intermuscular adipose tissue"
+PMC3252211,Conroy et al. (2012),USA/2012,Cross-sectional,425,334,MRI,"Total thigh muscle Cross-sectional area, Quadriceps Femoris Cross-sectional, Intermuscular adipose tissue, Knee extensor relative strength"
+PMC5532059,Culvenor et al. (2017),Australia/2017,Case control,372,186,MRI,"Flexors Cross-sectional area, Extensors Cross-sectional area, Extensor strength, Knee extensor relative strength, Flexor strength, Knee flexor relative strength, Low knee extensor strength"
+PMC3535556,Maly et al. (2013),Canada/2013,Case control,125,73,MRI,"Quadriceps Femoris volume, Intermuscular adipose tissue"
+PMC10103393,Taniguchi et al. (2023),Japan/2023,Case control,50,19,MRI,Quadriceps Femoris volume
+PMC12457495,Watabe et al. (2025),Japan/2025,Case control,30,15,CT,Vastus Medialis Cross-sectional Area
+PMC7013934,Zhang et al. (2020),China/2020,Case control,47,25,DXA,"Extensor strength, Flexor strength, Knee extension torque, Knee flexion torque"

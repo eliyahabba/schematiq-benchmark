@@ -1,0 +1,62 @@
+document_id,Application,Ref.,Year,Real HW,Simulator,Platform,Method,Reported Evidence-calibrated Findings
+arxiv:2001.04489,Optimal,jones2020computational,2020,yes,yes,D-Wave,QA,Outperforms classical counterpart
+arxiv:2411.06684,,sakib2024quantum,2024,yes,no,D-Wave,QA,Outperforms classical counterparts
+arxiv:2410.16231,,radvand2024quantum,2024,no,yes,IBM,"GAS, QPE",Quadratic speedup over classical methods
+arxiv:2003.00254,,hasan2026quantum,2026,yes,no,IonQ,VQA,No quantum speed-up demonstrated
+arxiv:2512.04095,State,NEW_State_Estimation,2026,no,yes,IBM,HHL,Reduced gate count and depth
+PMC12044018,Contingency,feng2025quantum,2025,yes,yes,IBM,"VQC, VQLS",Theoretical exponential speed up
+arxiv:2504.14412,,peter2025quantum,2025,yes,yes,IBM,PQC,Improved learning performance
+doi:10.1016/j.epsr.2022.108386,,neumann2024quantum,2024,no,yes,"IBM, D-Wave","GS, QA",Theoretical quadratic speed up
+doi:10.1140/epjqt/s40507-023-00171-4,Assessment,carrascal2023bayesian,2023,yes,yes,IBM,RQBN,Matches classical Monte Carlo accuracy
+arxiv:2309.17299,,jong2023quantum,2023,yes,yes,IBM,QAE,Quadratic speed up
+arxiv:2208.07513,System,ngo2022evaluate,2022,yes,yes,IBM,QAOA,Potential computational speed up
+arxiv:2512.02065,,jahed2025quantum,2025,no,yes,IBM,VQC,Improvements in feature extraction
+doi:10.3389/fenrg.2024.1354262,,luo2024quantum,2024,no,yes,Classical Emulation,QW,Improves prediction accuracy
+arxiv:2507.02577,,paterakis2025quantum,2026,yes,yes,"IBM, PennyLane",QAOA,Proof-of-concept quantum optimization
+doi:10.1088/2058-9565/acb6ae,,lin2025quantum,2025,no,yes,PennyLane,VQC,Ensure parameter-efficient learning
+arxiv:2502.11728,,lou2025matrix,2025,no,yes,PyQpanda,VQLS,Exponential speed‑up in matrix mapping
+arxiv:2406.03081,,li2025quantum,2025,no,yes,MindQuantum,VQC,Theoretical complexity improvement
+arxiv:2601.11500,,ngo2026qupid,2026,no,yes,PennyLane,PQC,Improves robustness and scalability
+arxiv:2601.00873,,ogiesoba2025quantum,2025,no,yes,IBM,VQC,Hybrid model outdo classical models
+PMC11266437,,fei2024power,2024,no,yes,PennyLane,QAOA,Efficient multi-qubit gate decomposition
+arxiv:2601.15641,,bowden2026machine,2026,yes,yes,IBM,PQC,Enhanced accuracy with noisy data
+arxiv:2302.02547,Management,ngo2023quantum,2023,no,yes,Qulacs,"PQC, VQC",Exponential expressivity advantage
+doi:10.1109/tqe.2023.3271362,Forecasting,yu2023prediction,2023,no,yes,PennyLane,VQC,Gains consistent accuracy improvement
+arxiv:2312.16379,,sagingalieva2025photovoltaic,2025,no,yes,PennyLane,VQC,Magnitudes of performance improvement
+arxiv:2511.17698,,mechiche2025quantum,2025,no,yes,PennyLane,QFT,Superior capture of periodic patterns
+doi:10.1109/access.2023.3308053,,wang5336951quantum,2025,yes,no,Origin Wukong,VQC,Improved accuracy and reduced cost
+doi:10.3389/fphy.2024.1439180,,khan2024quantum,2024,no,yes,PennyLane,VQC,Significant accuracy gains over classical
+arxiv:2506.22845,,hangun2025quantum,2025,no,yes,IBM,VQC,Classical competitive performance
+doi:10.1186/s13677-024-00669-x,,nutakki2024quantum,2024,no,yes,Classical Emulation,PQC,Higher accuracy vs classical models
+PMC11876360,,habibi2025electrical,2025,no,yes,Classical Emulation,PQC,Enhanced uncertainty handling
+arxiv:2104.04888,,dash2025dynamic,2025,yes,no,D-Wave,QA,Outperformed classical counterpart
+arxiv:2201.04848,,gao2023solving,2023,no,yes,PyQPanda,HHL,Theoretical exponential speed‑up
+arxiv:2311.06293,,kaseb2024quantum,2024,no,yes,IBM,PQC,Higher robustness to noise
+arxiv:2410.22062,,zhu2025bayesian,2025,no,yes,PennyLane,VQC,Acheived faster convergence
+arxiv:2404.19067,,zheng2025early,2025,no,yes,NWQSim,HHL,Potential exponential speed up
+arxiv:2211.05728,,liu2024quantum,2024,yes,yes,IBM,"HHL, VQLS",Theoretical exponential speed up
+arxiv:2402.08136,,zheng2024early,2024,no,yes,NWQSim,HHL,Up to 8 speed up over IBM Qiskit
+PMC11455892,,kaseb2024power,2024,yes,yes,"D‑Wave, Fujitsu",QA,Classical comparable performance
+arxiv:2511.20237,,kaseb2025quantumRL,2025,yes,yes,"D‑Wave, Fujitsu",QA,Achieved faster convergence
+arxiv:2410.20275,,hu2024advancing,2025,no,yes,IBM,PQC,Improved convergence and generalization
+arxiv:2412.11312,%,salgado2024hybrid,2024,no,yes,IBM,QAOA,Theoretical polynomial time complexity
+arxiv:2505.00145,,aboumrad2025new,2025,yes,yes,IonQ,VQA,Achieved low approximation error
+arxiv:2511.03104,,hasanzadeh2025d2,2025,no,yes,IBM,VQE,Achieved faster convergence
+doi:10.1109/tpwrs.2022.3141794,,nikmehr2022quantumUC,2022,no,yes,IBM,QAOA,Improved computational efficiency
+arxiv:2502.15917,,hong2025qubit,2025,yes,no,D-Wave,QA,Runtime gain over classical solvers
+doi:10.1109/tqe.2023.3320872,,mahroo2023learning,2023,yes,yes,IBM,QAOA,Achieved faster solution
+arxiv:2112.05643,,paterakis2023hybrid,2023,yes,no,D-Wave,QA,Practical runtime reductions
+arxiv:2309.05502,,wei2026quantum,2026,no,yes,Not Reported,PQC,Faster convergence over classical model
+arxiv:2309.05502,Response,bucher2024incentivizing,2024,yes,yes,D‑Wave,QA,Enhanced scalability over classical model
+PMC12216185,,minghong2025behavior,2025,no,yes,D-Wave,"SA, QA",Improved scalability and convergence
+arxiv:2506.11730,,zhuang2025quantum,2025,no,yes,"IBM, PennyLane","VQC, QAE",Theoretical quadratic speed‑up
+arxiv:2311.10594,,mastroianni2023assessing,2023,yes,yes,IBM,QAOA,Potential asymptotic quantum advantage
+arxiv:2501.05253,,bucher2025grid,2025,yes,no,D‑Wave,QA,QA performs worse than classical solvers
+arxiv:2601.18482,,zhang2026physics,2026,no,yes,IBM,VQA,Faster convergence vs classical model
+arxiv:2112.08506,,han2026quasi,2026,yes,no,D-Wave,QA,Improved computational efficiency
+arxiv:2407.06773,Others,bucher2025evaluating,2025,yes,no,D-Wave,QA,Improved solution quality vs classical
+PMC10319827,,silva2023quantumothers,2023,yes,no,D‑Wave,QA,Improved solution and decision efficiency
+doi:10.1109/access.2023.3312997,,colucci2023power,2023,yes,no,D-Wave,QA,Empirical improvements in optimality
+arxiv:2506.23569,,liu2025alleviating,2025,yes,no,QBoson,Ising,Curse of dimensionality free speed‑up
+arxiv:2606.20667,,ioannou2026quantum,2026,no,yes,Classical Emulation,QAOA,Achieved optimal solutions in simulation
+arxiv:2606.15083,,jiang2026regrid,2026,yes,no,IBM,QAOA,Quant. resource-efficient optimal solution

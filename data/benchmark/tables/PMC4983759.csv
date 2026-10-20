@@ -1,0 +1,21 @@
+document_id,"First author, year [reference]",Number of patients,Study design,Initial minimum lactate for patient inclusion,Timing of measurements,Suggested time interval,Comments
+doi:10.1111/j.1365-2044.1984.tb06516.x,"Cowan, 1984 [ 23 ]",30,Prospective,–,"3 h, 24 h",3 h,Change in lactate predictive of outcome but less so than simple hemodynamic variables
+PMC2646325,"Jansen, 2008 [ 31 ]",106,Prospective,–,Variable (at ambulance pickup and at ER arrival),—,Decrease in lactate independently associated with decreased hazard of death
+PMC2772249,"Krishna, 2009 [ 27 ]",50,Prospective,–,"12 h, 24 h, 36 h","24 h, 36 h",Decreasing levels associated with survival
+PMC2875540,"Nichol, 2010 [ 6 ]",7155,Retrospective,–,Variable,24 h,Time-weighted average lactate over 24 h independent predictor of mortality
+PMC3334793,"Nichol, 2011 [ 10 ]",5041,Retrospective,–,Variable,24 h,Time-weighted average lactate and change in lactate over 24 h independent predictors of hospital mortality
+PMC3599274,"van Beest, 2013 [ 29 ]",2251,Retrospective,–,Variable,6 h,Normalization of lactate <6 h after ICU admission associated with better hospital survival than normalization of lactate >6 hrs
+PMC420024,"Meregalli, 2004 [ 34 ]",44,Prospective,–,"12 h, 24 h, 48 h",48 h,"Blood lactate concentrations decreased with time in survivors, but remained stable in nonsurvivors"
+doi:10.1007/s00268-008-9896-y,"Billeter, 2009 [ 47 ]",1032,Retrospective,–,Variable,24 h,Delayed or absent decrease in lactate associated with infectious complications but not mortality
+PMC4737353,"Freitas, 2015 [ 52 ]",117,Retrospective,–,6 h,6 h,No correlation between decrease in lactate and mortality
+PMC2837000,"Nguyen, 2010 [ 68 ]",220,Retrospective,–,6 h,6 h,Larger decrease in lactate associated with decreased mortality up to 12 months
+PMC3334775,"Nguyen, 2011 [ 18 ]",556,Prospective,–,12 h,12 h,Any decrease in lactate within 12 h from baseline or an initial lactate <2 mmol/l independently associated with reduced mortality
+PMC3614435,"Marty, 2013 [ 74 ]",94,Prospective,–,"6 h, 12 h, 24 h",24 h,Decrease in lactate at 24 h independently correlated to survival
+PMC4686961,"Lee, 2015 [ 79 ]",109,Retrospective,>3.3,"6 h, 24 h, 48 h","6 h, 24 h, 48 h","Decrease in lactate of <10 % in the first 6 h, 24 h, and 48 h independently associated with mortality"
+PMC4703153,"Bhat, 2015 [ 82 ]",207,Retrospective,–,Variable,Variable,Higher mortality in patients with no decrease in lactate
+PMC4751685,"Chertoff, 2016 [ 83 ]",229,Retrospective,–,24-48 h,24-48 h,Lower decrease in plasma lactate 24–48 h after initiation of treatment was associated with higher 30-day mortality
+PMC4789646,"Bolvardi, 2016 [ 87 ]",90,Prospective,–,6 h,6 h,Lactate decrease <10 % associated with increased mortality
+PMC4075395,"Park, 2014 [ 95 ]",96,Retrospective,–,Variable,48 h,Lactate decrease <70 % independent predictor of hospital mortality
+PMC2887159,"Arnalich, 2010 [ 99 ]",85,Prospective,–,6 h,6 h,Decrease in lactate significantly higher in 24-h survivors compared with nonsurvivors
+PMC3222065,"Le Guen, 2011 [ 100 ]",51,Prospective,–,1 h,1 h,Decrease in blood lactate >10 % significantly different in survivors and nonsurvivors treated with ECMO
+PMC2958677,"Scott, 2010 [ 110 ]",95,Prospective,–,"1 h, 2 h, 6 h, 24 h",2 h,Lactate decrease <15 % predictive of poor outcome (hospital mortality or endotracheal intubation) in patients with cardiorespiratory insufficiency

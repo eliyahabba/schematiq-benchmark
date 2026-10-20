@@ -1,0 +1,7 @@
+document_id,Study,Process,Material,col3,Pulse,Avg.\ power / rep-rate,Feat./,Key result
+PMC12388553,Wang,Glass cutting / stealth dicing,N-type SiC,1064,1,"0.3 , 50",--,Focal depth 45 \ 15
+PMC10534815,Balage,Glass cutting / stealth dicing,Glass,1030,"500 , 1.28 \ burst",--,--,Through-thickness cuts up to 1 mm
+PMC11722311,Lafargue,Glass cutting / stealth dicing,"Sodalime, fused silica",1030,500,up to 100,6.1,"6.3 \ spot, GHz-burst process window"
+doi:10.1364/ome.510141,Kawaguchi,Surface texturing,Tungsten,520,430,500,--,Vortex beam broadens LIPSS window
+doi:10.2961/jlmn.2021.01.2011,Lutz,Parallel ablation,Stainless steel (X5CrNi18-10),1030,0.2--0.4 J cm^-2,100,--,"20 spots, 6 mm^3 min^-1 (0.06 mm^3 min^-1 ^-1)"
+doi:10.2961/jlmn.2024.02.2006,Jacob,Parallel ablation,Stainless steel (SS304),1064,"10 , 1 mJ",100,9.4,"1088-pixel PLV, > 30 throughput"

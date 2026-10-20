@@ -1,0 +1,8 @@
+document_id,Benchmark,Terminal-competence dimensions - Action\\form.,Feedback\\interp.,Runtime\\mgmt.,State\\tracking,Verify,Recover,Govern,Eval.\\validity - Fresh.
+arxiv:2606.12344,Claw-SWE-Bench,I,T,I,T,T,I,--,I
+arxiv:2601.11868,Terminal-Bench / TerminalWorld,E,E,T,T,T,T,--,I
+arxiv:2507.09063,SetupBench,E,E,E,T,T,T,--,--
+arxiv:2602.10999,CLI-Gym,E,E,T,T,T,T,--,--
+arxiv:2503.21557,debug-gym / OctoBench,T,E,I,T,E,E,--,--
+arxiv:2605.10912,WildClawBench,E,E,T,E,T,T,I,--
+arxiv:2605.14133,ClawForge,E,E,T,E,T,I,--,--

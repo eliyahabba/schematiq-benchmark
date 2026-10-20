@@ -1,0 +1,13 @@
+document_id,"Study (year, country)","Participants (Age, diagnosis)","Sample size (total, EG, CG)",Intervention group - Level of immersion,Intervention group - Virtual reality types,Control group,Intervention dose - Duration (minute/times),Intervention dose - Frequency (times/week),Intervention dose - Period (week),Outcome
+PMC11127175,"Zhao et al., 2024 (China)",6–12,80 EG:40 CG:40,Non−immersive,Physical activity−based,Psychoeducation,30,3,4,SNAP−IV
+doi:10.1109/access.2020.2977688,"Kim et al., 2020 (Korea)",6–10,40 EG:20 CG:20,Non−immersive,Cognitive based,No intervention,30,2.5,6,ATA
+PMC11555456,"Wong et al., 2024 (Hong Kong, China)",6–12,60 EG:30 CG:30,immersive,Cognitive based,Wait−list Control,20,4,3,BRIEF−P
+PMC10167585,"Rodrigo−Yanguas et al., 2023 (Spain)",12–22,70 EG:35 CG:35,immersive,Cognitive based,Active control,60,1,12,SNAP−IV BRIEF−2
+doi:10.1007/s00787-018-1151-y,"Bikic et al., 2018 (Denmark)",9.96 ± 1.76,70 EG:35 CG:35,Non−immersive,Cognitive based,TUA,30,6,8,ADHD−RS BRIEF−P
+PMC4386826,"Dovis et al., 2015 (Netherlands)",10.6 ± 1.4,61 EG:31 CG:30,immersive,Cognitive based,Placebo,35 ~ 50,5,5,DBDRS−P BRIEF−P
+PMC10206614,"Ji et al., 2023 (China)",8.93 ± 1.54,30 EG:16 CG:14,Non−immersive,Physical activity−based,Active control,50,3,4,FAIR Go/No−go Task
+doi:10.1109/access.2024.3387065,"Kim et al., 2024 (Korea)",8–13,23 EG:11 CG:12,immersive,Mixed (Cognitive + Physical),Psychoeducation,15,2,4,ATA
+PMC5591376,"Hudak et al., 2017 (Germany)",23.40 ± 2.83,20 EG:10 CG:10,immersive,Cognitive based,Active control,60,4,2,Back Go/No−go Task
+doi:10.3389/frvir.2023.1108060,"Cunha et al., 2023 (Portugal)",20.96 ± 0.99,25 EG:12 CG:13,immersive,Cognitive based,Wait−list Control,30,2,5,SLN
+PMC6098027,"Benzing et al., 2018 (Switzerland)",10.48 ± 1.38,46 EG:22 CG:24,Non−immersive,Physical activity−based,Watching a video,15,1,1,FTRT Color span task
+doi:10.1111/sms.13446,"Benzing et al., 2019 (Switzerland)",10.43 ± 1.37,51 EG:28 CG:23,Non−immersive,Physical activity−based,Conventional therapy,30,3,8,ADHD−RS

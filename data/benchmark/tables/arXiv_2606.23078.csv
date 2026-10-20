@@ -1,0 +1,47 @@
+document_id,Specific Task,Dataset,Method,Rep. Type,Metric,Performance
+arxiv:1810.08646,,,SLAYER,Event Frame,Acc. (%),93.64
+PMC9817103,,,STSC-SNN,Event Frame,Acc. (%),98.96
+arxiv:2206.10177,,,TCJA-SNN,Event Frame,Acc. (%),99.00
+doi:10.24963/ijcai.2021/240,,,Motion-SNN,Event Frame,Acc. (%),92.70
+doi:10.1109/cvprw56347.2022.00301,,,EventTransformer,Token-based,Acc. (%),96.20
+arxiv:1910.03579,,,RG-CNN,Graph-based,Acc. (%),97.20
+arxiv:2302.04177,,,EDGCN+CRD,Graph-based,Acc. (%),98.30
+arxiv:2310.07189,,,SpikePoint,Point-based,Acc. (%),98.74
+arxiv:2308.09993,,,TTPOINT,Point-based,Acc. (%),98.80
+doi:10.1609/aaai.v34i02.5486,,,HMAX-SPA,Time Surface,Acc. (%),76.90
+doi:10.24963/ijcai.2021/240,,,Motion-SNN,Event Frame,Acc. (%),90.30
+arxiv:2310.07189,,,SpikePoint,Point-based,Acc. (%),97.92
+arxiv:2308.09993,,,TTPOINT,Point-based,Acc. (%),99.10
+doi:10.1609/aaai.v38i6.28372,,,ESTF,Token-based,Top-1 Acc. (%),24.68
+arxiv:2601.17391,,,SMV-EAR,Dense–Dense Hybrid,Top-1 Acc. (%),54.65
+PMC5099523,Classification,N-MNIST,SNN-BP,Event Frame,Acc. (%),98.74
+arxiv:1910.03579,,,RG-CNN,Graph-based,Acc. (%),99.00
+arxiv:1803.07913,,,HATS,Time Surface,Acc. (%),99.10
+arxiv:1803.07913,,N-Caltech101,HATS,Time Surface,Acc. (%),64.20
+arxiv:2001.03455,,,Matrix-LSTM,Learned Dense,Acc. (%),85.72
+arxiv:1910.03579,,,RG-CNN,Graph-based,Acc. (%),65.70
+arxiv:2302.04177,,,EDGCN+CRD,Graph-based,Acc. (%),83.50
+arxiv:2505.12903,,,SFTrack-Slow,Graph-based,SR/PR,59.90/92.70
+arxiv:2505.12903,,,SFTrack-Fast,Graph-based,SR/PR/NPR,49.30/59.10/59.80
+arxiv:2505.12903,,,SFTrack-Slow,Graph-based,SR/PR/NPR,51.80/62.90/62.90
+arxiv:2506.23783,,,Mamba-FETrack V2,Event Frame,SR/PR,62.18/94.74
+PMC6454154,,,MTC,Dense–Dense Hybrid,mAP50 (%),47.8
+doi:10.1609/aaai.v39i3.32292,,,EventPillars,Voxel Grid,mAP (%),44.4
+doi:10.1609/aaai.v39i9.32999,,,SMamba,Voxel Grid,mAP (%),49.3
+arxiv:2009.13436,,,RED,Voxel Grid,mAP (%),43.0
+doi:10.1007/978-3-030-58598-3_25,,Gen1,AsyNet,Event Frame,mAP (%),14.5
+doi:10.1609/aaai.v39i9.32999,,,SMamba,Voxel Grid,mAP (%),50.4
+doi:10.1609/aaai.v39i3.32292,,,EventPillars,Voxel Grid,mAP (%),53.1
+arxiv:2001.03455,,,Matrix-LSTM,Learned Dense,mAP (%),31.0
+arxiv:2009.13436,,,RED,Voxel Grid,mAP (%),40.0
+arxiv:1811.12039,,DSEC,EV-SegNet,Event Frame,mIoU (%),51.76
+arxiv:2507.03765,,,Hybrid-Seg,Voxel Grid,mIoU (%),66.57
+doi:10.1609/aaai.v40i6.42427,,,MambaSeg,Voxel Grid,mIoU (%),75.10
+arxiv:2212.02791,,,EReFormer,Token-based,10/20/30m MAE,1.85/2.45/3.24
+arxiv:1802.06898,,,EV-FlowNet,Time Surface,AEE/Out.,0.49/0.20
+arxiv:2211.09078,,,DCEIFlow,Voxel Grid,EPE/Out.,0.22/0.00
+doi:10.1109/3dv53792.2021.00030,,,E-RAFT,Voxel Grid,EPE/Out.,0.24/0.00
+PMC12115541,,,EVA-Flow,Voxel Grid,EPE/Out.,0.25/0.00
+arxiv:2003.06696,,,Spike-FlowNet,Voxel Grid,EPE,0.49
+arxiv:2001.03455,,,Matrix-LSTM,Learned Dense,AEE/Out.,0.821/0.471
+doi:10.1007/978-3-031-19797-0_24,,GoPro,EFNet,Voxel Grid,PSNR/SSIM,35.46/0.972

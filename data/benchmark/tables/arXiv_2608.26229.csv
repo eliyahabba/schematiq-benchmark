@@ -1,0 +1,6 @@
+document_id,Survey,Scope,Years,\# Studies,Method,Venues - (RQ1),Domains - (RQ2),DLC phases - (RQ3),Practices - (RQ4)
+doi:10.1145/3275245.3275258,mourao2018green,Green SE,before 2018,75,SMS,YES,YES,YES,NO
+doi:10.1145/2601248.2601256,penzenstadler2014systematic,Green SE,2012--2014,83,SMS,NO,YES,YES,NO
+doi:10.1002/widm.1507,verdecchia2023systematic,Green AI,2015--2022,98,SLR,YES,YES,NO,NO
+arxiv:2111.05193,xu2021survey,Green AI,before 2021,NA,SLR,NO,NO,NO,YES
+doi:10.1145/3485128,rolnick2022tackling,Green AI,before 2022,NA,Overview,NO,YES,NA,NA

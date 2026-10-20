@@ -1,0 +1,6 @@
+document_id,Topic,Ref.,Year,Scope,Contributions,Limitations
+doi:10.1016/j.ecmx.2025.101278,Grid Codes,yu_review_2025,2025,"DK, DE, UK, IE, ES, CN, IN, US, IEEE, AU, ZA",Definition and capability specification Experiences from TSO & projects in GFM development,Pre-2023 codes Missing EU developments No activation requirements
+PMC11096977,Commercial Products & Market,ancillarySurvey_vahid,2026,"IE, GB, JP","Definitions and classifications Case study in IE, GB, JP Trends and challenges",Coverage across Europe Technical and market details
+doi:10.1016/j.epsr.2024.110885,,viola_ancillary_2024,2024,EU & US ancillary markets,Assess market developments Identifies technical and market-design challenges,Technical and market details Not up to date
+doi:10.3390/en16031324,,cole_critical_2023,2023,Modelling & Control,Wake & fatigue modelling Turbine & plant level control,Implementation details No discussion on HVDC
+doi:10.1016/j.egyr.2024.11.031,,Boyle2024FrequencyControlWindIreland,2024,Turbine level control,Synergy with battery Implementation details,No discussion on HVDC Coverage across Europe

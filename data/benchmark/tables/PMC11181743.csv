@@ -1,0 +1,8 @@
+document_id,Author /year,Study design,Enrollment period,No. of institutions,Country,No. of patients,Follow-up (median; months),Study type according to TRIPODS,Type of prognostic model,Evaluated prediction model,Table 5: Tumor-related outcomes - Recurrence,Table 5: Tumor-related outcomes - Progression,Table 5: Survival - OMR,Table 5: Survival - OCSMR
+PMC5720000,"Pillai, 2011",Retrospective,1983–1985,Single institution,UK,109,60,4,External validation,EORTC,x,x,x,
+PMC3776972,"Xylinas, 2013",Retrospective,2000–2007,Multi-institutional,"France, USA, Germany, Italy, Sweden, Canada, Austria","4,689",57,4,External validation,"EORTC, CUETO",x,x,,
+PMC4048166,"Vedder, 2014",Retrospective,1979–2012,Multi-institutional,"Denmark, Netherlands, Spain","1,892",120,4,External validation,"EORTC, CUETO",x,x,x,x
+PMC4198762,Choi 2014,Retrospective,1985–2011,Single institution,Korea,531,58,4,External validation,"EORTC, CUETO",x,x,,
+PMC5066889,Almeida 2016,Retrospective,2003–2010,Single institution,Brazil,63.6,4,,External validation,EORTC,x,x,x,x
+PMC5330268,Kilinç 2017,Retrospective,2002–2010,Single institution,Turkey,348,55.25,3,External validation,EORTC,x,x,,
+PMC7286464,Jobczyk 2019,Retrospective,2005–2015,Single institution,Poland,322,48,3,External validation,"EORTC, CUETO, EAU until 2020",,,,

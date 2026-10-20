@@ -1,0 +1,7 @@
+document_id,Reference,Cat.,Failure Subtype,Key Reasoning Failure,Grounding
+arxiv:2304.00385,Chakraborty et al.,H,Spurious feature learn.,"Learns syntactic artifacts, not exec.\ semantics",Partial
+arxiv:2108.09293,Pearce et al.,H,Tool-use confab.,Agents misinterpret tool output in security tasks,Tool logs
+arxiv:2409.20550,Pearce et al.,IP,Symptom-only repair,"Fixes surface, misses root cause, adds regressions",Compile
+arxiv:2108.09293,Pearce et al.,IP,Security regress.\ intro.,Generated patches embed new CWEs,Static analysis
+arxiv:2308.02312,Kabir et al.,RS,Fluency-as-credibility,Coherent structure masks technical errors,User study
+doi:10.1145/3533767.3534380,Dong et al.,RS,Undisclosed-fix repackage,Silent fixes provide undetectable raw material,Commit diffs

@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScheMatiQ benchmark: task browser</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAFBFC; --panel:#FFFFFF; --ink:#1D2A33; --muted:#5E6B75; --rule:#D9E0E5;
+  --verified:#0E6B6B; --verified-soft:#E3F1F0; --partial:#9A6412; --partial-soft:#F6EEDF;
+  --excluded:#9E3A36; --excluded-soft:#F5E6E5; --doc-empty:#C9D2D8; --focus:#2F6FDE;
+  --serif:"Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --sans:"Public Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --paper:#151D24; --panel:#1B252D; --ink:#E4EAEE; --muted:#9AA7B1; --rule:#2E3B45;
+    --verified:#5CC2BD; --verified-soft:#173434; --partial:#E0B062; --partial-soft:#3A2F1C;
+    --excluded:#E08A84; --excluded-soft:#3B2323; --doc-empty:#3C4A55; --focus:#8AB4FF; }
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--paper);color:var(--ink);font:15px/1.5 var(--sans);font-variant-numeric:tabular-nums}
+a{color:var(--verified)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+header.top{padding:20px 28px 14px;border-bottom:1px solid var(--rule)}
+header.top h1{font:600 26px/1.2 var(--serif);margin:0 0 6px}
+header.top p{margin:0;max-width:78ch;color:var(--muted)}
+.tally{display:flex;flex-wrap:wrap;gap:22px;margin-top:12px}
+.tally b{font:600 22px/1 var(--serif);display:block}
+.tally span{color:var(--muted);font-size:13px}
+.layout{display:grid;grid-template-columns:minmax(260px,340px) 1fr;height:calc(100% - var(--hdr,150px))}
+aside{border-right:1px solid var(--rule);display:flex;flex-direction:column;min-height:0}
+.controls{padding:12px 16px;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{font:500 13px var(--sans);border:1px solid var(--rule);background:var(--panel);color:var(--ink);padding:4px 10px;border-radius:14px;cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.controls select{font:14px var(--sans);padding:6px 8px;border:1px solid var(--rule);border-radius:6px;background:var(--panel);color:var(--ink)}
+.controls input{font:14px var(--sans);padding:7px 10px;border:1px solid var(--rule);border-radius:6px;background:var(--panel);color:var(--ink)}
+ul.tasks{list-style:none;margin:0;padding:0;overflow:auto;flex:1}
+ul.tasks li button{all:unset;display:block;width:100%;box-sizing:border-box;padding:10px 16px 10px 14px;border-left:4px solid transparent;border-bottom:1px solid var(--rule);cursor:pointer}
+ul.tasks li button:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+ul.tasks li button[aria-current="true"]{background:var(--panel)}
+ul.tasks li.core button{border-left-color:var(--verified)}
+ul.tasks li.extended button{border-left-color:var(--partial)}
+ul.tasks li.excluded button{border-left-color:var(--doc-empty)}
+.t-title{font:500 14px/1.35 var(--sans);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.t-meta{margin-top:4px;font-size:12.5px;color:var(--muted);display:flex;gap:14px}
+.t-meta .dl{color:var(--ink);font-weight:600}
+main{overflow:auto;min-height:0;padding:22px 32px 60px}
+.empty{color:var(--muted);max-width:60ch}
+.tierline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:13px}
+.badge{font-weight:600;padding:2px 9px;border-radius:4px}
+.badge.core{background:var(--verified-soft);color:var(--verified)}
+.badge.extended{background:var(--partial-soft);color:var(--partial)}
+.badge.excluded{background:var(--excluded-soft);color:var(--excluded)}
+.reasons{color:var(--muted)}
+h2.review{font:600 21px/1.3 var(--serif);margin:10px 0 4px;max-width:70ch}
+.src{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:14px}
+section{margin-top:26px;max-width:980px}
+section > h3{font:600 13px var(--sans);color:var(--muted);margin:0 0 8px;letter-spacing:.01em}
+blockquote.q{margin:0;font:400 19px/1.55 var(--serif);max-width:68ch;white-space:pre-line}
+.qnote{font-size:13px;color:var(--muted);margin-top:8px;max-width:75ch}
+/* registration timeline: the one element this page is built around */
+.timeline{position:relative;height:56px;margin:0 0 4px;max-width:760px}
+.dates{font-size:13px;color:var(--muted);margin:8px 0 0}
+.dates b{color:var(--ink);font-weight:600}
+.dates .sep{display:inline-block;width:22px}
+.timeline .bar{position:absolute;top:18px;left:0;right:0;height:2px;background:var(--rule)}
+.timeline .span{position:absolute;top:17px;height:4px;border-radius:2px}
+.timeline .dot{position:absolute;top:12px;width:14px;height:14px;border-radius:50%;margin-left:-7px;border:2px solid var(--panel)}
+.timeline .tick{position:absolute;top:8px;width:0;height:22px;border-left:2px dashed var(--muted);opacity:.7}
+.timeline .lab{position:absolute;font-size:12.5px;line-height:1.25;white-space:nowrap}
+.timeline .lab.top{top:0}
+.timeline .lab.bottom{top:34px;color:var(--muted)}
+.gapnum{font:600 30px/1 var(--serif)}
+.gapline{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.gapline .gapnum.ok{color:var(--verified)} .gapline .gapnum.short{color:var(--partial)} .gapline .gapnum.late{color:var(--excluded)}
+.stage{font-size:14px;margin-top:6px;max-width:75ch}
+/* documents */
+.docs{display:flex;align-items:flex-end;gap:28px;flex-wrap:wrap}
+.bignum{font:600 44px/1 var(--serif)}
+.bignum small{font:500 15px var(--sans);color:var(--muted);margin-left:6px}
+.strip{display:flex;flex-wrap:wrap;gap:3px;max-width:520px;margin-top:10px}
+.strip i{width:13px;height:13px;border-radius:2px;border:1.5px solid var(--doc-empty)}
+.strip i.on{background:var(--verified);border-color:var(--verified)}
+.legend{font-size:12.5px;color:var(--muted);margin-top:8px;max-width:80ch}
+.minor{font-size:13px;color:var(--muted)}
+details{margin-top:10px;max-width:80ch}
+details summary{cursor:pointer;font-weight:500}
+details dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;font-size:14px;margin:10px 0 0}
+details dt{color:var(--muted)} details dd{margin:0;white-space:pre-line}
+.note{border-left:3px solid var(--rule);padding:4px 0 4px 12px;max-width:75ch}
+.note .by{font-size:12px;color:var(--muted);display:block;margin-top:4px}
+.tablewrap{overflow-x:auto;border:1px solid var(--rule);border-radius:6px;background:var(--panel);max-width:100%}
+table.gold{border-collapse:collapse;font-size:13px;min-width:100%}
+table.gold th,table.gold td{padding:6px 10px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top;max-width:280px}
+table.gold th{position:sticky;top:0;background:var(--panel);font-weight:600;border-bottom:2px solid var(--rule)}
+table.gold td.st{white-space:nowrap;font-size:12px}
+table.gold tr.off td:not(.st){color:var(--muted)}
+.st .ok{color:var(--verified);font-weight:600}
+.st .no{color:var(--muted)}
+.chipwrap{display:inline-flex;align-items:center;gap:3px;position:relative}
+.help{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border-radius:50%;
+  border:1px solid var(--rule);background:var(--panel);color:var(--muted);font:600 11px/1 var(--sans);cursor:help;padding:0}
+.help:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.tip{position:absolute;top:calc(100% + 6px);left:0;z-index:30;width:250px;padding:9px 11px;border-radius:6px;
+  background:var(--ink);color:var(--paper);font:13px/1.45 var(--sans);box-shadow:0 6px 18px rgba(0,0,0,.18);
+  opacity:0;visibility:hidden;transition:opacity .12s ease;pointer-events:none}
+.help:hover + .tip,.help:focus + .tip{opacity:1;visibility:visible}
+.tag{display:inline-block;font:600 12px var(--sans);padding:2px 8px;border-radius:4px;background:var(--rule);color:var(--ink)}
+.tag.ok{background:var(--verified-soft);color:var(--verified)} .tag.warn{background:var(--partial-soft);color:var(--partial)}
+.tag.bad{background:var(--excluded-soft);color:var(--excluded)}
+.qsrc{margin:0 0 8px}
+.caption{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer;max-width:90ch}
+.caption.open{display:block}
+.caption3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.caption3.open{display:block}
+.orig{font-size:13px;color:var(--muted);margin-top:8px;max-width:70ch}
+.orig b{font-weight:600;color:var(--ink)}
+dl.checks{display:grid;grid-template-columns:110px 1fr;gap:14px 18px;margin:0;max-width:760px}
+dl.checks dt{font-weight:600;font-size:14px;padding-top:2px}
+dl.checks dd{margin:0}
+.stat{font:600 26px/1 var(--serif)}
+.stat + span{margin-left:8px}
+ul.notes{margin:8px 0 0;padding-left:18px;font-size:14px}
+ul.notes li{margin:2px 0}
+.who{display:block;font-size:12.5px;color:var(--muted);margin-top:8px}
+dl.why{display:grid;grid-template-columns:max-content max-content;gap:2px 14px;font-size:13px;color:var(--muted);margin:8px 0 0}
+dl.why dd{margin:0;font-variant-numeric:tabular-nums;color:var(--ink)}
+.key{display:flex;gap:16px;font-size:12.5px;color:var(--muted);margin-top:8px;align-items:center}
+.key i{display:inline-block;width:11px;height:11px;border-radius:2px;border:1.5px solid var(--doc-empty);vertical-align:-1px;margin-right:5px}
+.key i.on{background:var(--verified);border-color:var(--verified)}
+@media (max-width:820px){
+  .layout{grid-template-columns:1fr;height:auto}
+  aside{border-right:0;border-bottom:1px solid var(--rule);max-height:45vh}
+  main{padding:18px 16px 48px}
+}
+@media (prefers-reduced-motion:no-preference){ .span{transition:width .25s ease} }
+</style>
+</head>
+<body>
+<header class="top" id="hdr">
+  <h1>ScheMatiQ benchmark</h1>
+  <p>Each task is a research question, a review's study table with one row per study, and the studies themselves. A document counts only if its file was downloaded and checked.</p>
+  <div class="tally" id="tally"></div>
+</header>
+<div class="layout" id="layout">
+  <aside>
+    <div class="controls">
+      <div class="chips" role="group" aria-label="Filter by tier" id="chips"></div>
+      <select id="source" aria-label="Filter by source"></select>
+      <input id="search" type="search" placeholder="Search titles and questions" aria-label="Search titles and questions">
+    </div>
+    <ul class="tasks" id="list"></ul>
+  </aside>
+  <main id="detail" tabindex="-1"><p class="empty">Choose a review on the left.</p></main>
+</div>
+<script>
+const DATA = __DATA__;
+const TIER = {
+  core: "Core",
+  extended: "Extended",
+  excluded: "Excluded"
+};
+const TIER_HELP = {
+  core: "Ready to use. A clear question, one row per study, at least 5 verified documents, and a table that fits the question.",
+  extended: "Meets the core rules, but the table covers only part of the question.",
+  excluded: "Misses at least one core rule. Each task shows which one.",
+  all: "Every review that produced a study table."
+};
+const helpIcon = (k) => `<button type="button" class="help" aria-label="What does ${k === "all" ? "All" : TIER[k]} mean?">?</button><span class="tip" role="tooltip">${TIER_HELP[k]}</span>`;
+const VERDICT = {worthy:["Accepted","ok"], worthy_with_issues:["Accepted with notes","warn"], partly:["Partly fits the question","warn"], not_worthy:["Rejected","bad"]};
+const QSRC = {prospero_first_version:"Registered in PROSPERO", abstract:"From the abstract", title_question:"From the title",
+  paper_research_questions:"The paper's research questions", manual:"Added by hand"};
+const LICENCE = l => { const m = /^(cc[ -]?by[a-z -]*|cc0)/i.exec(l || ""); return m ? m[0].toUpperCase().replace(/-/g," ") : ""; };
+const human = s => { s = String(s || "").trim().replace(/\.$/, ""); return s ? s[0].toUpperCase() + s.slice(1) : s; };
+const ACCESS = {
+  downloaded: "Downloaded",
+  not_oa: "Not open access",
+  free_to_read_not_oa: "Free to read in PMC, no open licence",
+  oa_but_blocked: "Open access, download blocked",
+  oa_no_file_url: "Open access, no file link",
+  no_metadata: "Not found in OpenAlex",
+  unresolved_citation: "Citation not matched to a DOI",
+  unlinked: "Row not linked to a reference"
+};
+const REASON = r => {
+  let m = /^only (\d+) documents downloaded/.exec(r);
+  if (m) return `Only ${m[1]} of the 5 required documents downloaded`;
+  if (r.startsWith("judged not worthy")) return "Rejected by the judge";
+  if (r.startsWith("table is not one row")) return "Not one row per study";
+  if (r.startsWith("table only partly")) return "Table covers only part of the question";
+  if (r.startsWith("question")) return "No usable research question";
+  return human(r);
+};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = iso => { if(!iso) return "unknown"; const d=new Date(iso+"T00:00:00Z");
+  return d.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}); };
+
+let filter = "core", query = "", current = null, source = "all";
+
+function tally(){
+  const n = k => DATA.filter(t => t.tier === k).length;
+  const docs = DATA.filter(t => t.tier === "core").reduce((a,t) => a + t.counts.documents_downloaded, 0);
+  document.getElementById("tally").innerHTML = [
+    [DATA.length, "reviews with a study table"], [n("core"), "core tasks"], [n("extended"), "extended tasks"],
+    [n("excluded"), "excluded"], [docs, "downloaded documents in core tasks"]
+  ].map(([v,l]) => `<div><b>${v}</b><span>${l}</span></div>`).join("");
+}
+
+function chips(){
+  const opts = [["core","Core"],["extended","Extended"],["excluded","Excluded"],["all","All"]];
+  const el = document.getElementById("chips");
+  el.innerHTML = opts.map(([k,l]) => {
+    const c = k === "all" ? DATA.length : DATA.filter(t => t.tier === k).length;
+    return `<span class="chipwrap"><button type="button" data-k="${k}" aria-pressed="${filter===k}">${l} (${c})</button>${helpIcon(k)}</span>`;
+  }).join("");
+  el.querySelectorAll("button[data-k]").forEach(b => b.onclick = () => { filter = b.dataset.k; chips(); list(); });
+}
+
+function sources(){
+  const el = document.getElementById("source");
+  const names = [...new Set(DATA.map(t => t.source))].sort();
+  el.innerHTML = `<option value="all">All sources</option>` + names.map(n => `<option value="${esc(n)}">${esc(n)} (${DATA.filter(t => t.source === n).length})</option>`).join("");
+  el.onchange = () => { source = el.value; list(); };
+}
+
+function visible(){
+  const q = query.toLowerCase();
+  return DATA.filter(t => (filter === "all" || t.tier === filter) && (source === "all" || t.source === source) &&
+    (!q || (t.title + " " + t.q + " " + t.id).toLowerCase().includes(q)));
+}
+
+function list(){
+  const ul = document.getElementById("list");
+  const v = visible();
+  if (!v.length){ ul.innerHTML = `<li class="empty" style="padding:14px 16px">No reviews match. Clear the search or pick another tier.</li>`; return; }
+  ul.innerHTML = v.map(t => `<li class="${t.tier}"><button type="button" data-id="${t.id}" aria-current="${current===t.id}">
+      <span class="t-title">${esc(t.title)}</span>
+      <span class="t-meta"><span class="dl">${t.counts.documents_downloaded} of ${t.counts.rows} downloaded</span><span>${t.counts.columns} columns</span><span>${TIER[t.tier]}</span></span>
+    </button></li>`).join("");
+  ul.querySelectorAll("button").forEach(b => {
+    b.onclick = () => show(b.dataset.id);
+    b.onkeydown = e => {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp"){
+        e.preventDefault();
+        const items = [...ul.querySelectorAll("button")]; const i = items.indexOf(b);
+        const nx = items[e.key === "ArrowDown" ? Math.min(i+1, items.length-1) : Math.max(i-1, 0)];
+        nx.focus(); show(nx.dataset.id, false);
+      }
+    };
+  });
+}
+
+function timeline(t){
+  const r = t.reg, gap = r.gap;
+  if (gap === null || gap === undefined) return `<p class="minor">The registration or submission date is missing, so the order could not be checked.</p>`;
+  const cls = gap >= 60 ? "ok" : (gap > 0 ? "short" : "late");
+  const color = {ok:"var(--verified)", short:"var(--partial)", late:"var(--excluded)"}[cls];
+  const words = gap > 0 ? `days from registration to journal submission`
+    : gap === 0 ? `days: registered on the day of submission` : `days after submission: registered late`;
+  const scale = Math.max(Math.abs(gap), 90) * 1.08;
+  const pos = d => (d / scale * 100);
+  let html = `<div class="gapline"><span class="gapnum ${cls}">${Math.abs(gap)}</span><span>${words}</span></div>
+    <p class="dates">Registered <b>${fmt(r.registered)}</b><span class="sep"></span>Submitted <b>${fmt(r.received)}</b></p>
+    <div class="timeline" aria-hidden="true"><div class="bar"></div>`;
+  if (gap >= 0){
+    html += `<div class="span" style="left:0;width:${pos(gap)}%;background:${color}"></div>
+      <div class="tick" style="left:${pos(60)}%"></div>
+      <div class="lab bottom" style="left:${pos(60)}%;transform:translateX(-50%)">60 days</div>
+      <div class="dot" style="left:0;background:var(--ink)"></div>
+      <div class="dot" style="left:${pos(gap)}%;background:${color}"></div>`;
+  } else {
+    const g = -gap;
+    html += `<div class="span" style="left:0;width:${pos(g)}%;background:${color}"></div>
+      <div class="dot" style="left:0;background:${color}"></div>
+      <div class="dot" style="left:${pos(g)}%;background:var(--ink)"></div>`;
+  }
+  html += `</div><p class="stage">${esc(r.stage_text)}</p>`;
+  return html;
+}
+
+function docs(t){
+  const c = t.counts;
+  const squares = t.rows.map(r => `<i class="${r.a==='downloaded'?'on':''}" title="${esc((r.c[t.cite]||'').slice(0,60))}: ${esc(ACCESS[r.a]||r.a)}"></i>`).join("");
+  const why = Object.entries(c.by_access).filter(([k]) => k !== "downloaded").sort((a,b) => b[1]-a[1])
+    .map(([k,v]) => `<dt>${esc(ACCESS[k])}</dt><dd>${v}</dd>`).join("");
+  return `<div class="docs">
+      <div><div class="bignum">${c.documents_downloaded}<small>of ${c.rows} documents</small></div>
+      <div class="strip" aria-label="${c.documents_downloaded} of ${c.rows} documents downloaded">${squares}</div></div>
+      <div><div class="bignum">${c.columns}<small>columns</small></div></div>
+    </div>
+    <div class="key"><span><i class="on"></i>Downloaded and verified</span><span><i></i>Not available</span></div>
+    ${why ? `<dl class="why">${why}</dl>` : ""}`;
+}
+
+function protocol(t){
+  const P = t.protocol, L = {condition:"Condition", population:"Population", intervention:"Intervention or exposure",
+    comparator:"Comparator", study_design:"Study design", main_outcomes:"Main outcomes",
+    additional_outcomes:"Additional outcomes", data_extraction:"Data extraction plan", rationale:"Rationale"};
+  const rows = Object.entries(L).filter(([k]) => P[k]).map(([k,l]) => `<dt>${l}</dt><dd>${esc(P[k])}</dd>`).join("");
+  return rows ? `<details><summary>Registered protocol</summary><dl>${rows}</dl></details>` : "";
+}
+
+function goldTable(t){
+  const head = `<tr><th>Document</th>${t.columns.map(c => `<th>${esc(c)}</th>`).join("")}</tr>`;
+  const body = t.rows.map(r => {
+    const link = r.u ? `<a href="${esc(r.u)}" target="_blank" rel="noopener">${r.k === "xml" ? "PMC XML" : (r.u.includes("arxiv.org") ? "arXiv PDF" : "PDF")}</a>` : "";
+    const st = r.a === "downloaded" ? `<span class="ok">${link}</span>`
+      : `<span class="no">${esc(ACCESS[r.a]||r.a)}</span>${r.d ? `<br><a href="https://doi.org/${esc(r.d)}" target="_blank" rel="noopener">DOI</a>` : ""}`;
+    return `<tr class="${r.a==='downloaded'?'':'off'}"><td class="st">${st}</td>${t.columns.map((_,j) => `<td>${esc(r.c[j]||"")}</td>`).join("")}</tr>`;
+  }).join("");
+  return `<div class="tablewrap"><table class="gold"><thead>${head}</thead><tbody>${body}</tbody></table></div>`;
+}
+
+function show(id, focusMain = true){
+  const t = DATA.find(x => x.id === id); if (!t) return;
+  current = id; if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
+  document.querySelectorAll("#list button").forEach(b => b.setAttribute("aria-current", b.dataset.id === id));
+  const j = t.judg || {};
+  const el = document.getElementById("detail");
+  const qnotes = (j.issues || []).filter(x => !(t.q_author && /question|title|topic|broad|background|fragment|claim|section label|these/i.test(x)));
+  const [vlabel, vcls] = VERDICT[j.verdict] || [];
+  const cleared = j.verdict === "worthy_with_issues" && !qnotes.length;   // its only notes were about the old question
+  const verdictLabel = cleared ? "Accepted" : vlabel;
+  const verdictCls = cleared ? "ok" : vcls;
+  const lic = LICENCE(t.license);
+  el.innerHTML = `
+    <div class="tierline"><span class="chipwrap"><span class="badge ${t.tier}">${TIER[t.tier]}</span>${helpIcon(t.tier)}</span>
+      ${t.reasons.length ? `<span class="reasons">${esc(REASON(t.reasons[0]))}</span>` : ""}</div>
+    <h2 class="review">${esc(t.title)}</h2>
+    <div class="src">${t.source.startsWith("arXiv") ? "" : `<span>${esc(t.journal)}, ${esc(t.year)}</span>`}
+      <a href="${esc(t.url || ('https://europepmc.org/article/PMC/' + t.id.replace('PMC','')))}" target="_blank" rel="noopener">${t.id.startsWith("PMC") ? "Review " + esc(t.id) : esc(t.id)}</a>
+      ${t.prospero.id ? `<a href="${esc(t.prospero.url)}" target="_blank" rel="noopener">PROSPERO ${esc(t.prospero.id)}</a>` : ""}
+      <span>${esc(t.source)}${t.source.startsWith("arXiv") ? ", " + esc(t.year) : ""}</span>
+      ${lic ? `<span>${esc(lic)}</span>` : ""}</div>
+
+    <section><h3>Research question</h3>
+      <p class="qsrc"><span class="tag">${t.q_tag ? esc(t.q_tag) : t.q_author ? "Rewritten from the abstract" : esc(QSRC[t.q_prov] || "From the paper")}</span></p>
+      <blockquote class="q">${esc(t.q)}</blockquote>
+      ${t.q_author ? `<p class="orig caption3" onclick="this.classList.toggle('open')" title="Click to show all"><b>Original wording:</b> “${esc(t.q_author)}”</p>` : ""}
+      ${t.q_changed ? `<details><summary>Later PROSPERO version</summary><p style="white-space:pre-line">${esc(t.q_latest)}</p></details>` : ""}
+      ${t.abs ? `<details><summary>Abstract objective</summary><p>${esc(t.abs)}</p></details>` : ""}
+      ${t.q_registered ? `<details><summary>Registered question (not used: the review changed scope)</summary><p style="white-space:pre-line">${esc(t.q_registered)}</p></details>` : ""}
+      ${protocol(t)}
+    </section>
+
+    ${t.reg ? `<section><h3>Registered before the table?</h3>${timeline(t)}</section>` : ""}
+
+    <section><h3>Documents</h3>${docs(t)}</section>
+
+    <section><h3>Checks</h3>
+      <dl class="checks">
+        <dt><span class="chipwrap">Grounding<button type="button" class="help" aria-label="What is grounding?">?</button><span class="tip" role="tooltip">For every row whose document was downloaded, each short cell (a number, or up to four words) is looked up in that document's text. The percentage is how many were found. A value can be missing because the review paraphrased or computed it, so this is a rough check, not proof. "No match" rows had at least three checkable cells and none found: the row may be linked to the wrong paper.</span></span></dt>
+        <dd>${t.ground && t.ground.rate !== null
+          ? `<span class="stat">${Math.round(t.ground.rate*100)}%</span><span>of short cells found word for word in their own document</span>
+             <span class="who">${t.ground.rows_checked} rows checked${t.ground.suspect_rows ? `, ${t.ground.suspect_rows} with no match` : ""}</span>`
+          : `<span class="minor">Not measurable for this table</span>`}</dd>
+        <dt>Judge</dt>
+        <dd>${j.verdict ? `<span class="tag ${verdictCls}">${verdictLabel}</span>
+             ${qnotes.length ? `<ul class="notes">${qnotes.map(x => `<li>${esc(human(x))}</li>`).join("")}</ul>` : ""}
+             <span class="who">Judged by Claude (AI). Not yet reviewed by a person.</span>`
+          : `<span class="minor">Not judged yet</span>`}</dd>
+      </dl>
+    </section>
+
+    ${t.task_type === "question_set" ? `<section><h3>Expert questions (the gold for this task)</h3>
+      <p class="minor">No gold table exists. A system's schema or database is scored by how many of these questions it can answer. Written by legal experts in Polish.</p>
+      ${Object.entries(t.expert_questions || {}).map(([ex, qs]) => `<details><summary>${esc(ex.replace("_"," "))}: ${qs.length} questions</summary><ol>${qs.map(q => `<li>${esc(q)}</li>`).join("")}</ol></details>`).join("")}
+      ${Object.keys(t.ref_schemas || {}).length ? `<p class="minor">Reference schemas generated by Schematize (model output, not gold): ${Object.entries(t.ref_schemas).map(([m,n]) => esc(m) + " (" + n + " fields)").join(", ")}.</p>` : ""}
+    </section>` : `<section><h3>Gold table</h3>`}
+      ${t.caption ? `<p class="minor caption" title="${esc(t.caption)}" onclick="this.classList.toggle('open')">${esc(t.caption)}</p>` : ""}
+      ${t.table_from === "supplement" ? `<p class="minor">From a supplementary file.</p>` : ""}
+      ${t.merged_from.length > 1 ? `<p class="minor">Joined from ${t.merged_from.length} tables.</p>` : ""}
+      ${t.task_type === "question_set" ? "" : goldTable(t) + "</section>"}
+    ${(t.analysis || []).length ? `<section><h3>Analysis questions (answered from the gold database)</h3>
+      <p class="minor">A system's database is also scored by answering these on its own data.</p>
+      <details><summary>${t.analysis.length} questions</summary><ul class="notes">${t.analysis.map(a => `<li>${esc(a.question)} <span class="minor">Gold: ${esc(typeof a.gold === "object" ? Object.entries(a.gold).slice(0,6).map(([k,v]) => k + " " + Math.round(v*100) + "%").join(", ") : String(a.gold))}</span></li>`).join("")}</ul></details>
+    </section>` : ""}`;
+  if (focusMain) el.focus({preventScroll:true});
+  el.scrollTop = 0;
+}
+
+function sizeLayout(){
+  document.documentElement.style.setProperty("--hdr", document.getElementById("hdr").offsetHeight + "px");
+}
+
+tally(); chips(); sources(); list(); sizeLayout();
+window.addEventListener("resize", sizeLayout);
+document.getElementById("search").oninput = e => { query = e.target.value; list(); };
+function fromHash(){
+  const id = location.hash.slice(1);
+  const t = DATA.find(x => x.id === id);
+  if (!t) return false;
+  if (filter !== "all" && filter !== t.tier){ filter = t.tier; chips(); }
+  list(); show(id, false);
+  return true;
+}
+window.addEventListener("hashchange", fromHash);
+if (!fromHash()){ const first = visible()[0]; if (first) show(first.id, false); }
+</script>
+</body>
+</html>

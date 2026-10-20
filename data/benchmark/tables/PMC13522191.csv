@@ -1,0 +1,6 @@
+document_id,First author and year,Number of literatures/Sample size,The types of original documents,Intervention measures - Treatment group,Intervention measures - Control group,Bias Risk Measurement Tool,Route of Administration,Endpoint measure,The main conclusions of the author
+doi:10.1067/mem.2000.105659,Rowe et al. ( 31 ),7/668,RCT,MgSO 4 + SOC,SOC + Placebo,JADAD,Intravenous,①②③④,(1)(2)
+PMC1720072,Cheuk et al. ( 32 ),6/296,RCT,MgSO 4 + SOC,SOC + Placebo,"Cochrane, JADAD",Intravenous,①②⑥,(5)
+PMC10892514,Kew et al. ( 36 ),25/1754,RCT,MgSO 4,Placebo,JADAD,Intravenous,①②③④⑤⑥⑦,(3)(8)
+PMC6485984,Knightly et al. ( 40 ),25/2907,RCT,MgSO 4 + SOC,SOC + Placebo,Cochrane,Nebulized,①②③④⑥⑦⑧,(8)(10)(11)(12)
+PMC11116886,Kumar et al. ( 44 ),10/2301,RCT,MgSO 4 + SOC,SOC,Cochrane,Nebulized,①②③④⑤⑥⑦,(8)(10)

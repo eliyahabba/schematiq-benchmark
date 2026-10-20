@@ -1,0 +1,13 @@
+document_id,Benchmark,Focus,Environment,Primary metric
+arxiv:2308.03688,AgentBench,General,Interactive envs,Task completion
+doi:10.18653/v1/2024.acl-long.50,VisualWebArena,Multimodal web,Visual web tasks,Task success
+arxiv:2601.11868,Terminal-Bench,Terminal/Coding,Command-line,Task success
+arxiv:2506.07672,MCPWorld,API+GUI,Hybrid tool envs,Task success/tool use
+arxiv:2506.14866,OS-Harm,Safety,Desktop computer,Harmful action rate
+doi:10.18653/v1/2024.acl-long.747,LoCoMo,Long-term mem.,Multi-session chat,QA/consistency
+arxiv:2410.07095,MLE-Bench,ML engineering,Kaggle-like tasks,Performance tier
+arxiv:2512.24565,MCPAgentBench,MCP tool use,MCP sandbox,Task Compl./eff.
+arxiv:2602.00933,MCP-Atlas,MCP tool use,Real MCP servers,Pass rate
+arxiv:2311.12983,GAIA,General assistant,Web/files/tools,Answer accuracy
+arxiv:2606.12344,Claw-SWE-Bench,Agent harnesses,Real GitHub issues,Resolution rate/cost
+arxiv:2412.14161,TheAgentCompany,Enterprise-style,Simulated company,Task success

@@ -1,0 +1,11 @@
+document_id,Benchmark,Measures,Surface,Multi-step,Policy
+arxiv:2405.20446,RAG-MIA,Membership inference on the corpus,RAG corpus,,
+arxiv:2402.17840,Spill the Beans,Datastore extraction via injection,RAG corpus,,
+doi:10.18653/v1/2024.findings-acl.624,InjecAgent,"Indirect injection, incl. exfiltration",Tools/APIs,,
+arxiv:2410.02644,ASB,Broad attack/defense suite,Tools/memory,,
+arxiv:2602.11510,AgentLeak,Internal-channel leakage,Multi-agent,,
+arxiv:2510.15186,MAGPIE,Leakage during collaboration,Multi-agent,,
+arxiv:2310.17884,ConfAIde,Contextual-integrity disclosure,Conversation,,
+arxiv:2409.00138,PrivacyLens,Norm-aware action,Tools/actions,,
+arxiv:2503.09780,AgentDAM,End-to-end web-agent leakage,Web/tools,,
+arxiv:2410.06703,ST-WebAgentBench,Safety and policy compliance,Web/tools,,

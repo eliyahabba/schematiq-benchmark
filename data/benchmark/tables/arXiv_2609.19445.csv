@@ -1,0 +1,52 @@
+document_id,col0,Model,Backbone,Year,Parameters,Efficient strategy,Modalities
+doi:10.1609/aaai.v39i10.33131,90Model Level,Cobra,"Mamba, DINOv2-L, SigLIP",2025,2.8B/7B,Modality Specific,V+T
+arxiv:2404.01331,,LLaVA-Gemma,CLIP ViT-L+Gemma,2024,2B/7B,Modality Specific,V+T
+arxiv:2503.21193,,UGen,TinyLlama,2025,1.1B,Unified,V+T
+doi:10.18653/v1/2024.findings-naacl.105,,i-Code V2,"OmniVL, WavLM Large, Z-Code",2024,1.4B,Unified,V+T+Speech
+arxiv:2312.17172,,Unified-IO 2,Transformer+ViT-based,2024,1.1B/3.2B/6.8B,Unified,V+T+A+Act
+arxiv:2307.05222,,Emu,EVA-01-CLIP + LLaMA,2024,14B,Unified,V+T
+arxiv:2503.09445,,Astrea,"Vicuna-1.5, Hermes2-Yi",2025,13B/34B,Structural Sparsity,V+T
+arxiv:2503.05626,,FMT,"ResNet-50, BERT",2025,-,Structural Sparsity,V+T
+arxiv:2504.04653,,LEO-MINI,Llama3,2025,8B,Structural Sparsity,V+T
+arxiv:2412.04468,,NVILA,"SigLIP, Qwen2",2025,8B/15B,Structural Sparsity,V+T
+arxiv:2504.05299,,SmolVLM,"SigLIP, SmolLM2",2025,up to 2.2B,Structural Sparsity,V+T
+doi:10.1609/aaai.v39i7.32718,,Elastic EVE,"PanGu, ResNet-50, SigLIP, ViT-L",2025,1.8B,Structural Sparsity,V+T
+arxiv:2407.21770,,MoMa,Early-fusion multimodal Transformer,2024,1.4B/2.3B,Structural Sparsity,V+T
+arxiv:2407.12709,,MoME,"Vicuna-7B, CLIP, DINO, Pix2Struct",2024,7B,Structural Sparsity,V+T
+arxiv:2401.16160,,LLaVA-MoLE,LLaVA-1.5,2024,7B,Structural Sparsity,V+T
+arxiv:2401.15947,,MoE-LLaVA,MoE-LLaVA,2024,1.6B/1.8B/2.7B,Structural Sparsity,V+T
+doi:10.1609/aaai.v38i2.27872,,EVE,BEiTv2-initialized,2024,-,Structural Sparsity,V+T
+arxiv:2312.00968,,Omni-SMoLA,PaLI-X/PaLI-3,2024,5B/55B,Structural Sparsity,V+T
+arxiv:2310.09424,,SALM,"Fast Conformer,Megatron LLM, modality adapter",2024,2B,Adapters,Speech+A+T
+arxiv:2404.13425,,Enhancing-LoRA,BLIP,2025,223M,Adapters,V+T
+arxiv:2408.06610,,CROME,"ViT-G, Vicuna, Flan-T5-XXL",2024,7B/13B/11B,Adapters,V+T
+arxiv:2402.10896,,PaLM2-VAdapter,"CoCa ViT, PaLM 2",2024,1.8B/2.0B/2.8B/10.8B,Adapters,V+T
+doi:10.1609/aaai.v39i10.33201,90Algorithm Level,ST3,LLaVA-1.5,2025,7B/13B,Token Compression,V+T
+arxiv:2502.11494,,DART,"LLaVA-1.5/NEXT, Video-LLaVA, Qwen2-VL, MiniCPM",2025,7B/8B,Token Compression,V+T
+arxiv:2503.18278,,TopV,"LLaVA-1.5, Inern-VL2, Video-LLaVA",2025,2B/7B/13B/26B,Token Compression,V+T
+arxiv:2412.04467,,VisionZip,"LLaVA-1.5, LLaVA-NEXT",2025,7B/13B,Token Compression,V+T
+arxiv:2503.10501,,TokenCarve,LLaVA-1.5,2025,7B/13B,Token Compression,V+T
+doi:10.18653/v1/2025.findings-acl.283,,AdaRETAKE,"LLaVA-Video, Qwen2/2.5-VL",2025,7B/72B,Token Compression,V+T
+arxiv:2511.20973,,Audio token compression LALM,"Qwen2-Audio, token compression module, LoRA",2025,7B,Token Compression,A+T
+arxiv:2511.14582,,OmniZip,Qwen2.5-Omni,2025,-,Token Compression,A+V+T
+doi:10.1609/aaai.v39i2.32171,,HIReD,"ShareGPT4V, LLaVA-Next, LLaVA-1.5",2025,7B/13B,Token Compression,V+T
+doi:10.1609/aaai.v39i21.34366,,Fit-and-Prune,"LLaVA-1.5, LLaVA-NEXT, LLaVA-HR",2025,7B,Token Compression,V+T
+arxiv:2311.07919,,Qwen-Audio,"Whisper-large-v2, Qwen LLM",2023,7.7B,Token Compression,A+T
+arxiv:2504.17892,,TOKEN,"LLaVA-1.5, VILA",2025,7B/13B/8B,Token Compression,V+T
+arxiv:2501.02430,,Folder,"LLaVA-1.5, MiniGPT4v2, MMVP, Video-LLaVA, BLIP",2025,7B/13B,Token Compression,V+T
+arxiv:2501.09747,,FAST,"0 VLA, OpenVLA",2025,3B/7B,Token Compression,V+T+Act
+arxiv:2410.08584,,ZipVL,"LLaVA-Next/1.5, LongVA, Qwen-VL",2024,7B/13B,Token Compression,V+T
+arxiv:2411.10803,,MUST-Drop,"LLaVA-1.5, LLaVA-Next, Video-LLaVA",2024,7B,Token Compression,V+T
+arxiv:2410.17247,,PyramidDrop,"LLaVA-NeXT, LLaVA-1.5",2024,7B,Token Compression,V+T
+arxiv:2412.04449,,P-Mod,"LLaVA-1.5, LLaVA-NeXT",2024,7B,Token Compression,V+T
+arxiv:2407.02392,,TokenPacker,LLaVA-1.5,2025,7B/13B,Token Compression,V+T
+arxiv:2403.07839,,MoPE-CLIP,"CLIP-ViT-B/32, SE-CLIP",2024,194M,Pruning,V+T
+arxiv:2502.15910,,MANU,"LLaVA-1.5, Idefics2",2025,7B/8B,Pruning,V+T
+arxiv:2503.15369,,EfficientLLaVA,LLaVA-v1.5/LLaVA-SQA,2025,7B+,Pruning,V+T
+arxiv:2412.19509,%y,MBQ,"LLaVA-onevision, InternVL2, Qwen2-VL",2025,7B/8B/26B/72B,Quantization,V+T
+arxiv:2502.00425,%y,MQuant,"InternVL2, Qwen/2-VL, MiniCPM, GLM,",2025,8B/9.6B/7B/9B/72B,Quantization,V+T
+arxiv:2508.03351,%y,VLMQ,"Qwen2-VL, Qwen2.5-VL, LLaVA-onevision",2025,7B/2B,Quantization,V+T
+arxiv:2510.26771,%y,STaMP,"Qwen 2.5, Llama3/3.2, PixArt- , SANA",2025,0.6B/1.6B/1B/3B/8B,Quantization,V+T
+arxiv:2308.16692,,SpeechTokenizer,EnCodec-based RVQ-GAN codec + 2-layer BiLSTM,2024,-,Quantization,Speech + A
+arxiv:2411.00664,,Retrieval-based Biasing,CTC-AED,2025,-,Quantization,Speech+A+T
+arxiv:2408.03735,,QSLAW,"CLIP-ViT-L, LLaMA, Vicuna",2024,7B–13B,Quantization,V+T

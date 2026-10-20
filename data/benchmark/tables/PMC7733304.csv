@@ -1,0 +1,14 @@
+document_id,References,Year of publication,Study design,Country,Patients groups,ART used,Sample size,Number of Treatment failure
+PMC5667926,Babo et al. [ 34 ],2017,Case-control study,Ethiopia,Adult,Stavudine vs. Zidovudine Nevirapine vs. Efavirenz,307,230
+PMC5557910,Bayu et al. [ 35 ],2017,Case-control study,Ethiopia,Adults aged ≥ 15 years,D4T-based AZT-based TDF-based,306,160
+PMC6460441,Bilcha et al. [ 36 ],2019,Retrospective cohort study,Ethiopia,Adult,Nevirapine-based Efavirenz-based,396,47
+PMC7768744,Fatti et al. [ 38 ],2019,Prospective cohort study,South Africa,Adults aged ≥ 18 years,NRTI and NNRTI,1901,60
+PMC2864744,Ford et al. [ 39 ],2010,Observational cohort,South Africa,Adult,"EFV, NVP, and other",207,32
+PMC6407235,Gunda et al. [ 40 ],2019,Case-control study,Tanzania,Adult,"AZT/3TC/EFV, AZT/3TC/NVP, D4T/3TC/NVP, TDF/3TC/EFV",197,24
+PMC5055376,Haile et al. [ 41 ],2016,Retrospective cohort study,Ethiopia,Adult (≥ 15 years old),"1a(d4T + 3TC + NVP), 1b(d4T + 3TC + EFV), 1c(AZT + 3TC + NVP), 1d(AZT + 3TC + EFV), 1e(TDF + 3TC + EFV), 1f(TDF + 3TC + NVP)",4809,113
+PMC3922732,Hassan et al. [ 14 ],2014,Cross-sectional study,Kenya,Adult,Zidovudine-based and Stavudine-based,232,57
+PMC5084428,Izudi et al. [ 43 ],2016,Retrospective cohort,Uganda,Adult,,383,28
+PMC5402603,Karade et al. [ 44 ],2016,Cross-sectional studies,India,Adult,"AZT + 3TC + NVP, AZT + 3TC + EFV TDF + 3TC + NVP, TDF + 3TC + EFV d4T + 3TC + NVP/EFV",844,104
+PMC5685593,Lay et al. [ 45 ],2017,Retrospective cohort study,Cambodia,Adult (≥ 18 years old),"d4T/3TC/EFV, d4T/3TC/NVP AZT/3TC/EFV, AZT/3TC/NVP Other",3581,137
+doi:10.1111/tmi.12717,Ndahimana et al. [ 46 ],2016,Retrospective cohort,Rwanda,15 years and older,"NRTIs, NNRTIs, and PIs",828,70
+PMC6448227,Ahmed et al. [ 47 ],2019,Case-control study,Ethiopia,Adult,"d4t + 3TC + NVP, AZT + 3TC + NVP AZT + 3TC + EFV, TDF + 3TC + EFV TDF + 3TC + NVP",308,199

@@ -1,0 +1,8 @@
+document_id,Author Year,Region,Age,N total,Female n (%),ASA score difference between group at baseline,BMI,Surgery type,Anesthetic agents,Study design,Follow-up duration
+PMC8146673,Cotae et al. ( 14 ),Romania,45 (35–54),74,32 (43.2),None,24 (2),Multiple trauma surgery,Propofol,RCT,None
+PMC6354643,Zhou et al. ( 15 ),China (mainland),68.29 (2.81),81,25 (30.9),None,21.07 (1.33),Colon carcinoma surgery,Combination,RCT,None
+PMC11472614,Ma et al. ( 18 ),China,69.22 (4.85),108,48 (44.4),None,23.92 (2.8),Gastrointestinal tumor surgery,Combination,RCT,None
+PMC10548750,Qi et al. ( 21 ),China,71.83 (4.9),120,39 (32.5),None,25.38 (2.84),Major surgery,Combination,RCT,6 months
+PMC9744010,Sargin et al. ( 25 ),Turkey,47 (13),100,41 (41),None,26 (15–36),Colon surgery,Combination,RCT,None
+PMC11010685,An et al. ( 27 ),China,7.6 (2.1),96,46 (47.9),None,18.5 (1.1),Tonsillectomy,Desflurane,RCT,None
+PMC3376123,Ballard et al. ( 28 ),UK,75.69 (7.40),72,50 (69.4),None,27.5 (3.2),Abdominal and Orthopedic,Combination,RCT,12 months

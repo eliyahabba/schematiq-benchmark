@@ -1,0 +1,18 @@
+{
+  "task_id": "manual:example-1",
+  "title": "Title of the paper or project the table comes from",
+  "question": "The research question, as written by whoever built the table.",
+  "question_source": "Where the question text comes from, e.g. 'RQ1 in section 2 of the paper' or 'grant proposal, 2024'.",
+  "source_url": "https://link-to-the-paper-or-project",
+  "domain": "law",
+  "year": "2025",
+  "license": "licence of the table itself, if known",
+  "columns": ["Case", "Court", "Year", "Outcome"],
+  "citation_column": 0,
+  "rows": [
+    {"document": {"doi": "10.xxxx/xxxxx"}, "cells": ["...", "...", "...", "..."]},
+    {"document": {"arxiv": "2401.00001"}, "cells": ["...", "...", "...", "..."]},
+    {"document": {"pmcid": "PMC1234567"}, "cells": ["...", "...", "...", "..."]},
+    {"document": {"url": "https://example.org/decision.pdf", "title": "Title printed in the PDF"}, "cells": ["...", "...", "...", "..."]}
+  ]
+}

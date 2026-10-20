@@ -1,0 +1,12 @@
+document_id,Ref.,Year,Std. / SW,Primary Technique
+doi:10.1007/978-3-319-51811-4_3,DaiY2017CNNPostHEVCIntra,2017,HM-16.0,"Variable filter size, Residual learning"
+arxiv:1803.04680,YangR2018MultiFrameQE,2018,HEVC,Peak Quality Frames (PQFs)
+arxiv:1811.09150,MengX2019MGANet,2019,HM-16.9,"Bidirectional LSTM, Guide Map"
+doi:10.1109/access.2020.3020388,ChenW2020NN_AR_Temporal,2020,HM-16.0,Deformable Convolution
+doi:10.1109/access.2019.2961760,ZhaoH2020CNNPostEfficiency,2020,HM-16.19,"Batch Norm, Variable Filter"
+doi:10.1109/access.2023.3281975,Das2023High,2023,VVenC/VVdeC,"QP-Map, Lightweight Network"
+PMC12197297,Gai2025DRGNet,2025,VTM,"Dual-Path Gating, QP-map"
+doi:10.1109/access.2019.2944473,WangM2019AttentionDualScaleILF,2019,VTM-4.0,"Dual-scale, Attention"
+PMC8425022,Bouaafia2021DeepQE_VVC,2021,VTM-4.0,U-Net-based Wide-activated SENet
+doi:10.1109/access.2019.2935378,Pham2019DeepFI,2019,HM-16.18,Luma & Chroma
+arxiv:2006.06392,Murn2020InterpretingCF,2020,HM-16.20,Explainability

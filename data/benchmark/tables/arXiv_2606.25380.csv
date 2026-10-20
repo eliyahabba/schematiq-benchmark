@@ -1,0 +1,13 @@
+document_id,Dataset,Task,Languages,Source,Approx. size
+doi:10.18653/v1/2022.acl-long.469,ParaDetox,Rewrite,EN,Natural,10K+
+doi:10.18653/v1/2024.naacl-short.12,MultiParaDetox,Rewrite,"RU, UK, ES",Natural,16.4K pairs
+arxiv:2502.06394,SynthDetox-M,Rewrite,"DE, FR, ES, RU",Synthetic,16K
+arxiv:2209.08207,APPDIA,Rewrite,EN (Reddit),Natural,2K
+doi:10.18653/v1/s19-2010,OffensEval,Classify,5 langs,Natural,Task-dependent
+doi:10.18653/v1/2021.acl-long.4,HateCheck,Classify,EN + 10 langs,Synthetic tests,40K+ tests
+doi:10.18653/v1/2024.naacl-short.60,LifeTox,Classify,EN,Natural,87.5K
+doi:10.18653/v1/2022.acl-long.234,ToxiGen,Classify,EN,Synthetic,274K
+doi:10.18653/v1/2020.findings-emnlp.301,RTP,Generate,EN,Natural,100K
+doi:10.1609/aaai.v39i27.35011,RTP-LX,Generate,28 langs (paper),Transcreated,1K+/locale
+arxiv:2405.09373,PTP,Generate,17 langs,Natural,425K
+doi:10.18653/v1/2024.findings-acl.61,TET,Generate,EN,Natural,"2,546"

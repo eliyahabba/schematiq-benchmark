@@ -2,7 +2,7 @@
 """Build the single-file task browser from the canonical task file.
 
 Only formats what finalize.py already persisted; no metric is computed here.
-  python3 src/build_ui.py data/build/tasks.jsonl ui/template.html ui/browser.html <extra export-format tasks.jsonl>
+  python3 src/build_ui.py data/build/tasks.jsonl ui/template.html ui/browser.html data/benchmark/tasks.jsonl
 """
 import json, sys
 
@@ -106,10 +106,20 @@ if __name__ == "__main__":
     inp, tpl, outp = sys.argv[1:4]
     T = [json.loads(l) for l in open(inp, encoding="utf-8")]
     T.sort(key=lambda t: (ORDER.get(t["tier"], 9), -t["counts"]["documents_downloaded"]))
-    extra = []
+    # optional: export files (data/benchmark/tasks.jsonl). Database and question-set tasks
+    # come only from there; every exported task also lends its domain to the overview.
+    extra, domain = [], {}
     for p in sys.argv[4:]:
-        extra += [slim_export(json.loads(l)) for l in open(p, encoding="utf-8")]
-    data = json.dumps(extra + [slim(t) for t in T], ensure_ascii=False).replace("</", "<\\/")
+        for l in open(p, encoding="utf-8"):
+            e = json.loads(l)
+            domain[e["task_id"]] = e.get("domain")
+            if e.get("task_type") in ("database", "question_set"):
+                extra.append(slim_export(e))
+    rows = extra + [slim(t) for t in T]
+    for r in rows:
+        r["domain"] = domain.get(r["id"])
+        r["kind"] = r.get("task_type") or "table"
+    data = json.dumps(rows, ensure_ascii=False).replace("</", "<\\/")
     html = open(tpl, encoding="utf-8").read().replace("__DATA__", data)
     open(outp, "w", encoding="utf-8").write(html)
-    print(f"{len(T)} tasks -> {outp} ({len(html)//1024} KB)")
+    print(f"{len(rows)} tasks -> {outp} ({len(html)//1024} KB)")

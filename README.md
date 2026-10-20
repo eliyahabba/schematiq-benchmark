@@ -6,43 +6,30 @@ Each task gives a system a research question and documents. The system must prod
 
 ## What is in it
 
+<!-- overview:start (written by src/make_overview.py; edit the script, not this part) -->
+![One square per task, grouped by domain](docs/assets/overview.svg)
+
+**293 research questions**, each with the documents it is asked of and the data a researcher built from them: 6,015 gold rows and 6,216 verified documents (counted per task), across 12 domains.
+
 | Kind | Tasks | Rows are | Gold |
 |---|---|---|---|
 | Table | 277 | The studies included in a published review | The review's study table |
-| Database | 13 | Units of analysis: court cases, constitutions, retracted papers | A coded research database, with analysis questions and their gold answers |
-| Question set | 3 | None | Expert questions that the data must be able to answer |
+| Database | 13 | Units of analysis: court cases, constitutions, retracted papers | A coded research database, with analysis questions and gold answers |
+| Question set | 3 | None | Expert questions the data must be able to answer |
 
-**Total: 293 tasks and 6,015 gold rows.**
-
-By domain:
-
-| Domain | Tasks |
+| Source | Tasks |
 |---|---|
-| Biomedicine and health | 184 |
-| Computer science | 54 |
-| Electrical engineering and systems | 18 |
-| Environment | 9 |
-| Law | 8 |
-| Law and political science | 5 |
-| Social science | 3 |
-| Statistics | 3 |
-| Physics | 3 |
-| Meta-research | 3 |
-| Astrophysics | 2 |
-| Biology | 1 |
+| Europe PMC systematic reviews | 196 |
+| arXiv surveys and reviews | 81 |
+| U.S. Supreme Court Database | 5 |
+| Comparative Constitutions Project | 5 |
+| Retraction Watch database | 3 |
+| Schematize study (Polish judgments) | 3 |
 
-### Sources
+**Checks.** 293 of 293 tasks were judged by an LLM: 182 accepted, and 111 accepted with notes. 235 questions were rewritten from the paper's title and abstract, and the authors' text is kept. No person has reviewed the verdicts yet.
 
-- **Table tasks:**
-  - Systematic reviews in Europe PMC (study tables in the article or its supplements), including Campbell, BMC Systematic Reviews, Cochrane, and Environmental Evidence maps.
-  - Surveys and systematic reviews on arXiv (LaTeX tables in which each row cites one paper).
-- **Database tasks:**
-  - The U.S. Supreme Court Database, with opinions from the Caselaw Access Project.
-  - The Comparative Constitutions Project, with texts from Constitute.
-  - The Retraction Watch database, with notices from PMC.
-- **Question-set tasks:** the Schematize study (Sawczyn et al., 2026), with Polish judgments from JuDDGES/pl-court-raw.
-
-Every exported task was judged by an LLM (Claude), and every question is phrased as a question. No person has reviewed the judgments yet.
+Open `ui/browser.html` to explore every task. It needs no server.
+<!-- overview:end -->
 
 ## Layout
 
@@ -85,7 +72,8 @@ The files land in `data/benchmark/documents/`. Anything that could not be fetche
 **Rebuild the browser:**
 
 ```
-python3 src/build_ui.py data/build/tasks.jsonl ui/template.html ui/browser.html <database and question-set tasks.jsonl>
+python3 src/build_ui.py data/build/tasks.jsonl ui/template.html ui/browser.html data/benchmark/tasks.jsonl
+python3 src/make_overview.py data/benchmark/tasks.jsonl README.md docs/assets/overview.svg
 ```
 
 ## How the table tasks were built

@@ -139,6 +139,7 @@ dl.why dd{margin:0;font-variant-numeric:tabular-nums;color:var(--ink)}
   main{padding:18px 16px 48px}
 }
 @media (prefers-reduced-motion:no-preference){ .span{transition:width .25s ease} }
+.template-note{margin:0;padding:12px 28px;background:var(--partial-soft);color:var(--partial);font:600 14px var(--sans)}
 </style>
 </head>
 <body>
@@ -159,7 +160,17 @@ dl.why dd{margin:0;font-variant-numeric:tabular-nums;color:var(--ink)}
   <main id="detail" tabindex="-1"><p class="empty">Choose a review on the left.</p></main>
 </div>
 <script>
-const DATA = __DATA__;
+// src/build_ui.py replaces the token below with the tasks. Opened directly, the
+// template has no tasks: say so instead of failing silently.
+let DATA;
+try { DATA = __DATA__; } catch (e) { DATA = null; }
+if (!Array.isArray(DATA)) {
+  DATA = [];
+  const note = document.createElement("p");
+  note.className = "template-note";
+  note.textContent = "This is the template, so it holds no tasks. Open ui/browser.html instead, or rebuild it with src/build_ui.py (see the README).";
+  document.body.prepend(note);
+}
 const TIER = {
   core: "Core",
   extended: "Extended",
